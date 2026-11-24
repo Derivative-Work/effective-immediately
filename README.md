@@ -38,7 +38,7 @@ company:** where they discuss a fact, the fact card and its sources are the refe
 
 ## Real captures
 
-Three things in the video are real records, not generated.
+Three things in the video are real records, not generated. The first two share a panel on the left while the song's intro plays beside them.
 
 - **The Nov 12 release (opening):** a screenshot of Nvidia's newsroom, "NVIDIA Announces CEO Transition", cropped to its
   header, headline and date, captioned "real screenshot".

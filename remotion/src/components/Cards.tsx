@@ -79,10 +79,10 @@ export const FinalCard: React.FC = () => {
 };
 
 /** E01, E25: a real screenshot, captioned plainly, with no commentary. */
-export const RealScreenshot: React.FC<{src?: string; stamp: string}> = ({src, stamp}) => (
+export const RealScreenshot: React.FC<{src?: string; stamp: string; maxW?: number; maxH?: number}> = ({src, stamp, maxW = 1400, maxH = 660}) => (
   <AbsoluteFill style={{background: '#0b0d0f', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: 34, fontFamily: UI, color: T.white}}>
     {src
-      ? <Img src={staticFile(src)} style={{maxWidth: 1400, maxHeight: 660, objectFit: 'contain', boxShadow: '0 18px 50px rgba(0,0,0,0.55)'}} />
+      ? <Img src={staticFile(src)} style={{maxWidth: maxW, maxHeight: maxH, objectFit: 'contain', boxShadow: '0 18px 50px rgba(0,0,0,0.55)'}} />
       : <div style={{width: 1400, height: 640, border: `2px dashed ${T.alert}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 34, color: T.alert}}>
           [screenshot from the human]
         </div>}

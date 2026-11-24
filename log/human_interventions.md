@@ -118,3 +118,8 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "I am starting on the sources review now. I plan on releasing today, as soon as I am both satisfied with my review and you are done with the render, so get rid of the "update with...". Yes, update the brief and GitHub. Also make the METADATA.md including clickbait-adjacent title and thumbnail options". Then: "oh and otherwise get GitHub ready for publishing (README, licenses, etc. along the lines of the others)".
 - **Effect:** decisions 33.
+
+## 21. 2026-11-24 — The music starts sooner; checks done
+
+- **What:** "My only remaining issue with the animatic is that it takes too long for the music to start. See about shortening this without cutting content (maybe overlaying things? see "Distillation")". Then: "I'm good on fact checks and audits at this point".
+- **Effect:** decisions 34. The human's review of the sources is done; no further audit round.

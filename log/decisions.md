@@ -291,3 +291,12 @@ Condition (i) rests on Databento's dataset documentation, which says US Equities
   - then Remotion at 1920×1080 with the animatic's shot labels off (`slate: false`), to `deliverables/effective_immediately_1080p.mp4`;
   - captions in `deliverables/effective_immediately.en.srt`.
 - **Not made for today:** the brief's vertical Shorts cut of chorus 1. It can follow the main upload.
+
+## 34. 2026-11-24 — The opening becomes a panel over the intro (human note)
+
+- **The song starts on frame 0** (it started at 10.7 s). E01 (the Nov 12 screenshot, 3 s) and then E01t (the terminal, 7.7 s) play in a panel 1,100 px wide on the left, while the intro's footage (E02) plays on the right. The panel slides out over 12 frames as the script's dots finish. This follows Distillation (Allegedly)'s merged D01/D02.
+- **Nothing is cut.** Every clip keeps its length. The screenshot and terminal keep theirs. The terminal is set at 19 px to fit the panel.
+- **Effects:**
+  - The video is 7:43.0 (11,112 frames), and everything after the opening is 256 frames earlier.
+  - Board cues are unchanged, since they are local to each shot.
+  - Subtitles, chapters, the end screen and the captions file are re-timed (`METADATA.md`, `deliverables/effective_immediately.en.srt`).

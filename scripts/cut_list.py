@@ -22,7 +22,7 @@ PICK = json.load(open("config/picks.json"))["clips"]
 FPS = 24
 EDIT = json.load(open("config/edit.json"))
 SHOT, TERM = EDIT["screenshot_frames"], EDIT["terminal_frames"]
-PRE = SHOT + TERM     # before the music: E01 (the Nov 12 screenshot) and E01t (the terminal)
+PRE = 0               # the song starts on frame 0; E01 and E01t are a panel over the intro (config/edit.json)
 MUSIC_END = 276.05    # the band's last hit
 OUT = Path("remotion/public/gen/timing")
 TAKES = Path("remotion/public/gen/takes")
@@ -288,9 +288,9 @@ def main():
         tail.append({"id": sid, "from": a_, "frames": b_ - a_, **({"interval": bar} if sid == "Dated cards" else {})})
     at = tail[-1]["from"] + tail[-1]["frames"]
     print("reading pace", round(1 / per_word * 60), "words a minute;", " ".join(f"{x['id']}:{x['frames'] / FPS:.1f}s" for x in tail))
-    all_shots = [{"id": "E01", "from": 0, "frames": SHOT}, {"id": "E01t", "from": SHOT, "frames": TERM}] + shots + tail
+    all_shots = shots + tail
     OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "cut.json").write_text(json.dumps({"fps": FPS, "musicFrom": PRE, "creditsFrom": credits_from, "frames": at, "shots": all_shots}) + "\n")
+    (OUT / "cut.json").write_text(json.dumps({"fps": FPS, "musicFrom": PRE, "creditsFrom": credits_from, "opening": {"screenshot": SHOT, "terminal": TERM, "exit": EDIT["panel_exit_frames"]}, "frames": at, "shots": all_shots}) + "\n")
     src = json.load(open("timing/bass_edit.json"))["bass"]   # the master's bass stem, already on the edit's timeline
     bass = [0.0] * at
     for i, v in enumerate(src):

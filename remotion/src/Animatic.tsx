@@ -257,6 +257,30 @@ const render = (s: CutShot): {grade?: Grade; handheld?: boolean; el: React.React
   }
 };
 
+/**
+ * E01 and E01t, as a panel on the left over the intro (human note on the eighth cut: the music took too long to start;
+ * after Distillation (Allegedly)'s merged D01/D02). The song starts on frame 0 and its footage plays on the right; the real
+ * Nov 12 screenshot, then the terminal, sit in the panel, which slides away as the script's dots finish.
+ */
+const PANEL_W = 1100;
+const Opening: React.FC = () => {
+  const f = useCurrentFrame();
+  const {screenshot, terminal, exit} = cut.opening;
+  const end = screenshot + terminal;
+  const x = interpolate(f, [end, end + exit], [0, -PANEL_W - 40], {...clampX, easing: Easing.in(Easing.cubic)});
+  return (
+    <div style={{position: 'absolute', left: 0, top: 0, width: PANEL_W, height: H, transform: `translateX(${x}px)`, background: '#0b0d0f', overflow: 'hidden',
+      boxShadow: '10px 0 40px rgba(0,0,0,0.65)', borderRight: '6px solid #1a1e22'}}>
+      <Sequence durationInFrames={screenshot} layout="none">
+        <RealScreenshot src="gen/captures/E01_release.png" stamp="Nov 12, 2026" maxW={1000} maxH={560} />
+      </Sequence>
+      <Sequence from={screenshot} layout="none">
+        <Terminal font={19} top={120} />
+      </Sequence>
+    </div>
+  );
+};
+
 /** Fade to black from `at` to the end of the shot (the cut: the picture goes down with the master's reverb throw). */
 const FadeOut: React.FC<{at: number; end: number}> = ({at, end}) => {
   const o = interpolate(useCurrentFrame(), [at, end], [0, 1], {...clampX, easing: Easing.in(Easing.quad)});
@@ -287,6 +311,7 @@ export const Animatic: React.FC<{subStyle?: SubStyle | 'none'; label?: string; s
         </Sequence>
       );
     })}
+    <Sequence durationInFrames={cut.opening.screenshot + cut.opening.terminal + cut.opening.exit} layout="none"><Opening /></Sequence>
     {subStyle !== 'none' && <Subtitles style={subStyle} />}
     {label && (
       <div style={{position: 'absolute', left: 0, right: 0, top: 0, height: (H - PIC_H) / 2, display: 'flex', alignItems: 'center', justifyContent: 'center',

@@ -11,14 +11,16 @@ import {MONO} from '../Fonts';
  */
 const CMD1 = 'nvidia-smi';
 const CMD2 = term.script;
-const FONT = 23, LINE = 1.3;
+const LINE = 1.3;
 
 // Frames within the shot: typing, the output, the script's lines 0.5 s apart, then the dots 0.33 s apart.
 export const TERMINAL = {type1: 4, out1: 26, type2: 80, enter2: 112, lines: [116, 128, 140, 152], dots: [160, 168, 176], end: edit.terminal_frames};
 
 const typed = (text: string, f: number, from: number, perChar: number) => text.slice(0, Math.max(0, Math.min(text.length, Math.floor((f - from) / perChar))));
 
-export const Terminal: React.FC = () => {
+/** `font`: 23 px full frame; smaller in the opening panel. */
+export const Terminal: React.FC<{font?: number; top?: number}> = ({font = 23, top = 70}) => {
+  const FONT = font;
   const f = useCurrentFrame();
   const T = TERMINAL;
   const smi = (term.smi as string[]).slice();
@@ -46,7 +48,7 @@ export const Terminal: React.FC = () => {
   const push = interpolate(f, [T.out1, T.type2 + 10], [1, 1.07], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.inOut(Easing.quad)});
   return (
     <AbsoluteFill style={{background: '#0b0d0f'}}>
-      <div style={{position: 'absolute', left: 0, right: 0, top: 70, display: 'flex', justifyContent: 'center', transform: `scale(${push})`, transformOrigin: '50% 40%'}}>
+      <div style={{position: 'absolute', left: 0, right: 0, top, display: 'flex', justifyContent: 'center', transform: `scale(${push})`, transformOrigin: '50% 40%'}}>
         <div style={{fontFamily: MONO, fontSize: FONT, lineHeight: LINE, color: '#d9e2e7', whiteSpace: 'pre', width: Math.ceil(89 * FONT * 0.6) + 4}}>
           {rows}
         </div>

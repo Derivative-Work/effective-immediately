@@ -3,7 +3,7 @@
 YouTube metadata for the main video, ready to paste at upload. Written by the agent; the human uploads.
 
 **Before uploading:**
-- **Finish the sources review** ([`docs/sources.md`](docs/sources.md)). Any change to a card means re-rendering the tail.
+- **Sources review:** done by the human on Nov 24 ([`docs/sources.md`](docs/sources.md)). Any later change to a card means re-rendering the tail.
 - **Re-check the news** on the day. The cards and the description are as of November 24, 2026. The House interviews
   (Dec 1–2) are still ahead; the fact card says "scheduled".
 - **Make the repository public.** The end card and the description link to
@@ -18,7 +18,7 @@ YouTube metadata for the main video, ready to paste at upload. Written by the ag
 
 ## Main video (16:9, 1920×1080, 24 fps, 2.39:1 picture)
 
-**File:** `deliverables/effective_immediately_1080p.mp4` (7:53.7). Captions: `deliverables/effective_immediately.en.srt`.
+**File:** `deliverables/effective_immediately_1080p.mp4` (7:43.0). Captions: `deliverables/effective_immediately.en.srt`.
 Thumbnail: `deliverables/thumbnails/effective_immediately_thumbnail_A.jpg` (or B or C, below).
 
 ### Title
@@ -53,22 +53,21 @@ Every frame, note and word was made by AI: the song by Suno, the words by Claude
 https://github.com/Derivative-Work/effective-immediately
 
 CHAPTERS
-0:00 The release, and the GPU that made this
-0:10 Intro
-0:28 Verse 1: filed the paper
-0:44 Pre-chorus: three committees calling
-1:00 Chorus: effective immediately
-1:35 Verse 2: the quarter
-1:58 Post-chorus: we've got this
-2:11 Chorus 2
-2:45 Bridge: senior levels
-3:18 Final chorus
-3:44 A Chief Compliance Officer
-3:55 We did not intend
-4:09 Outro: the plaque, and the credits
-4:44 The reinstatement, and what happened
-6:42 Who has a stake
-7:39 Where it stands
+0:00 Intro: the release, and the GPU that made this
+0:18 Verse 1: filed the paper
+0:33 Pre-chorus: three committees calling
+0:49 Chorus: effective immediately
+1:24 Verse 2: the quarter
+1:47 Post-chorus: we've got this
+2:00 Chorus 2
+2:34 Bridge: senior levels
+3:08 Final chorus
+3:34 A Chief Compliance Officer
+3:45 We did not intend
+3:58 Outro: the plaque, and the credits
+4:33 The reinstatement, and what happened
+6:32 Who has a stake
+7:28 Where it stands
 
 WHAT HAPPENED (as of Nov 24, 2026)
 • Nov 12: Nvidia announced its co-founder had resigned as CEO, effective immediately (its 8-K: the board accepted it Nov 11), after reports he had been the target of a foreign intelligence effort, amid company, FBI and congressional inquiries. Investigations, not findings.
@@ -120,13 +119,13 @@ Effective Immediately, Nvidia, Nvidia CEO, Jensen Huang, Nvidia board, CEO reins
 |---|---|
 | Category | Music |
 | Audience | Not made for kids |
-| Altered or synthetic content | **Yes.** The singing voice is AI-generated, and the scenes are generated or rendered. The opening says "AI-generated satire" before the song starts. |
+| Altered or synthetic content | **Yes.** The singing voice is AI-generated, and the scenes are generated or rendered. The terminal in the opening prints "AI-generated satire" in the first 10 seconds. |
 | Language / caption language | English / English |
 | Captions | Upload `deliverables/effective_immediately.en.srt` as English subtitles (69 cues, the lyrics as sung). The burned-in subtitles carry the same words. |
 | License | Standard YouTube License. YouTube's only Creative Commons option is CC BY, which would drop the NC-SA terms; the description states the licence instead. |
 | Thumbnail | Option A (below), 1280×720. |
-| Chapters | From the description (first at 0:00, each over 10 s). |
-| End screen | Over the final card, from 7:46 to the end (7 s). Starting earlier would cover the disclosure or the dated cards. |
+| Chapters | From the description (first at 0:00, each 10 s or longer). |
+| End screen | Over the final card, from 7:35 to the end (8 s). Starting earlier would cover the disclosure or the dated cards. |
 | Comments | Open. |
 | Visibility | Unlisted for a check pass, then public. |
 
