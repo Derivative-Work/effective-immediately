@@ -128,3 +128,9 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "How are the overlays done for the intro? I'm concerned that the framing of the video underneath it may be off with this -- double check". Then: "I prefer thumbnail A, but do the same check for it -- the jacket is cropped". Then: "Once that's done also make some shorts cuts".
 - **Effect:** decisions 34 (framing under the panel, thumbnail A) and 35 (Shorts).
+
+## 23. 2026-11-24 — The main video uploaded
+
+- **What:** the human uploaded the main video to YouTube and gave its link: "video URL https://youtu.be/i5uLYgoSIkk".
+- **Effect:** the link went into the README ("Watch it on YouTube") and the Shorts' shared footer in `METADATA.md`, ready
+  for the Shorts' upload. The description's intervention count in `METADATA.md` went from 19 to 23.

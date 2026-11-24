@@ -10,7 +10,7 @@ Anthropic runs Claude partly on Nvidia GPUs, and Nvidia is an Anthropic sharehol
 says so, along with every other model maker's ties to Nvidia. To offset it, models from other labs audited the plan,
 and every audit finding Claude rejected went to the human.
 
-**Watch it on YouTube:** (link after upload)
+**Watch it on YouTube:** https://youtu.be/i5uLYgoSIkk
 
 This repository is the production record the video's credits point to. Claude Code produced the video. A human approved
 each milestone, made the Suno generations and the edited master, picked the takes, ran the audits in the other labs'
