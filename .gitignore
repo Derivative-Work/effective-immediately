@@ -66,3 +66,5 @@ archive/**/market*.json
 # The human's full-page release screenshots: they show the browser's profile, media contacts and the interim CEO's name
 # (brief: never named). Only the crops are used (remotion/public/gen/captures/), and both are listed in the manifest.
 assets/captures/releases/
+# Final videos (large; listed in the manifest). The captions and thumbnails in deliverables/ are kept.
+deliverables/*.mp4

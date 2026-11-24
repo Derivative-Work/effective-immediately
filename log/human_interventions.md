@@ -108,3 +108,13 @@ Append-only. Every human action: when, what, and why.
 - **What:** "I didn't drive any video or image generation -- did you use an image generator? If not, cut the line." "I pasted the contents of the audits in ~/Downloads/effective-immediately-audit-*.md for you to get their disclosures. You can get your own for Claude." "I am not currently directly managing a stock portfolio. A third party is handling my retirement assets, and I do not believe they directly included any NVIDIA in my holdings." "I'd also like links to sources to fact check." "Other than those, is there anything you need from me".
 - **Supplied:** the Round 1 audits (ChatGPT, Gemini), saved verbatim in `log/audits/`.
 - **Effect:** decisions 32; `docs/sources.md`.
+
+## 19. 2026-11-24 — Push to GitHub; an updated master
+
+- **What:** "In the meantime, I made https://github.com/Derivative-Work/effective-immediately and gave you access. Push what you currently have up". Then: "for the next one: I updated the master in ~/Downloads/effective-immediately.wav. This one has less crackle. It still needs the postfilter though."
+- **Effect:** the first commit (`e76c383`) was pushed to `main` on the new private repo. The repo was empty, so there was no branch to start from. The updated master replaced the first one (kept as `audio/master/effective-immediately_master_v1.wav`), was post-filtered, and went into the ninth animatic (production log 19).
+
+## 20. 2026-11-24 — Release today; brief, GitHub, metadata, publishing
+
+- **What:** "I am starting on the sources review now. I plan on releasing today, as soon as I am both satisfied with my review and you are done with the render, so get rid of the "update with...". Yes, update the brief and GitHub. Also make the METADATA.md including clickbait-adjacent title and thumbnail options". Then: "oh and otherwise get GitHub ready for publishing (README, licenses, etc. along the lines of the others)".
+- **Effect:** decisions 33.

@@ -49,7 +49,7 @@ for i, line in enumerate(lines):
     out.append(line)
     if line.startswith("|") and (i == 0 or not lines[i - 1].startswith("|")):
         out.append("|" + " --- |" * (line.count("|") - 1))
-hdr = (f"<!-- Plain-text mirror of the Claude Doc https://claude.ai/artifact/MctWPu388YjJNuZmGg27Xz ({tab}, rev {rev}), "
+hdr = (f"<!-- Plain-text mirror of the Claude Doc https://claude.ai/artifact/LG1VQfvJN9mHpKi5mFXuhv ({tab}, rev {rev}), "
        f"read with the docs tools. The doc is the source of truth. Regenerate: scripts/mirror_brief.py. -->\n\n")
 open(out_path, "w").write(hdr + "\n".join(out) + "\n")
 print(f"rev {rev} -> {out_path}")

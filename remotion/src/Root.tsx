@@ -1,5 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Composition} from 'remotion';
+import {THUMBNAILS} from './Thumbnail';
 import {CalendarInsert, Confetti, DayCounters, MarketChart, Scoreboard} from './components/Data';
 import {CallerID, FilingPhone, FourPhones, LockScreen, MessagePhone} from './components/Phones';
 import {DatedCards, DisclosureCard, EndCard, FactCard, FinalCard, RealScreenshot} from './components/Cards';
@@ -76,8 +77,8 @@ export const TESTS: Test[] = [
 
 export const Root: React.FC = () => (
   <>
-    <Composition id="Animatic" width={W} height={H} fps={FPS} durationInFrames={ANIMATIC_FRAMES} defaultProps={{stillFrame: 0, subStyle: 'set' as SubStyle | 'none', label: ''}}
-      component={(p: {stillFrame: number; subStyle: SubStyle | 'none'; label: string}) => <><Fonts /><Animatic subStyle={p.subStyle} label={p.label || undefined} /></>} />
+    <Composition id="Animatic" width={W} height={H} fps={FPS} durationInFrames={ANIMATIC_FRAMES} defaultProps={{stillFrame: 0, subStyle: 'set' as SubStyle | 'none', label: '', slate: true}}
+      component={(p: {stillFrame: number; subStyle: SubStyle | 'none'; label: string; slate: boolean}) => <><Fonts /><Animatic subStyle={p.subStyle} label={p.label || undefined} slate={p.slate} /></>} />
     <Composition id="Reel" width={W} height={H} fps={FPS} durationInFrames={REEL_FRAMES} defaultProps={{stillFrame: 0}}
       component={(_: {stillFrame: number}) => <><Fonts /><Reel /></>} />
     {/* Textures for the Blender set: no look layer here, since they pass through it with the render. */}
@@ -87,6 +88,10 @@ export const Root: React.FC = () => (
       component={(_: {stillFrame: number}) => <><Fonts /><MarketChart mode="drop" /></>} />
     <Composition id="TX-screen-recover" width={1920} height={804} fps={FPS} durationInFrames={72} defaultProps={{stillFrame: 60}}
       component={(_: {stillFrame: number}) => <><Fonts /><MarketChart mode="recover" /></>} />
+    {Object.entries(THUMBNAILS).map(([k, C]) => (
+      <Composition key={`Thumb-${k}`} id={`Thumb-${k}`} width={1280} height={720} fps={FPS} durationInFrames={1} defaultProps={{stillFrame: 0}}
+        component={(_: {stillFrame: number}) => <><Fonts /><C /></>} />
+    ))}
     {TESTS.map((t) => (
       <Composition key={t.id} id={t.id} width={W} height={H} fps={FPS} durationInFrames={120}
         defaultProps={{stillFrame: t.frame}}

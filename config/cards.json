@@ -8,7 +8,7 @@
     "Also on Nov 17, the board said it did not intend to reinstate him (The Next Platform), and he said he would be \"honored\" to return if asked (NBC News).",
     "On Nov 23, the board unanimously reinstated him, citing his candor and input from senior levels of the U.S. government, which it didn't name, and said his return poses no national security risk. It began searching for a Chief Compliance Officer and said its independent investigation will continue, alongside government inquiries (NVIDIA).",
     "The same day, President Trump told CNBC he had spoken with the board \"directly and indirectly\" and that his intervention was \"very important\" (NBC News).",
-    "He is scheduled for closed-door, transcribed interviews with three House committees on Dec 1, and Nvidia's general counsel on Dec 2 (Axios). [Update with the outcome.]",
+    "He is scheduled for closed-door, transcribed interviews with three House committees on Dec 1, and Nvidia's general counsel on Dec 2 (Axios).",
     "Nvidia's founders first met at a diner booth in East San Jose. The restaurant took down its commemorative plaque on Nov 12 and said within two days it would put it back (IBTimes, SFist). The diner shown is generic and not affiliated with any restaurant.",
     "\"The Company\" is fictional."
   ],
@@ -107,7 +107,7 @@
   ],
   "disclosure": "Lyrics by Claude; video made by Claude Code, which ran every model below; both by Anthropic. Nvidia is an Anthropic shareholder: it pledged up to $10bn in 2025 and bought about $10bn of shares alongside Anthropic's November IPO. Anthropic runs Claude partly on Nvidia GPUs. Music: Suno, backed by Nvidia's venture arm. Clips: LTX-2.3 (Lightricks; Nvidia optimized its models, no investment found). Stills: FLUX.2 [dev] (Black Forest Labs, Nvidia-backed). All ran on the creator's Nvidia RTX 5090. The creator holds no Nvidia shares directly; a third party manages their retirement savings and, to their knowledge, holds none directly. Audited Nov 23, 2026 by ChatGPT (OpenAI: Nvidia invested $30bn in 2026; it is building its own chip) and Gemini (Google: an Nvidia customer that builds rival chips and is a major Anthropic shareholder).",
   "probe_note": "The green probe waiting outside the boardroom glass with a purchase order (E22) stands for the customers the company depends on, Claude's maker among them. It's a customer, not a voter. The audit checks whether the song goes easy on Nvidia for that reason.",
-  "end_card": "Effective Immediately. Lyrics: Claude. Music: Suno. Video clips: LTX-2.3. Stills: FLUX.2 [dev]. Boardroom: Blender. Graphics and edit code: Claude Code. Market data provided by Databento. Direction, take selection, editing and every human intervention: [creator], listed in the production log. Audit log: [repo link].",
+  "end_card": "Effective Immediately. Lyrics: Claude. Music: Suno. Video clips: LTX-2.3. Stills: FLUX.2 [dev]. Boardroom: Blender. Graphics and edit code: Claude Code. Market data provided by Databento. Direction, take selection, editing and every human intervention: a human, listed in the production log. Sources, audits and production log: github.com/Derivative-Work/effective-immediately.",
   "closing": [
     "Reinstated: Nov 23",
     "Investigation: ongoing",

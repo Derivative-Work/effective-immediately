@@ -1,4 +1,4 @@
-<!-- Plain-text mirror of the Claude Doc https://claude.ai/artifact/MctWPu388YjJNuZmGg27Xz (main tab, rev 105), read with the docs tools. The doc is the source of truth. Regenerate: scripts/mirror_brief.py. -->
+<!-- Plain-text mirror of the Claude Doc https://claude.ai/artifact/LG1VQfvJN9mHpKi5mFXuhv (main tab, rev 114), read with the docs tools. The doc is the source of truth. Regenerate: scripts/mirror_brief.py. -->
 
 # Effective Immediately: Shot List and Production Brief
 
@@ -135,7 +135,7 @@ Eleven days for you, and two for it
 
 | # | Section | Lyric or beat | Shot | Asset | Reads saga.json |
 | --- | --- | --- | --- | --- | --- |
-| E01 | Opening bookend | Before the music | Two beats. First, a real screenshot of Nvidia's Nov 12 "CEO Transition" release headline, timestamped and captioned "real screenshot". Then the creator's real screen recording: pasting the lyrics into the generator and clicking generate. The song starts on the click | Screen captures + Remotion captions | Yes (dates) |
+| E01 | Opening bookend | Before the music | Two beats. First, a real screenshot of Nvidia's Nov 12 "CEO Transition" release headline, timestamped and captioned "real screenshot". Then E01t, a terminal: real nvidia-smi output from the production's GPU at full load, then a script printing "Effective Immediately", "AI-generated satire", "Not investment advice" and "generating...". The song starts as it ends | Screen captures + Remotion captions | Yes (dates) |
 | E02 | Intro | Intro into "sun on the glass" | Handheld, following behind the narrator's silhouette as she strides across an overcast HQ forecourt toward glass doors. Flat grey light; the only glare is off the glass | G01 | No |
 | E03 | Verse 1 | "Filed the paper, sealed the day" | Close on the phone in her hand: a breakup text styled as a filing in a generic messaging UI, clearly a parody: "FORM 8-K · Item 5.02 · effective immediately" | Remotion | Yes (dates) |
 | E04 | Verse 1 | "Thirty-three years in a form eight-K" | Slow push on the hook by the door under cold overhead light. The wall around it is faded with age; behind the jacket it isn't | S01 + jacket cutout, Remotion push | No |
@@ -233,7 +233,7 @@ The agent starts once the audio master is locked; everything else is timed to it
 **From the human**
 - The locked master, with the cut-off before the outro edited in.
 - The generator, take IDs, style prompt and settings, plus the lyrics exactly as pasted.
-- The screen recording of the real generation, and the two release-headline screenshots, for the bookends (E01, E25).
+- The two release-headline screenshots for the bookends (E01, E25). The screen recording was replaced by the nvidia-smi terminal (E01t).
 
 **Reproducibility**
 - Every random effect in the look layer reads its seed from one config file (main seed 1123).
@@ -325,33 +325,35 @@ Everything except the Blender boardroom runs on the 5090 through the same local 
 
 ## Bookends, fact card, disclosure and end card
 
-**Opening bookend (E01).** A real screenshot of Nvidia's Nov 12 release headline, timestamped and captioned "real screenshot" (no more than 3 seconds). Then the creator's real screen recording of pasting the lyrics into the generator; the click starts the song.
+**Opening bookend (E01****, E01t****).** A real screenshot of Nvidia's Nov 12 release headline, cropped to the header, headline and date and captioned "real screenshot" (3 seconds). Then, in place of the screen recording (human, Nov 24), a terminal: real `nvidia-smi` output captured while the production's RTX 5090 ran a stage of this video at full load, then a real script that prints "Effective Immediately", "AI-generated satire", "Not investment advice" and "generating...". The song starts as the dots finish.
 
 **Closing bookend (E25).** A real screenshot of Nvidia's Nov 23 reinstatement headline, captioned "real screenshot". The two headlines eleven days apart are the whole joke, so they're shown plainly, with no commentary.
 
 **Fact card (after E25).** Each line is sourced and re-checked at render time. No names beyond Nvidia and the founder.
 - On Nov 12, Nvidia announced that its co-founder had resigned as president, CEO and director, effective immediately, after 33 years; its CFO became interim CEO ([NVIDIA](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)). Its SEC filing says the board accepted the resignation on Nov 11 ([8-K](https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm)).
 - He resigned after reports that he had been the target of a foreign intelligence effort, amid company, FBI and congressional inquiries into national security and export-control concerns ([Al Jazeera](https://www.aljazeera.com/amp/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo), [NVIDIA](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director)). These are investigations, not findings.
-- Nvidia's shares fell as much as 14.3% during trading on Nov 12, about $600bn of market value at the low, and recovered much of that by the close ([Wealth Professional](https://www.wealthprofessional.ca/investments/equity-markets/wall-street-absorbs-the-hit-as-nvidia-touches-a-52-week-low/394013), [IBTimes](https://www.ibtimes.com.au/nvidia-searches-jensen-huang-successor-1878510)).
+- Nvidia's shares fell as much as 14.3% during trading on Nov 12, about $600bn of market value at the low, and recovered much of that by the close ([Wealth Professional](https://www.wealthprofessional.ca/investments/equity-markets/wall-street-absorbs-the-hit-as-nvidia-touches-a-52-week-low/394013), [IBTimes](https://www.ibtimes.com.au/nvidia-searches-jensen-huang-successor-1878510)). They fell 14% on Nov 20, after Reuters reported that the SEC was exploring potential accounting issues at Nvidia ([CNBC](https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html)), and rose more than 31% on Nov 23, the day he was reinstated ([AP](https://www.bostonglobe.com/2026/11/23/business/nvidia-reinstates-jensen-huang/)).
 - On Nov 17, the board created a National Security and Export Control Oversight Committee ([NVIDIA via Finviz](https://finviz.com/news/423751/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee)). The same day, Nvidia reported third-quarter fiscal 2027 revenue of $115.8bn, up 103% ([NVIDIA](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx)). The quarter ended Oct 25, before he resigned ([XenoSpectrum](https://xenospectrum.com/en/nvidia-fy2027-q3-data-center-growth/)).
 - Also on Nov 17, the board said it did not intend to reinstate him ([The Next Platform](https://www.nextplatform.com/a/5310669)), and he said he would be "honored" to return if asked ([NBC News](https://www.nbcnews.com/business/corporations/jensen-huang-agrees-house-interview-nvidias-chip-smuggling-rcna609803)).
 - On Nov 23, the board unanimously reinstated him, citing his candor and input from senior levels of the U.S. government, which it didn't name, and said his return poses no national security risk. It began searching for a Chief Compliance Officer and said its independent investigation will continue, alongside government inquiries ([NVIDIA](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director)).
 - The same day, President Trump told CNBC he had spoken with the board "directly and indirectly" and that his intervention was "very important" ([NBC News](https://www.nbcnews.com/politics/trump-administration/trump-nvidia-board-reinstates-jensen-huang-rcna610882)).
-- He is scheduled for closed-door, transcribed interviews with three House committees on Dec 1, and Nvidia's general counsel on Dec 2 ([Axios](https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates)). [Update with the outcome.]
+- He is scheduled for closed-door, transcribed interviews with three House committees on Dec 1, and Nvidia's general counsel on Dec 2 ([Axios](https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates)).
 - Nvidia's founders first met at a diner booth in East San Jose. The restaurant took down its commemorative plaque on Nov 12 and said within two days it would put it back ([IBTimes](https://www.ibtimes.co.uk/dennys-reinstates-jensen-huang-nvidia-plaque-1832448), [SFist](https://sfist.com/2026/11/14/san-jose-dennys-reverses-course-reinstalls-plaque-honoring-former-nvidia-ceo/)). The diner shown is generic and not affiliated with any restaurant.
 - "The Company" is fictional.
 
 **Conflict-of-interest disclosure (at the end, after the fact card; repeated in the description).**
 
-> Lyrics by Claude, made by Anthropic. Nvidia's Nov 17 results disclosed expanded Anthropic access to Grace Blackwell and Vera Rubin capacity through cloud providers, and continued engineering work on Anthropic's workloads. Video clips by LTX-2.3 (Lightricks) and stills by [image model, maker], generated on the creator's Nvidia RTX 5090. [Each model maker's stake in Nvidia, or "none found."] [Creator's Nvidia holdings, or "none."] Audited by ChatGPT (OpenAI, which announced a strategic partnership with Nvidia in 2025 under which Nvidia intends to invest up to $100bn) and Gemini (Google, an Nvidia customer and partner that also builds competing AI chips, and an investor in Anthropic), on Nov 23, 2026.
+> Lyrics by Claude; video made by Claude Code, which ran every model below; both by Anthropic. Nvidia is an Anthropic shareholder: it pledged up to $10bn in 2025 and bought about $10bn of shares alongside Anthropic's November IPO. Anthropic runs Claude partly on Nvidia GPUs. Music: Suno, backed by Nvidia's venture arm. Clips: LTX-2.3 (Lightricks; Nvidia optimized its models, no investment found). Stills: FLUX.2 [dev] (Black Forest Labs, Nvidia-backed). All ran on the creator's Nvidia RTX 5090. The creator holds no Nvidia shares directly; a third party manages their retirement savings and, to their knowledge, holds none directly. Audited Nov 23, 2026 by ChatGPT (OpenAI: Nvidia invested $30bn in 2026; it is building its own chip) and Gemini (Google: an Nvidia customer that builds rival chips and is a major Anthropic shareholder).
 
 The green probe waiting outside the boardroom glass with a purchase order (E22) stands for the customers the company depends on, Claude's maker among them. It's a customer, not a voter. The audit checks whether the song goes easy on Nvidia for that reason.
 
 **End card (E25).**
 
-> Effective Immediately. Lyrics: Claude. Music: Suno. Video clips: LTX-2.3. Stills: [image model]. Boardroom: Blender. Graphics and edit code: Claude Code. Direction, take selection, editing and every human intervention: [creator], listed in the production log. Audit log: [repo link].
+> Effective Immediately. Lyrics: Claude. Music: Suno. Video clips: LTX-2.3. Stills: FLUX.2 [dev]. Boardroom: Blender. Graphics and edit code: Claude Code. Market data provided by Databento. Direction, take selection, editing and every human intervention: a human, listed in the production log. Sources, audits and production log: github.com/Derivative-Work/effective-immediately.
 
 Then the three closing cards, the last thing on screen, with the testimony card read from saga.json: Reinstated: Nov 23 · Investigation: ongoing · House interviews: Dec 1–2. Then a final card: Effective immediately (until further notice).
+
+The fact card, disclosure and closing cards run over the credits music, an instrumental cover of the song made in Suno and post-filtered like the master, at an even reading pace (about 185 words a minute). The boardroom screen's candles are drawn from Databento's data, so the end card and the video description credit it.
 
 ## Audit plan
 
@@ -384,12 +386,12 @@ The video is part of a series of AI-generated satirical songs about AI and the t
 This song, "Effective Immediately," is about Nvidia's board accepting its founder-CEO's resignation on November 12, 2026, saying on November 17 that it did not intend to reinstate him, and reinstating him on November 23, with its own investigation still open and before his scheduled congressional interviews. The genre is bass-forward boogie-funk disco in the spirit of early-2020s post-breakup pop: a "never getting back together" chorus built from the board's own language, a glow-up verse about the record quarter, and a sheepish final chorus where they're back together. The video uses one performer alone and anamorphic widescreen, but is lit in cold fluorescent and overcast light until the reunion, deliberately unlike that era's sunlit solo-star videos. The narrator is the company, singing like a pop star after a public split.
 
 WHO HAS A STAKE
-- The lyrics were drafted by Claude, made by Anthropic. Anthropic buys computing capacity built on Nvidia chips, and Nvidia's latest results name Anthropic.
-- The human creator generates and renders the video on an Nvidia RTX 5090, with LTX-2.3 (made by Lightricks) and [image model, maker]. [Creator's Nvidia holdings, if any.]
+- The lyrics were written by Claude and the video made by Claude Code, both by Anthropic. Nvidia is an Anthropic shareholder (a pledge of up to $10bn in 2025, and about $10bn of shares bought alongside Anthropic's November 2026 IPO), and Anthropic runs Claude partly on Nvidia GPUs.
+- Claude Code generated and rendered the video on the creator's Nvidia RTX 5090, with LTX-2.3 (Lightricks; Nvidia optimized its models) and FLUX.2 [dev] (Black Forest Labs, Nvidia-backed). The music is by Suno, backed by Nvidia's venture arm. The creator holds no Nvidia shares directly.
 - You may have a stake too. Most AI labs buy Nvidia hardware. If your maker buys from, competes with, invests in or partners with Nvidia or Anthropic, say so at the top of your answer, and say how it might bias your read of this song.
 
 THE VIDEO PLAN
-- Mostly AI-generated video clips and stills (LTX-2.3 and [image model], run locally), plus one 3D-rendered boardroom and code-made graphics for every word on screen. Every performer is a silhouette; no faces, no lip sync. The founder never appears: he is represented only by a black leather jacket on a hook. The company is fictional ("The Company"), with no Nvidia logo, color or product names. Nvidia is named only in the bookends and the fact card.
+- Mostly AI-generated video clips and stills (LTX-2.3 and FLUX.2 [dev], run locally), plus one 3D-rendered boardroom and code-made graphics for every word on screen. Every performer is a silhouette; no faces, no lip sync. The founder never appears: he is represented only by a black leather jacket on a hook. The company is fictional ("The Company"), with no Nvidia logo, color or product names. Nvidia is named only in the bookends and the fact card.
 - Bookends: real screenshots of Nvidia's November 12 and November 23 press release headlines, captioned "real screenshot."
 - Key images: a breakup text styled as an SEC 8-K filing; four phones ringing, with caller IDs reading COMMITTEE, COMMITTEE, COMMITTEE and FBI; a ring of hands rising into frame in unison on every vote, shooting up when a market-value line drops and again when it recovers; the jacket boxed at the curb; the narrator dancing alone among server racks under fluorescent tubes, with a scoreboard reading "115.8 up 103%"; a desk calendar flipped face-down with October 25 circled (the quarter closed before he left); a caller ID reading "SENIOR LEVELS" with tags noting that the release doesn't name the officials, that the investigation is continuing and that House interviews are scheduled for early December; the solo performer joined by the jacket in a second chair at couples counseling, with an empty counselor's chair marked "Chief Compliance Officer, search in progress"; a generic diner booth whose plaque disappears and comes back, with counters reading YOU: 11 DAYS and PLAQUE: 2 DAYS (the real restaurant removed and restored its plaque).
 - A small green robot "probe" standing for Claude waits outside the boardroom glass during the reinstatement vote, holding up a purchase order: a customer the company depends on, not a voter. After the vote, one hand starts to lower and another pushes it back up.
@@ -520,3 +522,16 @@ The sound points at "Flowers," so the picture deliberately doesn't (audit round 
 - [IBTimes: plaque removed Nov 12 and reinstated](https://www.ibtimes.co.uk/dennys-reinstates-jensen-huang-nvidia-plaque-1832448)
 - [SFist: plaque reinstalled (Nov 14)](https://sfist.com/2026/11/14/san-jose-dennys-reverses-course-reinstalls-plaque-honoring-former-nvidia-ceo/)
 - [American Cinematographer: Framing Up for "Flowers"](https://theasc.com/articles/framing-up-for-flowers)
+
+Added Nov 24 (the price sentence, the disclosure and the market data; every on-screen claim with its sources is in the repo's [docs/sources.md](https://github.com/Derivative-Work/effective-immediately/blob/main/docs/sources.md)):
+- [CNBC, Nov 20: the 14% fall and the Reuters SEC report](https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html)
+- [AP via the Boston Globe, Nov 23: closed at $165.05, up more than 31%](https://www.bostonglobe.com/2026/11/23/business/nvidia-reinstates-jensen-huang/)
+- [Anthropic: Microsoft, NVIDIA and Anthropic strategic partnerships (Nov 2025)](https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships)
+- [Anthropic's IPO prospectus (424B4): Nvidia's Class N placement](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm)
+- [CNBC, Nov 20: Anthropic's placement closed](https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html)
+- [Suno: Series C, with NVentures](https://suno.com/blog/series-c-announcement)
+- [Black Forest Labs: Series B release, naming Nvidia among Series A investors](https://www.globenewswire.com/news-release/2025/12/01/3196629/0/en/black-forest-labs-announces-series-b-investment-to-accelerate-frontier-visual-intelligence.html)
+- [Nvidia: RTX optimizations for LTX-2](https://blogs.nvidia.com/blog/rtx-ai-garage-ces-2026-open-models-video-generation/)
+- [OpenAI: the 2026 round, with Nvidia's $30bn](https://openai.com/index/scaling-ai-for-everyone/)
+- [Fortune: the $100bn letter "was never a commitment"](https://fortune.com/2026/02/02/jensen-huang-nvidia-ceo-on-openai-investment-never-a-commitment/)
+- [Databento US Equities Mini](https://databento.com/datasets/EQUS.MINI)

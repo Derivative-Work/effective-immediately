@@ -269,3 +269,25 @@ Condition (i) rests on Databento's dataset documentation, which says US Equities
 - **The creator's holdings, from the human's words:** "holds no Nvidia shares directly; a third party manages their retirement savings and, to their knowledge, holds none directly." Broad funds may still hold Nvidia, and the card doesn't say so. That's the human's call.
 - **Length:** the disclosure is 132 words (up from 108). The tail's reading pace is now 188 words a minute. Fact card 1 runs 57 s, card 2 43 s, card 3 16 s, the disclosure 56 s.
 - **E19's callers** ("Employees, Investors, Partners, Customers"): the brief calls them "the groups his statement named" and cites no source. The screen claims nothing about a statement, so they are listed as set dressing in `docs/sources.md`.
+
+## 33. 2026-11-24 — Release preparation (human note)
+
+- **Fact card:** "[Update with the outcome.]" is removed. The video goes out before the Dec 1–2 interviews, which the card calls scheduled.
+- **End card:** following the series (Distillation (Allegedly), Buy It on Margin), the on-screen credits don't name the human. It reads "Direction, take selection, editing and every human intervention: a human, listed in the production log", and "Sources, audits and production log: github.com/Derivative-Work/effective-immediately". The licences name the copyright holder, as the siblings' do.
+- **Brief (Claude Doc, rev 105 → 114), edited directly:**
+  - the fact card's price sentence, and the interviews placeholder removed;
+  - the disclosure and the end card;
+  - the opening bookend (E01t), in the shot table and the Bookends section;
+  - the human's inputs;
+  - a paragraph on the credits music and Databento;
+  - the release-day audit prompt's stakes, and its "[image model]" filled in;
+  - the new sources, appended to its Sources section.
+  `docs/brief.md` is re-mirrored.
+- **Publishing files, after the siblings:** `README.md`, `LICENSE` (MIT), `LICENSE-media.md` (CC BY-NC-SA 4.0, with what it doesn't cover: fonts, the ComfyUI template, the people kit, the real captures, Databento's data, the auditors' outputs), `LICENSES/CC-BY-NC-SA-4.0.txt`, and `METADATA.md`. METADATA.md has the title options, description (under 5,000 characters, with chapters, facts, sources, the Databento credit and the licence), tags, settings, three thumbnail options and the pre-upload checklist.
+- **Titles:** the alternatives avoid "fired". The 8-K and the release say he resigned, so "out" and "broke up with" stay accurate.
+- **Thumbnails** (`remotion/src/Thumbnail.tsx`, `deliverables/thumbnails/`): A, the empty hook and the jacket back in the booth (recommended); B, the empty hook; C, the empty counselor's chair. None has Nvidia's name, logo, green or a face.
+- **Final render:**
+  - the boardroom at full resolution (`SCALE=1 SAMPLES=32`; half-resolution renders in `archive/m4/boardroom_half_res/`);
+  - then Remotion at 1920×1080 with the animatic's shot labels off (`slate: false`), to `deliverables/effective_immediately_1080p.mp4`;
+  - captions in `deliverables/effective_immediately.en.srt`.
+- **Not made for today:** the brief's vertical Shorts cut of chorus 1. It can follow the main upload.

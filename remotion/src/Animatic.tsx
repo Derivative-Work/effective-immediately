@@ -271,7 +271,8 @@ const Slate: React.FC<{id: string}> = ({id}) => (
 
 export const ANIMATIC_FRAMES = cut.frames;
 
-export const Animatic: React.FC<{subStyle?: SubStyle | 'none'; label?: string}> = ({subStyle = 'set', label}) => (
+/** `slate`: the animatic's shot labels; the final render turns them off. */
+export const Animatic: React.FC<{subStyle?: SubStyle | 'none'; label?: string; slate?: boolean}> = ({subStyle = 'set', label, slate = true}) => (
   <AbsoluteFill style={{background: '#000', width: W, height: H}}>
     <Sequence from={cut.musicFrom} layout="none"><Audio src={staticFile('gen/audio/working.wav')} /></Sequence>
     <Sequence from={cut.creditsFrom} layout="none"><Audio src={staticFile('gen/audio/credits.wav')} /></Sequence>
@@ -282,7 +283,7 @@ export const Animatic: React.FC<{subStyle?: SubStyle | 'none'; label?: string}> 
           {r.grade ? <LookLayer grade={r.grade} handheld={r.handheld} afterGrade={r.after} frameOffset={s.from}>{r.el}</LookLayer> : r.el}
           {r.over}
           {s.fadeOut !== undefined && <FadeOut at={s.fadeOut} end={s.frames} />}
-          <Slate id={s.id} />
+          {slate && <Slate id={s.id} />}
         </Sequence>
       );
     })}
