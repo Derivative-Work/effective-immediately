@@ -322,8 +322,14 @@ Condition (i) rests on Databento's dataset documentation, which says US Equities
     colour alone: the lit leather is as warm as the booth, and in the bottom shadows both are black.
   - **The fix, in the thumbnail only:** `scripts/thumb_jacket.py` writes `S03_thumbA.png`, a copy of the plate that
     only thumbnail A uses. The video's S03 is unchanged.
-    - The jacket is masked with SAM 2.1, prompted with a box and points. The model is Meta's, Apache 2.0, downloaded from
-      Hugging Face.
+    - The jacket is masked with Segment Anything (ViT-B, Meta, Apache 2.0), prompted with a box and points. It uses the
+      checkpoint Share the Shares already has, read in place and checked against its sha256, and runs it the way that
+      project's `scripts/segment.py` does.
+      - SAM's best-scored candidate spilled into the booth's dark side panel, and more negative points there made it
+        worse. The second candidate follows the jacket's edge and is pinned in the script.
+      - The first pass used SAM 2.1, which was downloaded for the purpose. The human pointed out that Share the Shares
+        already had SAM, so the script was switched and the download deleted.
+      - The two masks agree to an IoU of 0.986, and the thumbnails look the same.
     - The booth is brightened and its shadows lifted to a warm brown.
     - The jacket is desaturated to a neutral black, with deeper shadows and brighter highlights, so its sheen stays.
     - The mask's edge was checked at 1:1 and at phone sizes. Where the plate has no visible edge (the jacket's lower left,

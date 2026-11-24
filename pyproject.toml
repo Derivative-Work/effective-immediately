@@ -16,6 +16,7 @@ dependencies = [
     "opencv-python-headless==4.10.*",
     "espeakng-loader>=0.2.4",
     "piper-tts>=1.8.0",
+    "segment-anything==1.0",
 ]
 
 [tool.uv]

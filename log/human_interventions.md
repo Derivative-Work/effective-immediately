@@ -144,3 +144,8 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "Hm the jacket is blending in with the seat it's on. See about increasing the contrast between the two for the thumbnail only".
 - **Effect:** decisions 34 (thumbnail A, the jacket against the seat). Thumbnail A re-rendered from a graded copy of S03; the video is unchanged.
+
+## 26. 2026-11-24 — SAM is already in Share the Shares
+
+- **What:** "SAM is already in share the shares".
+- **Effect:** `scripts/thumb_jacket.py` uses Share the Shares' SAM ViT-B checkpoint, read in place, instead of a downloaded SAM 2.1. The download was deleted. Decisions 34; thumbnail A re-rendered, with the same look.

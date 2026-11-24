@@ -205,3 +205,12 @@ Append-only. One entry per generation, render or analysis step.
   - Outputs: `remotion/public/gen/plates/S03_jacket_mask.png` and `S03_thumbA.png`.
   - Checked at 1:1 and at 360 and 168 px wide.
   - The previous version is `archive/thumbnails/effective_immediately_thumbnail_A_v3_jacket_blends.jpg`.
+- **Thumbnail A, the mask from Share the Shares' SAM (human intervention 26):**
+  - **Model:** `scripts/thumb_jacket.py` now uses Segment Anything ViT-B (`segment-anything==1.0`, added with `uv add`).
+    The checkpoint is read in place from `../share-the-shares/models/sam_vit_b_01ec64.pth`, and its sha256 is checked.
+  - **Mask:** the scores were 0.962, 0.959 and 0.893, and candidate 1 was kept; candidate 0 spills into the booth's side
+    panel. The mask covers 12.2% of the plate and matches the SAM 2.1 mask to an IoU of 0.986.
+  - **Re-rendered:** the same `npx remotion still … Thumb-A …`.
+  - **Clean-up:** deleted the SAM 2.1 download from the Hugging Face cache (`models--facebook--sam2.1-hiera-large`,
+    857 MB).
+  - **Previous version:** `archive/thumbnails/effective_immediately_thumbnail_A_v4_sam21_mask.jpg`.
