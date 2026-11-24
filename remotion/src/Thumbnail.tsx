@@ -26,8 +26,9 @@ const Plate: React.FC<{src: string; pos?: string; style?: React.CSSProperties}> 
  *
  * The booth half uses S03_thumbA, a copy of the plate with the jacket graded apart from the seat it lies on (human note: "the
  * jacket is blending in with the seat it's on"; thumbnail only). `scripts/thumb_jacket.py` makes it: the booth is lifted to
- * a warmer, lighter brown and the jacket made a more neutral black. It's baked into the file because Chrome softened the
- * half when the same grade was done with CSS blend layers.
+ * a warmer, lighter brown and the jacket made a more neutral black, its shadows lifted so its folds show (human note: "so
+ * it reads like a jacket rather than a black blob"). It's baked into the file because Chrome softened the half when the
+ * same grade was done with CSS blend layers.
  */
 const A_LEFT = 830;
 const A_HOOK_K = 0.8; // S01's scale (cover is 720/1088 = 0.662)

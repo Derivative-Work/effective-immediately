@@ -266,3 +266,15 @@ Append-only. One entry per generation, render or analysis step.
 - **Published:** https://github.com/Derivative-Work/effective-immediately/releases/tag/v1.0 ("Effective Immediately
   v1.0", latest; tag `v1.0` at `579be58`), 16 assets. Staged again for the upload, the tars came out byte-identical, and
   GitHub's digest for each of the 15 files matches `SHA256SUMS`. Log: `log/render_logs/release_v1.0.log`.
+
+## 23. 2026-11-24 — Thumbnail A, the jacket brightened (human intervention 30)
+
+- **Script:** in `scripts/thumb_jacket.py`, the jacket's curve goes from a power of 1.25 to 0.65, with the same gain
+  (1.15) and saturation (0.55). Its median luma rises from 10 to 50 of 255 (75th percentile 22 → 75, 95th 42 → 106).
+- **Tried:** curves of 0.75, 0.7, 0.65, 0.6, 0.55 and 0.45, and local contrast (CLAHE, clip 2) with 0.7, side by side
+  at 1:1 and at a third of that size. Curves of 0.6 and below turn the leather grey, and CLAHE looks grungy.
+- **Command:** `.venv/bin/python scripts/thumb_jacket.py --regrade` (the masks are unchanged: jacket 10.5%, table
+  17.1%), then the same `npx remotion still … Thumb-A …`.
+- **Checked** at 1280 and 320 px wide.
+- **Previous version:** `archive/thumbnails/effective_immediately_thumbnail_A_v7_jacket_dark.jpg`.
+- **Not changed:** the release's `effective_immediately_thumbnail.jpg` is still the previous version (v7).

@@ -337,7 +337,14 @@ Condition (i) rests on Databento's dataset documentation, which says US Equities
       - It first washed over the end of the table, which stands in front of the jacket, so SAM cuts the table too and the
         glow goes behind it.
     - The booth is brightened and its shadows lifted to a warm brown.
-    - The jacket is desaturated to a neutral black, with deeper shadows and brighter highlights, so its sheen stays.
+    - The jacket is desaturated to a neutral black. It first had deeper shadows and brighter highlights, for its sheen.
+    - **The jacket brightened (human: "increase the brightness on the jacket so it reads like a jacket rather than a black
+      blob"):**
+      - The deeper shadows had crushed it: its median luma was 10 of 255, and a quarter of it was under 2.
+      - Its shadows are now lifted instead (a power curve of 0.65 with a gain of 1.15). Its median luma is 50, and its
+        folds, collar, sleeve and zipper show at phone size, while it still reads as black leather against the booth.
+      - Tried and rejected: curves of 0.6 and below turn the leather grey, and local contrast (CLAHE) makes it look
+        grungy. The mask and the glow are unchanged.
     - **The seat out of the mask (human: "it's including part of the chair as the jacket at the bottom left"):**
       - The mask took in the seat below the jacket's left side and hem, which is as black as the leather in shadow. One
         of the "jacket" points had been placed in that shadow.

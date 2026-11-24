@@ -14,8 +14,8 @@ two for the thumbnail only". The plate itself is unchanged; the video never uses
 2. Grade:
    - The booth is brightened, and its shadows are lifted to a warm brown with a screen layer. The lift starts below the
      wall, so "Nov 23" keeps its dark ground.
-   - The jacket keeps its own pixels, but less saturated, with deeper shadows and brighter highlights (a power curve
-     with gain): a neutral black with its leather sheen, against the orange.
+   - The jacket keeps its own pixels, but less saturated, with its shadows lifted (a power curve with gain), so it reads
+     as a black leather jacket, its folds, collar and sleeve showing, not as a black shape against the orange.
    - A glow around the jacket (human note: "Use the mask to add a glow around the jacket"): the mask blurred at two
      widths, a tight halo and a wide soft light, kept outside the jacket and screened onto the booth in a warm white, as
      if lit from behind. The table stands in front of the jacket's lower right, so SAM cuts it too and the glow goes
@@ -67,7 +67,10 @@ FEATHER = 1.5  # px, the final edge
 # Grade. The lift ramps in between these fractions of the plate's height (the wall above stays as it is).
 BOOTH_GAIN, BOOTH_SAT = 1.2, 1.15
 LIFT_RGB, LIFT_FROM, LIFT_FULL = (92, 42, 18), 0.26, 0.36
-JACKET_SAT, JACKET_GAMMA, JACKET_GAIN = 0.55, 1.25, 1.15  # deeper shadows, brighter highlights (the sheen)
+# The jacket's shadows lifted so its folds, collar and sleeve show (human note: "increase the brightness on the jacket
+# so it reads like a jacket rather than a black blob"): median luma 50 of 255, from 10 with the earlier gamma 1.25,
+# which deepened them. 0.6 and below turn the leather grey; local contrast (CLAHE) made it look grungy.
+JACKET_SAT, JACKET_GAMMA, JACKET_GAIN = 0.55, 0.65, 1.15
 # The glow: (blur sigma in plate px, gain, opacity) for the halo and the soft light, and its colour.
 GLOW = [(4.0, 2.2, 0.7), (20.0, 1.7, 0.7)]  # a softer (3, 2.0, 0.55), (16, 1.6, 0.6) was too faint at phone size
 GLOW_RGB = (255, 214, 160)

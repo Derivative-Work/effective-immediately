@@ -169,3 +169,10 @@ Append-only. Every human action: when, what, and why.
 - **Supplied:** `effective-immediately.logicx.zip` (315 MB, sha256 `7b3dda0f…`), copied as it is to `audio/logic/`
   (Downloads untouched).
 - **Effect:** the v1.0 GitHub release, built by `scripts/release.sh` (production log 22).
+
+## 30. 2026-11-24 — The jacket's brightness, in the thumbnail
+
+- **What:** "Going back to the thumbnail: also increase the brightness on the jacket so it reads like a jacket rather
+  than a black blob".
+- **Effect:** decisions 34 (thumbnail A, the jacket against the seat). The jacket's shadows were lifted and thumbnail A
+  re-rendered (production log 23); the video is unchanged.
