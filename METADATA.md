@@ -11,7 +11,7 @@ YouTube metadata for the main video and the four vertical Shorts, ready to paste
 - **After upload:** put the video's link into the README ("Watch it on YouTube"). Done: https://youtu.be/i5uLYgoSIkk
   (uploaded 2026-11-24), in the README and the Shorts' footer below.
 - **Intervention count.** Update the number in the description if more are logged
-  (`grep -c '^## ' log/human_interventions.md`; 24 on 2026-11-24, after the thumbnail fix).
+  (`grep -c '^## ' log/human_interventions.md`; 25 on 2026-11-24, after the thumbnail fixes).
 - **Databento's terms** require "Market data provided by Databento" wherever the data is published: it is in the end
   card and in the description below. Keep both.
 
@@ -50,7 +50,7 @@ On November 12, 2026, Nvidia announced that its co-founder had resigned as CEO, 
 WHO HAS A STAKE
 The lyrics were written by Claude, and the video made by Claude Code, both from Anthropic. Nvidia is an Anthropic shareholder: it pledged up to $10bn in 2025 and bought about $10bn of shares alongside Anthropic's November 2026 IPO, and Anthropic runs Claude partly on Nvidia GPUs. Music: Suno, backed by Nvidia's venture arm. Stills: FLUX.2 [dev] (Black Forest Labs, Nvidia-backed). Clips: LTX-2.3 (Lightricks; Nvidia optimized its models, no investment found). All of it ran on the creator's Nvidia RTX 5090, as the opening shows. The creator holds no Nvidia shares directly. The plan was audited on Nov 23, 2026 by ChatGPT (OpenAI, in which Nvidia invested $30bn in 2026) and Gemini (Google, an Nvidia customer that builds rival chips and is a major Anthropic shareholder).
 
-Every frame, note and word was made by AI: the song by Suno, the words by Claude, the pictures by FLUX.2, LTX-2.3 and Blender, the edit by Claude Code. A human approved each stage, edited the master, picked the takes and ran the audits. Each of those 24 interventions is logged, along with every prompt and production step:
+Every frame, note and word was made by AI: the song by Suno, the words by Claude, the pictures by FLUX.2, LTX-2.3 and Blender, the edit by Claude Code. A human approved each stage, edited the master, picked the takes and ran the audits. Each of those 25 interventions is logged, along with every prompt and production step:
 https://github.com/Derivative-Work/effective-immediately
 
 CHAPTERS
@@ -137,7 +137,7 @@ Rendered from `remotion/src/Thumbnail.tsx` (`npx remotion still remotion/src/ind
 
 | Option | Picture | Text | Notes |
 | --- | --- | --- | --- |
-| **A (the human's pick)** | Split: the empty hook (cold, the wider half) and the jacket back in the diner booth (warm), the whole hook and the whole jacket in frame | NOV 12 · NOV 23 at the top of each half; EFFECTIVE / IMMEDIATELY in two lines with (until further notice) under the hook | The whole joke in one frame. The text was enlarged for phones (title 86 → 116 px, the rest 1.8–2.6×) and reads at 168 px wide. |
+| **A (the human's pick)** | Split: the empty hook (cold, the wider half) and the jacket back in the diner booth (warm), the whole hook and the whole jacket in frame | NOV 12 · NOV 23 at the top of each half; EFFECTIVE / IMMEDIATELY in two lines with (until further notice) under the hook | The whole joke in one frame. The text was enlarged for phones (title 86 → 116 px, the rest 1.8–2.6×) and reads at 168 px wide. The jacket is graded apart from the booth seat (thumbnail only; `scripts/thumb_jacket.py`). |
 | B | The empty hook alone | OUT. EFFECTIVE IMMEDIATELY. · BACK IN 11 DAYS | Starkest; the brief's "empty jacket" idea. |
 | C | The empty counselor's chair, the company in silhouette | WE DID NOT INTEND… (TO TAKE HIM BACK) | The brief's other idea; the lyric as the hook. |
 

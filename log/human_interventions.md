@@ -139,3 +139,8 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "thumbnail text needs to be bigger to be legible on mobile".
 - **Effect:** decisions 34 (thumbnail A's text, for phones). Thumbnail A re-rendered; the human replaces it on YouTube.
+
+## 25. 2026-11-24 — The jacket against the seat, in the thumbnail
+
+- **What:** "Hm the jacket is blending in with the seat it's on. See about increasing the contrast between the two for the thumbnail only".
+- **Effect:** decisions 34 (thumbnail A, the jacket against the seat). Thumbnail A re-rendered from a graded copy of S03; the video is unchanged.

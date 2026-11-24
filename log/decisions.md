@@ -316,6 +316,21 @@ Condition (i) rests on Databento's dataset documentation, which says US Equities
     the title and makes it bigger.
   - **Check:** downscaled to 360 and 168 px wide, the title and dates read at both sizes, and the subtitle at 360. The
     previous version is in `archive/thumbnails/`.
+- **Thumbnail A, the jacket against the seat (human: "the jacket is blending in with the seat it's on. See about increasing
+  the contrast between the two for the thumbnail only"):**
+  - **The problem:** in the plate, the black leather lies on a dark red-brown booth. Their colours are too close to separate by
+    colour alone: the lit leather is as warm as the booth, and in the bottom shadows both are black.
+  - **The fix, in the thumbnail only:** `scripts/thumb_jacket.py` writes `S03_thumbA.png`, a copy of the plate that
+    only thumbnail A uses. The video's S03 is unchanged.
+    - The jacket is masked with SAM 2.1, prompted with a box and points. The model is Meta's, Apache 2.0, downloaded from
+      Hugging Face.
+    - The booth is brightened and its shadows lifted to a warm brown.
+    - The jacket is desaturated to a neutral black, with deeper shadows and brighter highlights, so its sheen stays.
+    - The mask's edge was checked at 1:1 and at phone sizes. Where the plate has no visible edge (the jacket's lower left,
+      in shadow), the outline is SAM's estimate.
+  - **Why a baked file and not CSS:** the same grade done with CSS blend layers in Remotion came out visibly softer in
+    Chrome's render.
+  - The previous version is in `archive/thumbnails/`.
 
 ## 35. 2026-11-24 — Four vertical Shorts (human note; the brief asked for one)
 

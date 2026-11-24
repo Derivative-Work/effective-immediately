@@ -198,3 +198,10 @@ Append-only. One entry per generation, render or analysis step.
   - Command: `npx remotion still remotion/src/index.ts Thumb-A deliverables/thumbnails/effective_immediately_thumbnail_A.jpg --image-format=jpeg --jpeg-quality=92`.
   - Checked at 1280, 360 and 168 px wide.
   - The previous version is `archive/thumbnails/effective_immediately_thumbnail_A_v2_small_text.jpg`.
+- **Thumbnail A, the jacket graded apart from the seat (human intervention 25):**
+  - Command: `.venv/bin/python scripts/thumb_jacket.py`, then the same `npx remotion still … Thumb-A …`.
+  - The model, SAM 2.1 (`facebook/sam2.1-hiera-large`), was downloaded to the Hugging Face cache. It gave the mask an IoU
+    score of 0.917, and the mask covers 12.1% of the plate.
+  - Outputs: `remotion/public/gen/plates/S03_jacket_mask.png` and `S03_thumbA.png`.
+  - Checked at 1:1 and at 360 and 168 px wide.
+  - The previous version is `archive/thumbnails/effective_immediately_thumbnail_A_v3_jacket_blends.jpg`.

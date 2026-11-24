@@ -23,6 +23,11 @@ const Plate: React.FC<{src: string; pos?: string; style?: React.CSSProperties}> 
  * Each half's date sits at its top, above the hook and the jacket's collar, so no text covers either. S01 is scaled a
  * little past cover (A_HOOK_K) and anchored at its foot, which lifts the hook (plate y 467-627) to y ~225-350, clear of the
  * title, and makes it bigger.
+ *
+ * The booth half uses S03_thumbA, a copy of the plate with the jacket graded apart from the seat it lies on (human note: "the
+ * jacket is blending in with the seat it's on"; thumbnail only). `scripts/thumb_jacket.py` makes it: the booth is lifted to
+ * a warmer, lighter brown and the jacket made a more neutral black. It's baked into the file because Chrome softened the
+ * half when the same grade was done with CSS blend layers.
  */
 const A_LEFT = 830;
 const A_HOOK_K = 0.8; // S01's scale (cover is 720/1088 = 0.662)
@@ -34,7 +39,7 @@ const Split: React.FC = () => (
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 24%, rgba(0,0,0,0) 52%, rgba(0,0,0,0.6) 70%, rgba(0,0,0,0.82) 100%)'}} />
     </div>
     <div style={{position: 'absolute', left: A_LEFT, top: 0, width: 1280 - A_LEFT, height: 720, overflow: 'hidden'}}>
-      <Plate src="S03" pos="0% 50%" />
+      <Plate src="S03_thumbA" pos="0% 50%" />
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.2) 20%, rgba(0,0,0,0) 30%)'}} />
     </div>
     <div style={{position: 'absolute', left: A_LEFT - 4, top: 0, width: 8, height: 720, background: '#fff'}} />

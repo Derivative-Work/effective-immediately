@@ -108,6 +108,7 @@ with checksums. The steps, in order, with their exact commands, are in the produ
 - **Video:** Claude Code with Claude Opus 5.5, with stills from FLUX.2 [dev] (Black Forest Labs) and motion from
   LTX-2.3 (Lightricks), each used under its own licence; the boardroom in Blender.
 - **Market data:** provided by Databento.
+- **Thumbnail:** the jacket's mask by SAM 2.1 (Meta, Apache 2.0), for its grade in thumbnail A only ([`scripts/thumb_jacket.py`](scripts/thumb_jacket.py)).
 - **People kit:** from All Systems Operational ([`blender/ep/`](blender/ep/)), MIT.
 - **Fonts:** [Inter](https://fonts.google.com/specimen/Inter), [Jost](https://fonts.google.com/specimen/Jost),
   [Courier Prime](https://fonts.google.com/specimen/Courier+Prime), [VT323](https://fonts.google.com/specimen/VT323),
