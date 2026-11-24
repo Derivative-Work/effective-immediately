@@ -1,0 +1,34 @@
+total 3136504
+-rw-rw-r-- 1 antiai-aiclub antiai-aiclub       1496 Nov 24 10:48 SHA256SUMS
+-rw-r--r-- 2 antiai-aiclub antiai-aiclub  315296073 Nov 24 10:39 effective-immediately.logicx.zip
+-rw-rw-r-- 1 antiai-aiclub antiai-aiclub       4428 Nov 24 10:48 effective_immediately.en.srt
+-rw-rw-r-- 2 antiai-aiclub antiai-aiclub  459295957 Nov 24 04:36 effective_immediately_1080p.mp4
+-rw-rw-r-- 1 antiai-aiclub antiai-aiclub        831 Nov 24 10:48 effective_immediately_short_bridge.en.srt
+-rw-rw-r-- 2 antiai-aiclub antiai-aiclub    8992886 Nov 24 04:40 effective_immediately_short_bridge.mp4
+-rw-rw-r-- 1 antiai-aiclub antiai-aiclub        744 Nov 24 10:48 effective_immediately_short_chorus.en.srt
+-rw-rw-r-- 2 antiai-aiclub antiai-aiclub   19402752 Nov 24 04:39 effective_immediately_short_chorus.mp4
+-rw-rw-r-- 1 antiai-aiclub antiai-aiclub        316 Nov 24 10:48 effective_immediately_short_plaque.en.srt
+-rw-rw-r-- 2 antiai-aiclub antiai-aiclub    6398483 Nov 24 04:44 effective_immediately_short_plaque.mp4
+-rw-rw-r-- 1 antiai-aiclub antiai-aiclub        631 Nov 24 10:48 effective_immediately_short_reinstated.en.srt
+-rw-rw-r-- 2 antiai-aiclub antiai-aiclub   14864647 Nov 24 04:42 effective_immediately_short_reinstated.mp4
+-rw-rw-r-- 1 antiai-aiclub antiai-aiclub     126315 Nov 24 10:48 effective_immediately_thumbnail.jpg
+-rw-rw-r-- 1 antiai-aiclub antiai-aiclub 1063864320 Nov 24 10:48 inputs-master.tar
+-rw-rw-r-- 1 antiai-aiclub antiai-aiclub 1104824320 Nov 24 10:48 inputs-suno.tar
+-rw-rw-r-- 1 antiai-aiclub antiai-aiclub  218654720 Nov 24 10:48 takes.tar
+58c52cb483bb75baaa35182bf83ee74e3826c610e17db694d538a382878f23d9  effective_immediately_1080p.mp4
+ea75f3201c72ac16ec80c7b7e12198e7be840c2be38f471e1432229b23c18b13  effective_immediately_short_chorus.mp4
+75f81d6052260c2bb6d29bc252096975d9e7d3d099a77eb39ce45808379a9264  effective_immediately_short_bridge.mp4
+f1c98c61cbdf97b62538e715a445063f9aceae1564c9845b37f4a00eec7137ab  effective_immediately_short_reinstated.mp4
+8448f5035309c5d43dca820d031ccf198e8e027333202259b988720bc79c07a2  effective_immediately_short_plaque.mp4
+e73af1e1321ceff506726d73e384e682c72a85e70298061ca332d29acebf7de4  effective_immediately.en.srt
+066bea76d816aeb1eb54111101f4c49f4b2cd8aacf59460537e918f3cb3209a7  effective_immediately_short_chorus.en.srt
+4f3778b9bcfaaaebad5b07df819ebda9fe7592e795df198b6a6ae8bc373a5cf4  effective_immediately_short_bridge.en.srt
+bced89b6b3ab0cb08d87dc3fc5bd3a7654b76f9ac3d12e09a0911aeb1cb9c0b3  effective_immediately_short_reinstated.en.srt
+40ea8dfaf8948f4104324fc823a856014faf6860d88b031dda691098f47874fe  effective_immediately_short_plaque.en.srt
+adae09ff9cf934c4cc54e81bcde1e4f8bac1a0ac7c2cbcf1b8835e5c0123c098  effective_immediately_thumbnail.jpg
+7b3dda0f196a56053fd89ce4a6c5d754f05bccfe26e573b7bbcf9e9ef3ce67d5  effective-immediately.logicx.zip
+f8156c841bfa8064e1d8a7fbe9343f9aeb4fba07d4100a98124ae640a743c507  inputs-suno.tar
+ae6b714b5fd7058e95446b3fade53929e7fb15693fa79fa29b3b15b998c90168  inputs-master.tar
+5151fe1c6379d93b0ab4fb650a574e35524d1b3382baa415b7469567e70bbb97  takes.tar
+https://github.com/Derivative-Work/effective-immediately/releases/tag/v1.0
+exit 0

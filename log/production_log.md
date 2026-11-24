@@ -263,3 +263,6 @@ Append-only. One entry per generation, render or analysis step.
   them. README links the release; `LICENSE-media.md` covers the Logic project and notes Logic's impulse response.
 - **Command:** `scripts/release.sh --create` → `gh release create v1.0 --target main --latest --title "Effective
   Immediately v1.0" --notes-file docs/release_notes.md` with the 16 files.
+- **Published:** https://github.com/Derivative-Work/effective-immediately/releases/tag/v1.0 ("Effective Immediately
+  v1.0", latest; tag `v1.0` at `579be58`), 16 assets. Staged again for the upload, the tars came out byte-identical, and
+  GitHub's digest for each of the 15 files matches `SHA256SUMS`. Log: `log/render_logs/release_v1.0.log`.
