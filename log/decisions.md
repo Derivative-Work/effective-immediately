@@ -330,6 +330,12 @@ Condition (i) rests on Databento's dataset documentation, which says US Equities
       - The first pass used SAM 2.1, which was downloaded for the purpose. The human pointed out that Share the Shares
         already had SAM, so the script was switched and the download deleted.
       - The two masks agree to an IoU of 0.986, and the thumbnails look the same.
+    - **A glow around the jacket (human: "Use the mask to add a glow around the jacket"):**
+      - It's made from the jacket's mask: a tight halo (blur 4 px) and a wide soft light (20 px). The glow stays outside
+        the jacket and is screened onto the booth in a warm white, as if lit from behind.
+      - A softer first try (3 px and 16 px, weaker) was too faint at phone size.
+      - It first washed over the end of the table, which stands in front of the jacket, so SAM cuts the table too and the
+        glow goes behind it.
     - The booth is brightened and its shadows lifted to a warm brown.
     - The jacket is desaturated to a neutral black, with deeper shadows and brighter highlights, so its sheen stays.
     - The mask's edge was checked at 1:1 and at phone sizes. Where the plate has no visible edge (the jacket's lower left,

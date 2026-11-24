@@ -214,3 +214,9 @@ Append-only. One entry per generation, render or analysis step.
   - **Clean-up:** deleted the SAM 2.1 download from the Hugging Face cache (`models--facebook--sam2.1-hiera-large`,
     857 MB).
   - **Previous version:** `archive/thumbnails/effective_immediately_thumbnail_A_v4_sam21_mask.jpg`.
+- **Thumbnail A, a glow around the jacket (human intervention 27):**
+  - **Script:** `scripts/thumb_jacket.py` gains the glow, a table mask (SAM ViT-B; scores 0.984, 0.987 and 0.980, the
+    best kept; 17.1% of the plate), and `--regrade`, which grades from the saved masks without running SAM.
+  - **Command:** `.venv/bin/python scripts/thumb_jacket.py`, then the same `npx remotion still … Thumb-A …`.
+  - **Checked** at 1:1 and at 360 and 168 px wide.
+  - **Previous version:** `archive/thumbnails/effective_immediately_thumbnail_A_v5_no_glow.jpg`.
