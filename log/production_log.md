@@ -191,7 +191,7 @@ Append-only. One entry per generation, render or analysis step.
   - Song and credits music within 0.1 ms of their sources at nine points. A contact sheet of 16 frames shows no animatic labels.
 - **Shorts:** `npx remotion render remotion/src/index.ts Short-<id> …` for chorus, bridge, reinstated and plaque, then 0.15 s and 0.6 s audio fades (video copied) → `deliverables/effective_immediately_short_<id>.mp4`. Captions from `scripts/shorts_srt.py`.
 
-## 21. 2026-11-24 — Upload; thumbnail A re-set for phones (human interventions 23–24)
+## 21. 2026-11-24 — Upload; thumbnail A re-set for phones, its jacket graded (human interventions 23–28)
 
 - **Link:** the main video's YouTube link went into the README and the Shorts' footer (`8d92d50`).
 - **Thumbnail A:** `remotion/src/Thumbnail.tsx` (`Split`) re-laid out for phones (decisions 34).
@@ -220,3 +220,14 @@ Append-only. One entry per generation, render or analysis step.
   - **Command:** `.venv/bin/python scripts/thumb_jacket.py`, then the same `npx remotion still … Thumb-A …`.
   - **Checked** at 1:1 and at 360 and 168 px wide.
   - **Previous version:** `archive/thumbnails/effective_immediately_thumbnail_A_v5_no_glow.jpg`.
+- **Thumbnail A, the seat out of the jacket's mask (human intervention 28):**
+  - **Cause:** one of the jacket's positive points, (60, 600), sat in the black shadow of the seat beside the jacket, so the
+    mask took in the seat below the jacket's left side and hem.
+  - **Fix:** that point moved onto the lit hem, (230, 595), and four negative points went on the shadowed seat. SAM scored
+    0.949, 0.949 and 0.883, and candidate 1 was kept again; candidate 0 still spills into the side panel and seat. The
+    mask covers 10.5% of the plate, down from 12.2%.
+  - **Also:** a 7 px opening was added before the mask is carried to the frame's bottom edge. Without it, a one-pixel spur
+    off the hem was carried down as a dark line through the glow.
+  - **Command:** `.venv/bin/python scripts/thumb_jacket.py`, then the same `npx remotion still … Thumb-A …`.
+  - **Checked** at 1:1, with the plate's shadows brightened to see the leather's edge, and at 360 and 168 px wide.
+  - **Previous version:** `archive/thumbnails/effective_immediately_thumbnail_A_v6_seat_in_mask.jpg`.

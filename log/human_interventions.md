@@ -154,3 +154,9 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "Use the mask to add a glow around the jacket".
 - **Effect:** decisions 34 (thumbnail A, the jacket against the seat). Thumbnail A re-rendered; the video is unchanged.
+
+## 28. 2026-11-24 — The seat in the jacket's mask
+
+- **What:** "Check the segmentation again: it's including part of the chair as the jacket at the bottom left".
+- **Effect:** decisions 34 (thumbnail A, the jacket against the seat). The mask's points were corrected and thumbnail A
+  re-rendered; the video is unchanged.

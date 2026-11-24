@@ -6,10 +6,11 @@ two for the thumbnail only". The plate itself is unchanged; the video never uses
 1. Mask: Segment Anything (ViT-B, Meta, Apache 2.0), the checkpoint Share the Shares already has, read in place
    (`../share-the-shares/models/sam_vit_b_01ec64.pth`, the official download, sha256 ec2df627…; set SAM_CHECKPOINT to use
    another copy). It's run the way Share the Shares' `scripts/segment.py` runs it: a box around the jacket and points on
-   the jacket and on the booth, wall and table, three candidate masks. The kept one is picked by eye (CANDIDATE): the
-   best-scored spills into the booth's dark side panel, and more negative points there made it worse. Its outline is smoothed
-   (SAM's mask is upsampled from a coarse grid and comes out beaded), thin gaps such as the zipper's teeth are closed, it
-   is carried down to the frame's bottom edge (the jacket runs out of frame), and the edge is feathered.
+   the jacket and on the booth, wall, seat and table, three candidate masks. The kept one is picked by eye (CANDIDATE):
+   the best-scored spills into the booth's dark side panel, and more negative points there made it worse. Its outline is
+   smoothed (SAM's mask is upsampled from a coarse grid and comes out beaded), thin gaps such as the zipper's teeth are
+   closed, specks and thin spurs are opened away, it is carried down to the frame's bottom edge where it reaches it (the
+   zipper's end runs out of frame), and the edge is feathered.
 2. Grade:
    - The booth is brightened, and its shadows are lifted to a warm brown with a screen layer. The lift starts below the
      wall, so "Nov 23" keeps its dark ground.
@@ -46,16 +47,21 @@ CHECKPOINT_SHA256 = 'ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb
 
 # Plate pixels (S03 is 1600x640; the jacket lies over the booth's seat back at the left edge).
 BOX = [0, 150, 400, 640]
-JACKET = [(150, 200), (100, 300), (110, 480), (250, 300), (300, 420), (200, 570), (60, 600)]
-NOT_JACKET = [(20, 330), (350, 290), (395, 600), (300, 120), (380, 520), (20, 220)]
-CANDIDATE = 1  # of SAM's three: 0 (score 0.962) spills into the booth's side panel; 1 (0.959) follows the jacket's edge
+JACKET = [(150, 200), (100, 300), (110, 480), (250, 300), (300, 420), (200, 570), (230, 595)]
+# Below the jacket's left side and hem the booth's seat is black in shadow, as black as the leather: the last four points
+# keep it out (human note: "it's including part of the chair as the jacket at the bottom left").
+NOT_JACKET = [(20, 330), (350, 290), (395, 600), (300, 120), (380, 520), (20, 220),
+              (80, 500), (95, 580), (120, 625), (200, 632)]
+# Of SAM's three: 0 (score 0.949) spills into the booth's side panel and seat; 1 (0.949) follows the jacket's edge.
+CANDIDATE = 1
 # The table stands in front of the jacket's lower right, so the glow goes behind it: SAM cuts the table the same way.
 TABLE_BOX = [310, 335, 1275, 555]
 TABLE = [(700, 450), (400, 515), (1150, 500), (900, 400)]
 NOT_TABLE = [(380, 300), (250, 400), (700, 600), (1400, 400)]
 SMOOTH = 3.0  # px, blur before re-thresholding the mask (smooths SAM's beaded outline)
 CLOSE = 9  # px, morphological closing (the zipper's teeth)
-BOTTOM = 14  # rows: the mask is carried down from this far above the frame's bottom edge
+OPEN = 7  # px, morphological opening (specks and spurs, which the carry below would drag down to the frame's edge)
+BOTTOM = 14  # rows: the mask is carried down from this far above the frame's bottom edge (where the zipper's end is)
 FEATHER = 1.5  # px, the final edge
 
 # Grade. The lift ramps in between these fractions of the plate's height (the wall above stays as it is).
@@ -91,6 +97,7 @@ def segment(plate: Image.Image) -> tuple[np.ndarray, np.ndarray]:
 def refine(m: np.ndarray, to_bottom: bool = True) -> np.ndarray:
     m = (cv2.GaussianBlur(m, (0, 0), SMOOTH) > 0.5).astype(np.uint8)
     m = cv2.morphologyEx(m, cv2.MORPH_CLOSE, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (CLOSE, CLOSE)))
+    m = cv2.morphologyEx(m, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (OPEN, OPEN)))
     if to_bottom:
         m[-BOTTOM:] = m[-BOTTOM - 1]
     return np.clip(cv2.GaussianBlur(m.astype(np.float32), (0, 0), FEATHER), 0, 1)

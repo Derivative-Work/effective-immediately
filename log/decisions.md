@@ -338,8 +338,13 @@ Condition (i) rests on Databento's dataset documentation, which says US Equities
         glow goes behind it.
     - The booth is brightened and its shadows lifted to a warm brown.
     - The jacket is desaturated to a neutral black, with deeper shadows and brighter highlights, so its sheen stays.
-    - The mask's edge was checked at 1:1 and at phone sizes. Where the plate has no visible edge (the jacket's lower left,
-      in shadow), the outline is SAM's estimate.
+    - **The seat out of the mask (human: "it's including part of the chair as the jacket at the bottom left"):**
+      - The mask took in the seat below the jacket's left side and hem, which is as black as the leather in shadow. One
+        of the "jacket" points had been placed in that shadow.
+      - With the plate's shadows brightened, the leather's edge is visible there. The point was moved onto the lit hem,
+        and four "not jacket" points went on the shadowed seat. Only the zipper's end now runs out of frame.
+      - The seat under the hem now takes the glow, like the rest of the booth around the jacket.
+    - The mask's edge was checked at 1:1, with the shadows brightened, and at phone sizes.
   - **Why a baked file and not CSS:** the same grade done with CSS blend layers in Remotion came out visibly softer in
     Chrome's render.
   - The previous version is in `archive/thumbnails/`.
