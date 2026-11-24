@@ -1,0 +1,9 @@
+{
+ "_doc": "The vertical Shorts (remotion/src/Shorts.tsx, one composition per entry: Short-<id>), 1080x1920, after Distillation (Allegedly): the 'Effective immediately' lower third as the title above (brief), the whole picture below it, uncropped, 950 px wide, clear of the platforms' right-hand buttons, and the lyrics under it. Everything sits in y 140-1400. from/to: frames of the main edit, on shot boundaries; the music starts on the first frame, with short fades at both ends added when encoding.",
+ "shorts": {
+  "chorus": {"from": 998, "to": 2030, "sub": "Chorus 1", "note": "The brief's Short: E08 (the vote, one hand per beat) through chorus 1, the market drop on the screen, to the end of the chorus. 43.0 s."},
+  "bridge": {"from": 3695, "to": 4514, "sub": "Senior levels", "note": "The night phones: 'would be honored', the missed calls, SENIOR LEVELS on the desk phone and the tags. 34.1 s."},
+  "reinstated": {"from": 4514, "to": 5402, "sub": "The reinstatement", "note": "The final chorus: the jacket back on the hook, the vote with the +31.5% chart, the probe and its purchase order, couples counseling and the Chief Compliance Officer sign. 37.0 s."},
+  "plaque": {"from": 5743, "to": 6171, "sub": "Eleven days", "note": "The outro: the plaque comes down and goes back up, 'eleven days for you, and two for it', ending before the end credits. 17.8 s."}
+ }
+}

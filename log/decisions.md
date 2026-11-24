@@ -300,3 +300,21 @@ Condition (i) rests on Databento's dataset documentation, which says US Equities
   - The video is 7:43.0 (11,112 frames), and everything after the opening is 256 frames earlier.
   - Board cues are unchanged, since they are local to each shot.
   - Subtitles, chapters, the end screen and the captions file are re-timed (`METADATA.md`, `deliverables/effective_immediately.en.srt`).
+- **Framing under the panel (human, same day):** the first version only covered the intro footage, so its subjects sat under the panel (G14's walker at about half the width, G01's walker at the doors). The footage now sits in the 814 px right of the panel, cropped at full scale, not shrunk, around each clip's subject (`OpeningReframe` in `remotion/src/Animatic.tsx`). G14 pans with its walker from 0.50 to 0.31 of the width, G13 holds on the feet at 0.58, and G01 follows the walker from 0.42 to 0.60. The box widens back to the full frame as the panel slides away. This is how Distillation (Allegedly) placed its D02 beside its panel.
+- **Thumbnail A (the human's pick; "the jacket is cropped"):** the booth half had started 12% into the plate, cutting the jacket in half, and the title covered its lower half. The booth half now starts at the plate's left edge, so the whole jacket shows (the plate itself ends at its far-left edge, beside the divider). The title runs across the top and the dates sit in the bottom corners, clear of the jacket and the hook.
+
+## 35. 2026-11-24 — Four vertical Shorts (human note; the brief asked for one)
+
+- **The four** (`config/shorts.json`, `remotion/src/Shorts.tsx`, compositions `Short-<id>`), each a stretch of the main edit cut on shot boundaries:
+  - **chorus:** the brief's Short, E08 through chorus 1, 43.0 s;
+  - **bridge:** the night phones to SENIOR LEVELS, 34.1 s;
+  - **reinstated:** the final chorus to the compliance officer sign, 37.0 s;
+  - **plaque:** the outro, ending before the credits, 17.8 s.
+- **Layout, after Distillation (Allegedly):**
+  - the "Effective immediately" lower third as the title (brief), with "AI-generated satire · not investment advice" over it;
+  - the main edit's whole picture, uncropped at 950 px wide, so nothing in its framing is lost;
+  - the lyrics under it, in each section's subtitle style, scaled to fit (`SubLine`, exported from `Subtitles.tsx`);
+  - all of it centred in the platforms' safe zone (y 140–1400, clear of the right-hand buttons).
+  The music starts on the first frame, with short fades added at encode.
+- **Captions:** `scripts/shorts_srt.py` writes one SRT per Short, timed from its first frame. Fragments under 0.7 s at either edge are left out.
+- **Metadata:** each Short's title and description in `METADATA.md`. Every factual line restates the fact card, and the footer carries the conflict of interest and the Databento credit.

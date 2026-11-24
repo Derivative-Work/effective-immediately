@@ -1,6 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Composition} from 'remotion';
 import {THUMBNAILS} from './Thumbnail';
+import {Short, SHORT_IDS, shortSpec} from './Shorts';
 import {CalendarInsert, Confetti, DayCounters, MarketChart, Scoreboard} from './components/Data';
 import {CallerID, FilingPhone, FourPhones, LockScreen, MessagePhone} from './components/Phones';
 import {DatedCards, DisclosureCard, EndCard, FactCard, FinalCard, RealScreenshot} from './components/Cards';
@@ -88,6 +89,10 @@ export const Root: React.FC = () => (
       component={(_: {stillFrame: number}) => <><Fonts /><MarketChart mode="drop" /></>} />
     <Composition id="TX-screen-recover" width={1920} height={804} fps={FPS} durationInFrames={72} defaultProps={{stillFrame: 60}}
       component={(_: {stillFrame: number}) => <><Fonts /><MarketChart mode="recover" /></>} />
+    {SHORT_IDS.map((id) => (
+      <Composition key={`Short-${id}`} id={`Short-${id}`} width={1080} height={1920} fps={FPS} durationInFrames={shortSpec(id).frames} defaultProps={{stillFrame: 0}}
+        component={(_: {stillFrame: number}) => <><Fonts /><Short id={id} /></>} />
+    ))}
     {Object.entries(THUMBNAILS).map(([k, C]) => (
       <Composition key={`Thumb-${k}`} id={`Thumb-${k}`} width={1280} height={720} fps={FPS} durationInFrames={1} defaultProps={{stillFrame: 0}}
         component={(_: {stillFrame: number}) => <><Fonts /><C /></>} />

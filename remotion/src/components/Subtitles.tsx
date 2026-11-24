@@ -80,6 +80,12 @@ const pick = (style: SubStyle, s: Seg): One => {
   return style;
 };
 
+/** The 'set' style's line for main-edit frame `f`, wherever the caller puts it (the Shorts draw it under the picture). */
+export const SubLine: React.FC<{f: number}> = ({f}) => {
+  const s = (subs as Seg[]).find((x) => f >= x.from && f <= x.to);
+  return s ? <Line s={s} style={pick('set', s)} f={f} /> : null;
+};
+
 export const Subtitles: React.FC<{style: SubStyle}> = ({style}) => {
   const f = useCurrentFrame();
   const s = (subs as Seg[]).find((x) => f >= x.from && f <= x.to);

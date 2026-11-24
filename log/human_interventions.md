@@ -123,3 +123,8 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "My only remaining issue with the animatic is that it takes too long for the music to start. See about shortening this without cutting content (maybe overlaying things? see "Distillation")". Then: "I'm good on fact checks and audits at this point".
 - **Effect:** decisions 34. The human's review of the sources is done; no further audit round.
+
+## 22. 2026-11-24 — The framing under the opening panel; thumbnail A; Shorts
+
+- **What:** "How are the overlays done for the intro? I'm concerned that the framing of the video underneath it may be off with this -- double check". Then: "I prefer thumbnail A, but do the same check for it -- the jacket is cropped". Then: "Once that's done also make some shorts cuts".
+- **Effect:** decisions 34 (framing under the panel, thumbnail A) and 35 (Shorts).

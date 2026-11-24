@@ -253,6 +253,7 @@ const render = (s: CutShot): {grade?: Grade; handheld?: boolean; el: React.React
     case 'Disclosure': return {el: <DisclosureCard />};
     case 'Dated cards': return {el: <DatedCards interval={s.interval} />};
     case 'Final card': return {el: <FinalCard />};
+    case 'E02': return {grade: g, el: <OpeningReframe segs={s.segs!}><Takes segs={s.segs!} /></OpeningReframe>};
     default: return {grade: g, el: <Takes segs={s.segs!} />, over: <WithInserts s={s} />};
   }
 };
@@ -277,6 +278,32 @@ const Opening: React.FC = () => {
       <Sequence from={screenshot} layout="none">
         <Terminal font={19} top={120} />
       </Sequence>
+    </div>
+  );
+};
+
+/**
+ * E02 during the opening: its footage sits in the space right of the panel (human note: the framing under the panel was
+ * off), cropped at full scale, not shrunk, around each clip's subject, as Distillation (Allegedly) placed its D02 beside its
+ * panel. Subject positions, as a share of the picture's width at the clip's first and last frames, were measured from the
+ * takes: G14's walker drifts left (0.50 to 0.31), G13's feet sit near 0.58, G01's walker moves right (0.42 to 0.60). As the
+ * panel slides away, the box widens with it back to the full frame.
+ */
+const OPEN_FOCUS: [number, number][] = [[0.5, 0.31], [0.58, 0.58], [0.42, 0.6]];
+const OpeningReframe: React.FC<{segs: Seg[]; children: React.ReactNode}> = ({segs, children}) => {
+  const f = useCurrentFrame();
+  const {screenshot, terminal, exit} = cut.opening;
+  const end = screenshot + terminal;
+  if (f >= end + exit) return <>{children}</>;
+  const panelX = interpolate(f, [end, end + exit], [0, -PANEL_W - 40], {...clampX, easing: Easing.in(Easing.cubic)});
+  const left = Math.max(0, PANEL_W + 6 + panelX), w = PIC_W - left;
+  const i = Math.max(0, segs.findIndex((sg) => f >= sg.from && f < sg.from + sg.frames));
+  const [a0, a1] = OPEN_FOCUS[Math.min(i, OPEN_FOCUS.length - 1)];
+  const focus = interpolate(f, [segs[i].from, segs[i].from + segs[i].frames - 1], [a0, a1], clampX);
+  const shift = Math.min(0, Math.max(-(PIC_W - w), w / 2 - focus * PIC_W));
+  return (
+    <div style={{position: 'absolute', left, top: 0, width: w, height: PIC_H, overflow: 'hidden'}}>
+      <div style={{position: 'absolute', left: shift, top: 0, width: PIC_W, height: PIC_H}}>{children}</div>
     </div>
   );
 };

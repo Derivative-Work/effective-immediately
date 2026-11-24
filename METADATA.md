@@ -1,6 +1,6 @@
 # Upload metadata
 
-YouTube metadata for the main video, ready to paste at upload. Written by the agent; the human uploads.
+YouTube metadata for the main video and the four vertical Shorts, ready to paste at upload. Written by the agent; the human uploads.
 
 **Before uploading:**
 - **Sources review:** done by the human on Nov 24 ([`docs/sources.md`](docs/sources.md)). Any later change to a card means re-rendering the tail.
@@ -123,7 +123,7 @@ Effective Immediately, Nvidia, Nvidia CEO, Jensen Huang, Nvidia board, CEO reins
 | Language / caption language | English / English |
 | Captions | Upload `deliverables/effective_immediately.en.srt` as English subtitles (69 cues, the lyrics as sung). The burned-in subtitles carry the same words. |
 | License | Standard YouTube License. YouTube's only Creative Commons option is CC BY, which would drop the NC-SA terms; the description states the licence instead. |
-| Thumbnail | Option A (below), 1280×720. |
+| Thumbnail | `deliverables/thumbnails/effective_immediately_thumbnail_A.jpg` (the human's pick), 1280×720. |
 | Chapters | From the description (first at 0:00, each 10 s or longer). |
 | End screen | Over the final card, from 7:35 to the end (8 s). Starting earlier would cover the disclosure or the dated cards. |
 | Comments | Open. |
@@ -136,11 +136,103 @@ Rendered from `remotion/src/Thumbnail.tsx` (`npx remotion still remotion/src/ind
 
 | Option | Picture | Text | Notes |
 | --- | --- | --- | --- |
-| **A (recommended)** | Split: the empty hook (cold) and the jacket back in the diner booth (warm) | NOV 12 · NOV 23 · EFFECTIVE IMMEDIATELY (until further notice) | The whole joke in one frame; reads at phone size. |
+| **A (the human's pick)** | Split: the empty hook (cold) and the jacket back in the diner booth (warm), the whole jacket in frame | EFFECTIVE IMMEDIATELY (until further notice) across the top · NOV 12 · NOV 23 in the bottom corners | The whole joke in one frame; reads at phone size. |
 | B | The empty hook alone | OUT. EFFECTIVE IMMEDIATELY. · BACK IN 11 DAYS | Starkest; the brief's "empty jacket" idea. |
 | C | The empty counselor's chair, the company in silhouette | WE DID NOT INTEND… (TO TAKE HIM BACK) | The brief's other idea; the lyric as the hook. |
 
-### Shorts
+---
 
-The brief asks for a vertical cut of chorus 1 (E08 to E11) with the "Effective immediately" lower third as its title.
-It isn't made yet; it can follow the main upload.
+## Vertical Shorts (9:16, 1080×1920)
+
+Four Shorts, each a stretch of the main edit cut on its shot boundaries (`config/shorts.json`, `remotion/src/Shorts.tsx`).
+Upload them after the main video, so their footer can link to it.
+
+**What they have in common:**
+- The "Effective immediately" lower third as the title above the picture (brief), with "AI-generated satire · not
+  investment advice" over it. The whole picture is below, uncropped at 950 px wide, and the lyrics under it, all inside
+  the platforms' safe zone (y 140–1400, clear of the right-hand buttons). The music starts on the first frame, with
+  short fades at both ends.
+- Each has its own SRT, timed from its first frame. No Short thumbnails; the app picks a frame.
+- Settings as the main video: Music; not made for kids; altered/synthetic content: yes; English captions from the Short's
+  SRT; Standard YouTube License. Related video: the main video.
+
+**Shared tags** (paste for every Short):
+
+```
+Effective Immediately, Nvidia, Nvidia board, CEO reinstated, AI music video, AI generated, AI satire, disco, breakup song, Suno, Claude, shorts
+```
+
+**Shared footer** (end of every description):
+
+```
+Full video, with what happened, who has a stake and every source: [main video link]
+Production log, with every prompt and every human intervention: https://github.com/Derivative-Work/effective-immediately
+Music: Suno · Words: Claude (made by Anthropic, in which Nvidia holds shares) · Video: Claude Code · Market data provided by Databento
+Video and assets CC BY-NC-SA 4.0. Satire; not affiliated with Nvidia or any company named. Not investment advice.
+
+#AIgenerated #satire #Shorts
+```
+
+### 1. "chorus" (the vote, chorus 1)
+
+Frames 998–2030 of the main edit, **43.0 s**. File `deliverables/effective_immediately_short_chorus.mp4`, captions
+`…_short_chorus.en.srt`. The board votes one hand per beat, "Effective immediately", the market value falling on the
+boardroom screen, the hands going up on the money.
+
+**Title:**
+```
+The board said "effective immediately." The market said −14.3%. #Shorts
+```
+
+**Description** (then the footer):
+```
+AI-generated satire. On Nov 12, 2026, Nvidia announced its co-founder had resigned as CEO, effective immediately; its shares fell as much as 14.3% that day and recovered much of it by the close. The first chorus of Effective Immediately, an AI-made disco breakup song sung by the company.
+```
+
+### 2. "bridge" (senior levels)
+
+Frames 3695–4514, **34.1 s**. File `deliverables/effective_immediately_short_bridge.mp4`, captions `…_short_bridge.en.srt`.
+His message lights up late at night ("…would be honored…"), the whole world's calling, and the desk phone rings:
+SENIOR LEVELS.
+
+**Title:**
+```
+"Then a call comes down from somewhere high": SENIOR LEVELS #Shorts
+```
+
+**Description** (then the footer):
+```
+AI-generated satire. Nvidia's board reinstated its founder on Nov 23, 2026, citing input from "senior levels of the United States government," which its release didn't name. The same day, President Trump told CNBC his intervention was "very important." The bridge of Effective Immediately, an AI-made disco breakup song.
+```
+
+### 3. "reinstated" (the final chorus)
+
+Frames 4514–5402, **37.0 s**. File `deliverables/effective_immediately_short_reinstated.mp4`, captions
+`…_short_reinstated.en.srt`. The jacket goes back on the hook, the board votes him back as the market recovers on the
+screen, a customer waits outside the glass with a purchase order, and a Chief Compliance Officer is still being searched
+for.
+
+**Title:**
+```
+Out on Nov 12. Back on Nov 23. Unanimously. #Shorts
+```
+
+**Description** (then the footer):
+```
+AI-generated satire. Eleven days after announcing his resignation "effective immediately," Nvidia's board unanimously reinstated its founder (Nov 23, 2026) and began searching for a Chief Compliance Officer; its investigation continues. The shares rose more than 31% that day. The final chorus of Effective Immediately, an AI-made disco breakup song.
+```
+
+### 4. "plaque" (eleven days)
+
+Frames 5743–6171, **17.8 s**. File `deliverables/effective_immediately_short_plaque.mp4`, captions
+`…_short_plaque.en.srt`. A plaque on a booth in a diner comes down the day he left and goes back up before he did.
+
+**Title:**
+```
+Eleven days for him. Two days for the plaque. #Shorts
+```
+
+**Description** (then the footer):
+```
+AI-generated satire. The diner booth where Nvidia's founders first met took down its plaque on Nov 12, 2026, and put it back within two days; the board took eleven. The diner shown is generic and not affiliated with any restaurant. The outro of Effective Immediately, an AI-made disco breakup song.
+```
