@@ -231,3 +231,35 @@ Append-only. One entry per generation, render or analysis step.
   - **Command:** `.venv/bin/python scripts/thumb_jacket.py`, then the same `npx remotion still … Thumb-A …`.
   - **Checked** at 1:1, with the plate's shadows brightened to see the leather's edge, and at 360 and 168 px wide.
   - **Previous version:** `archive/thumbnails/effective_immediately_thumbnail_A_v6_seat_in_mask.jpg`.
+
+## 22. 2026-11-24 — Release v1.0 (human intervention 29)
+
+- **The Logic project** (`audio/logic/effective-immediately.logicx.zip`, as the human supplied it), checked before
+  publishing:
+  - **Audio:** the saved project and backups 01–06 list only the twelve stems in `Media/Audio Files/`, with no sampler,
+    Quick Sampler, Ultrabeat or playback files. The stems are Suno's generation 2 (`audio/candidates/gen2/stems/`),
+    sample for sample once decoded (Logic rewrote the file headers).
+  - **The earliest backup** (00) also lists two of Logic's sampler instruments (Studio Bass "Classic Bass Pick" and
+    "Phasing Guitar Plucks"); they're gone from the next save.
+  - **Plugins:** only Logic's own, by name in the project data (Gain, Space Designer, Mastering Assistant, Channel EQ,
+    Bass Amp Designer, Distortion, Overdrive), none from third parties. Space Designer loads Logic's factory impulse
+    response "1.3s Conference Room", which isn't in the zip.
+  - Like All Systems Operational's Logic zip, it holds the macOS resource files and the human's home path in the
+    project data.
+- **Manifest:** `scripts/manifest.sh` now covers `deliverables/` (the five final videos, which `.gitignore` already
+  said were listed) and picked up the Logic zip: 3,964 files. Nothing else had changed.
+- **Staged:** `scripts/release.sh` (modelled on All Systems Operational's) hard-links the videos and the Logic zip into
+  `release/` and writes three tars, sorted and without the local user:
+  - `inputs-suno.tar` (1.10 GB, 17 files): generation 1's take and stems zip, generation 2 and its stems, the credits
+    music.
+  - `inputs-master.tar` (1.06 GB, 20 files): both masters, their twelve stems, the post-filtered audio and its logs.
+    The audio is split in two because together it passes GitHub's 2 GiB limit per file.
+  - `takes.tar` (219 MB, 191 files): `assets/gen/`, every FLUX.2 still and LTX-2.3 clip.
+  - Every file in the tars is in the manifest, and the 234 manifest lines they and the videos cover still match.
+  - `SHA256SUMS` digest `704ca27d…`.
+- **Left out:** the archived boardroom renders and animatics (`archive/`; some show charts drawn from Alpaca's or
+  Databento's data) and everything else the script's header lists.
+- **Notes:** `docs/release_notes.md`, in All Systems Operational's and Share the Shares' form; Databento's credit is in
+  them. README links the release; `LICENSE-media.md` covers the Logic project and notes Logic's impulse response.
+- **Command:** `scripts/release.sh --create` → `gh release create v1.0 --target main --latest --title "Effective
+  Immediately v1.0" --notes-file docs/release_notes.md` with the 16 files.

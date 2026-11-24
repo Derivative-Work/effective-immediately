@@ -10,7 +10,8 @@ Anthropic runs Claude partly on Nvidia GPUs, and Nvidia is an Anthropic sharehol
 says so, along with every other model maker's ties to Nvidia. To offset it, models from other labs audited the plan,
 and every audit finding Claude rejected went to the human.
 
-**Watch it on YouTube:** https://youtu.be/i5uLYgoSIkk
+**Watch it on YouTube:** https://youtu.be/i5uLYgoSIkk · [the release](https://github.com/Derivative-Work/effective-immediately/releases/tag/v1.0)
+(the files: the video, the four Shorts, subtitles, the thumbnail, the Logic project and the production archive)
 
 This repository is the production record the video's credits point to. Claude Code produced the video. A human approved
 each milestone, made the Suno generations and the edited master, picked the takes, ran the audits in the other labs'
@@ -78,13 +79,25 @@ cards). The fact card and disclosure are in [`config/cards.json`](config/cards.j
 ## Reproducing it
 
 Large files (audio, clips, stills, renders, the videos) are not in git; [`MANIFEST.sha256`](MANIFEST.sha256) lists them
-with checksums. The steps, in order, with their exact commands, are in the production log.
+with checksums. The production archive is the
+[v1.0 release](https://github.com/Derivative-Work/effective-immediately/releases/tag/v1.0), built by
+[`scripts/release.sh`](scripts/release.sh). It holds:
+
+- the upload files (the main video and the four Shorts), with their subtitles and the thumbnail;
+- `effective-immediately.logicx.zip`: the human's Logic Pro project for the master. Its audio is Suno's twelve stems and
+  nothing else, through Logic's own plugins (no loops, samples or software instruments);
+- `inputs-suno.tar` and `inputs-master.tar`: the audio that git doesn't hold and that can't be regenerated (Suno's takes,
+  stems and credits music; the masters, their stems and the post-filtered audio), in two parts under GitHub's 2 GiB limit;
+- `takes.tar`: every generated still and clip, used or not;
+- `SHA256SUMS`.
+
+The steps, in order, with their exact commands, are in the production log.
 
 - Every random process reads its seed from [`config/seeds.json`](config/seeds.json) (main seed 1123). Stills and clips
   with the same seed, weights and ComfyUI version should match on the same GPU (production used an NVIDIA GeForce RTX
   5090, 32 GB); expect small differences elsewhere.
-- The songs can't be regenerated: Suno doesn't give the same song twice, and the master was edited by hand. The
-  post-filter model is private for now.
+- The songs can't be regenerated: Suno doesn't give the same song twice, and the master was edited by hand (the Logic
+  project is in the release). The post-filter model is private for now, so the release keeps the post-filtered audio.
 - The chart prices come from Databento under its terms and aren't redistributed here; `scripts/fetch_databento.py`
   fetches them with your own key.
 - The full-page release screenshots aren't in the repository (they show the human's browser); the crops the video uses

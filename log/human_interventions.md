@@ -160,3 +160,12 @@ Append-only. Every human action: when, what, and why.
 - **What:** "Check the segmentation again: it's including part of the chair as the jacket at the bottom left".
 - **Effect:** decisions 34 (thumbnail A, the jacket against the seat). The mask's points were corrected and thumbnail A
   re-rendered; the video is unchanged.
+
+## 29. 2026-11-24 — The release, with the Logic project
+
+- **What:** "Also create the release in line with the other songs. The Logic project is in
+  ~/Downloads/effective-immediately.logicx.zip -- only in-the-box plugins used, all audio directly from the stems, no
+  samples added".
+- **Supplied:** `effective-immediately.logicx.zip` (315 MB, sha256 `7b3dda0f…`), copied as it is to `audio/logic/`
+  (Downloads untouched).
+- **Effect:** the v1.0 GitHub release, built by `scripts/release.sh` (production log 22).

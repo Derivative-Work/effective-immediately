@@ -11,8 +11,9 @@ The code is under the MIT licence instead: see [LICENSE](LICENSE).
 ## What this covers
 
 - The video, with its captions and thumbnail.
-- The music: the Suno v6 take and its stems, the human's edited master, the post-filtered master, and the credits
-  instrumental (a Suno v6 instrumental cover) before and after its post-filter.
+- The music: the Suno v6 takes (the first generation and the one used) and their stems, the human's Logic Pro project,
+  the edited masters and their stems, the post-filtered masters, and the credits instrumental (a Suno v6 instrumental
+  cover) before and after its post-filter.
 - The stills and clips, and the picks as the edit uses them; the Blender boardroom renders.
 - The on-screen text: the fact card, the disclosure, the end card and closing cards, the signs, tags, phone screens and
   every other card or label in `config/`, and the frames the code renders from them.
@@ -40,6 +41,9 @@ The code is under the MIT licence instead: see [LICENSE](LICENSE).
   `assets/captures/nvidia_smi/`) is a record of NVIDIA's tool running on the production machine.
 - **Market data.** The boardroom screen's candles are drawn from Databento's US Equities Mini data ("Market data provided
   by Databento"), under Databento's terms; the data itself isn't in this repository and isn't licensed here.
+- **Logic Pro's own content.** The Logic project in the release uses only Logic's own plugins. Its reverb, Space
+  Designer, loads one of Logic's factory impulse responses ("1.3s Conference Room"), which comes with Logic Pro and
+  isn't included.
 - **The auditors' outputs** in `log/audits/` (ChatGPT, Gemini) are kept verbatim as a record of the audit. They are
   offered here only as far as each provider's terms allow.
 - **The Suno page records** in `docs/suno/` are Suno's metadata for the takes, kept as a record.

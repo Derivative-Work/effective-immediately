@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# Regenerate MANIFEST.sha256 for every large file (git-ignored): audio, generated assets, renders, the edit and rejected large files under archive/.
+# Regenerate MANIFEST.sha256 for every large file (git-ignored): audio, generated assets, renders, the edit, the final
+# videos in deliverables/ and rejected large files under archive/.
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
-dirs=(audio timing assets/gen renders edit archive review)
+dirs=(audio timing assets/gen renders edit deliverables archive review)
 existing=()
 for d in "${dirs[@]}"; do [ -d "$d" ] && existing+=("$d"); done
 # Frame sequences are never archived: they regenerate from the logged commands (plates, overlays, frames, guides and previews).
