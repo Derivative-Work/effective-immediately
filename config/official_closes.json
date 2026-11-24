@@ -1,0 +1,48 @@
+{
+  "_doc": "NVDA's official closing prices (Nasdaq closing cross) for the numbers printed on the boardroom charts. Databento's US Equities Mini, which draws the candles, doesn't carry the closing auction, so its last trade can differ by up to $0.40. These are reported facts, with the outlets that print them (news check, decisions 27-28).",
+  "closes": {
+    "2026-11-11": {
+      "price": 173.73,
+      "sources": [],
+      "note": "the news check found outlets giving this close (+2.92%) but didn't name them: name one at the M6 fact check"
+    },
+    "2026-11-12": {
+      "price": 166.19,
+      "sources": [
+        "CBS News",
+        "CNBC"
+      ]
+    },
+    "2026-11-19": {
+      "price": 145.98,
+      "sources": [
+        "Trefis",
+        "NewsBytes"
+      ],
+      "note": "implied by their 125.53 close and -14.0% move"
+    },
+    "2026-11-20": {
+      "price": 125.53,
+      "sources": [
+        "Trefis",
+        "NewsBytes"
+      ],
+      "note": "CNBC: 'tumbled 14%' (no price)"
+    },
+    "2026-11-23": {
+      "price": 165.05,
+      "sources": [
+        "AP"
+      ]
+    }
+  },
+  "intraday_low": {
+    "2026-11-12": {
+      "price": 148.8,
+      "sources": [
+        "Databento US Equities Mini",
+        "Wealth Professional (14.3%)"
+      ]
+    }
+  }
+}

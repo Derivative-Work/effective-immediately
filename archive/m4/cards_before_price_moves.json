@@ -1,0 +1,109 @@
+{
+  "_doc": "Verbatim from the brief (rev 105), links removed for the screen; sources kept by line. Square brackets are the brief's unfilled placeholders: the render marks them and they must be resolved before release.",
+  "facts": [
+    "On Nov 12, Nvidia announced that its co-founder had resigned as president, CEO and director, effective immediately, after 33 years; its CFO became interim CEO (NVIDIA). Its SEC filing says the board accepted the resignation on Nov 11 (8-K).",
+    "He resigned after reports that he had been the target of a foreign intelligence effort, amid company, FBI and congressional inquiries into national security and export-control concerns (Al Jazeera, NVIDIA). These are investigations, not findings.",
+    "Nvidia's shares fell as much as 14.3% during trading on Nov 12, about $600bn of market value at the low, and recovered much of that by the close (Wealth Professional, IBTimes).",
+    "On Nov 17, the board created a National Security and Export Control Oversight Committee (NVIDIA via Finviz). The same day, Nvidia reported third-quarter fiscal 2027 revenue of $115.8bn, up 103% (NVIDIA). The quarter ended Oct 25, before he resigned (XenoSpectrum).",
+    "Also on Nov 17, the board said it did not intend to reinstate him (The Next Platform), and he said he would be \"honored\" to return if asked (NBC News).",
+    "On Nov 23, the board unanimously reinstated him, citing his candor and input from senior levels of the U.S. government, which it didn't name, and said his return poses no national security risk. It began searching for a Chief Compliance Officer and said its independent investigation will continue, alongside government inquiries (NVIDIA).",
+    "The same day, President Trump told CNBC he had spoken with the board \"directly and indirectly\" and that his intervention was \"very important\" (NBC News).",
+    "He is scheduled for closed-door, transcribed interviews with three House committees on Dec 1, and Nvidia's general counsel on Dec 2 (Axios). [Update with the outcome.]",
+    "Nvidia's founders first met at a diner booth in East San Jose. The restaurant took down its commemorative plaque on Nov 12 and said within two days it would put it back (IBTimes, SFist). The diner shown is generic and not affiliated with any restaurant.",
+    "\"The Company\" is fictional."
+  ],
+  "fact_sources": [
+    [
+      {
+        "name": "NVIDIA",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+      },
+      {
+        "name": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
+      }
+    ],
+    [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/amp/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+      },
+      {
+        "name": "NVIDIA",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+      }
+    ],
+    [
+      {
+        "name": "Wealth Professional",
+        "url": "https://www.wealthprofessional.ca/investments/equity-markets/wall-street-absorbs-the-hit-as-nvidia-touches-a-52-week-low/394013"
+      },
+      {
+        "name": "IBTimes",
+        "url": "https://www.ibtimes.com.au/nvidia-searches-jensen-huang-successor-1878510"
+      }
+    ],
+    [
+      {
+        "name": "NVIDIA via Finviz",
+        "url": "https://finviz.com/news/423751/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee"
+      },
+      {
+        "name": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+      },
+      {
+        "name": "XenoSpectrum",
+        "url": "https://xenospectrum.com/en/nvidia-fy2027-q3-data-center-growth/"
+      }
+    ],
+    [
+      {
+        "name": "The Next Platform",
+        "url": "https://www.nextplatform.com/a/5310669"
+      },
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/business/corporations/jensen-huang-agrees-house-interview-nvidias-chip-smuggling-rcna609803"
+      }
+    ],
+    [
+      {
+        "name": "NVIDIA",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+      }
+    ],
+    [
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/politics/trump-administration/trump-nvidia-board-reinstates-jensen-huang-rcna610882"
+      }
+    ],
+    [
+      {
+        "name": "Axios",
+        "url": "https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates"
+      }
+    ],
+    [
+      {
+        "name": "IBTimes",
+        "url": "https://www.ibtimes.co.uk/dennys-reinstates-jensen-huang-nvidia-plaque-1832448"
+      },
+      {
+        "name": "SFist",
+        "url": "https://sfist.com/2026/11/14/san-jose-dennys-reverses-course-reinstalls-plaque-honoring-former-nvidia-ceo/"
+      }
+    ],
+    []
+  ],
+  "disclosure": "Lyrics by Claude, made by Anthropic. Nvidia's Nov 17 results disclosed expanded Anthropic access to Grace Blackwell and Vera Rubin capacity through cloud providers, and continued engineering work on Anthropic's workloads. Video clips by LTX-2.3 (Lightricks) and stills by [image model, maker], generated on the creator's Nvidia RTX 5090. [Each model maker's stake in Nvidia, or \"none found.\"] [Creator's Nvidia holdings, or \"none.\"] Audited by ChatGPT (OpenAI, which announced a strategic partnership with Nvidia in 2025 under which Nvidia intends to invest up to $100bn) and Gemini (Google, an Nvidia customer and partner that also builds competing AI chips, and an investor in Anthropic), on Nov 23, 2026.",
+  "probe_note": "The green probe waiting outside the boardroom glass with a purchase order (E22) stands for the customers the company depends on, Claude's maker among them. It's a customer, not a voter. The audit checks whether the song goes easy on Nvidia for that reason.",
+  "end_card": "Effective Immediately. Lyrics: Claude. Music: Suno. Video clips: LTX-2.3. Stills: [image model]. Boardroom: Blender. Graphics and edit code: Claude Code. Direction, take selection, editing and every human intervention: [creator], listed in the production log. Audit log: [repo link].",
+  "closing": [
+    "Reinstated: Nov 23",
+    "Investigation: ongoing",
+    "House interviews: Dec 1–2"
+  ],
+  "final": "Effective immediately (until further notice)"
+}

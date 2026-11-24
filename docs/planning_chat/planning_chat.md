@@ -1,0 +1,1275 @@
+# Planning chat: In-progress song: Effective Immediately (Jensen Huang resignation and reinstatement)
+
+Source: https://claude.ai/share/52d9cd3a-7d54-4694-ad9f-eebf1c52960f (snapshot taken 2026-11-23T18:33:01.195404Z). Raw snapshot: `planning_chat.json`.
+Tool calls are shown as one-line placeholders; tool results are omitted (they are in the raw JSON).
+
+---
+
+## 1. User (2026-11-12T16:15:30.353775Z)
+
+Consider the recent news regarding (now-former) NVIDIA CEO Jensen Huang. How might this fit in as a song in this series
+
+---
+
+## 2. Claude (2026-11-12T16:15:59.992725Z)
+
+> *[Projects]*
+
+> *[Searched the web]*
+
+> *[Searched past chats]*
+
+> *[Searched the web]*
+
+> *[Read a past chat]*
+
+The fit isn't the scandal itself. It's what the scandal exposed: one company, run by one person, holding up the whole AI boom. Nvidia lost more than $600bn in market value as he left. Every other song in the series runs on that company's chips, so this would be the one about the foundation the whole series rests on.
+
+**Where it fits**
+
+Press Create was set for today as the finale, and it ends with a person taking over. A Nvidia song in the main run would undo that ending. It works better as one of these:
+
+- **The opener of Second Derivative** (season 2), since it's about how fast the whole industry can change.
+- **A short unlisted coda** if you want to react now.
+
+I'd wait either way. He's willing to testify before Congress as soon as next week, and Nvidia reports earnings on November 17. You also pushed earlier for ideas that are subtler and less tied to the news.
+
+**Angles that match the series' stance**
+
+- **Single point of failure.** One resignation sank the market and the AI trade with it. This is the industry critique, in the same family as Nine Hundred Acres and Sandbox Rhapsody.
+- **Where the chips go.** The Times first reported a close relationship with a Chinese woman at a Singapore-based company that was buying Nvidia chips. Stick to the systemic part (export controls, chips leaking through intermediaries), not the relationship.
+- **The founder myth.** I'd build on this one. The Denny's booth where Nvidia started got a plaque reading "The booth that launched a trillion-dollar company." Sing it from the booth's point of view, as a 1950s diner-jukebox doo-wop number. The booth saw the founding, the leather jacket and the climb, and now it's still a booth with a plaque on it. That way you can take the myth apart without the song being about anyone's private life.
+
+**What to avoid**
+
+- **The affairs.** The espionage link is still only alleged, and the two women involved are private people. A song about them would read as tabloid, which goes against the series' even-handed stance, and it carries real defamation risk.
+- **Mocking him personally.** The other songs aim at what the industry does, not at individuals.
+
+Want me to sketch the booth concept with a genre, structure and shot ideas?
+
+Sources:
+- [NVIDIA Announces CEO Transition (NVIDIA newsroom)](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)
+- [Al Jazeera](https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo)
+- [NPR](https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-stepped-down)
+- [CNBC live updates](https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html)
+- [Quartr: The Story of Jensen Huang and NVIDIA](https://quartr.com/insights/company-research/recap-15)
+
+---
+
+## 3. User (2026-11-23T14:32:54.134166Z)
+
+Pull the news on this, might be worth picking back up
+
+---
+
+## 4. Claude (2026-11-23T14:33:25.335316Z)
+
+> *[Searched the web]*
+
+> *[Searched the web]*
+
+> *[Searched the web]*
+
+> *[Searched the web]*
+
+The story has moved from the scandal to a fight over whether he comes back, and that's a better hook for a song than the original news.
+
+**What's happened since Nov 12**
+
+- **He wants back in.** On Nov 17 Huang said he would be "honored" to return as CEO if the board asked, citing calls from employees, investors and partners.
+- **The board says no.** On the earnings call the same day, it said it unanimously accepted his resignation and does not intend to reinstate Jensen as CEO. But today Treasury Secretary Scott Bessent opened the door to his return, which keeps the question alive.
+- **The company didn't miss a beat.** Revenue was $115.8 billion, up 103% from a year ago, with a Q4 guide of $130 billion. However, the quarter ended on October 25, before he resigned.
+- **The chip question is now central.** Alice Huang works for Megaspeed, a company accused of diverting chips to China. Speaker Johnson says Congress is moving toward consensus on limiting chip exports to China.
+- **Testimony comes next.** He and Nvidia's general counsel will sit for transcribed, closed-door interviews with the House Foreign Affairs, Intelligence and China select committees in early December. CNN puts it on Dec 1.
+- **The succession search is open-ended.** The board says it hasn't formally engaged any candidates. One report says Huang is quietly helping choose his successor, though that comes from a weaker source.
+
+**What it means for the song**
+
+The booth concept gets a second act: the founder wants his seat back, and the booth's answer can stay ambiguous. The earnings also give you an irony: the market priced the man, but the money kept coming in. That's a sharper version of the single-point-of-failure angle than the stock drop alone.
+
+I'd still wait until after Dec 1. The testimony and any CEO announcement could change the ending, and the board's no could still flip. Keep personal details out, as before.
+
+Want me to save this as a notes doc in the project alongside the other song notes?
+
+Sources:
+- [NBC News: Huang would be 'honored' to return](https://www.nbcnews.com/business/corporations/jensen-huang-agrees-house-interview-nvidias-chip-smuggling-rcna609803)
+- [The Next Platform: Q3 results and board statement](https://www.nextplatform.com/a/5310669)
+- [SCMP: Bessent leaves door open](https://www.scmp.com/tech/tech-war/article/3375427/us-treasury-secretary-leaves-door-open-jensen-huangs-return-nvidia)
+- [StreetInsider: Nvidia Q3 FY2027 release](https://www.streetinsider.com/dr/news.php?gfv=1&id=27363954)
+- [XenoSpectrum: Q3 data center breakdown](https://xenospectrum.com/en/nvidia-fy2027-q3-data-center-growth/)
+- [Inc.: Megaspeed and testimony](https://inc.com/melissa-angell/jensen-huang-testify-congress-nvidia-probe-china/91435429)
+- [AJOT: Johnson on chip export limits](https://www.ajot.com/news/speaker-johnson-says-congress-developing-consensus-on-limiting-chip-exports-to-china)
+- [Axios: Huang agrees to face Congress](https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates)
+- [CNN: summons for Dec 1 interview](https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout)
+- [Benzinga: CEO search status](https://www.benzinga.com/node/63273340)
+- [TweakTown: Huang reportedly helping search](https://www.tweaktown.com/news/114692/nvidias-jensen-huang-is-involved-in-finding-new-ceo-amds-lisa-su-tipped-for-the-shortlist/index.html)
+
+---
+
+## 5. User (2026-11-23T14:34:08.494503Z)
+
+No, it appears he's back https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director
+
+---
+
+## 6. Claude (2026-11-23T14:34:27.829432Z)
+
+> *[Read a page]*
+
+You're right, I missed that. The release went out today, after the coverage I found. The board unanimously voted to reinstate him as President, CEO and board member, effective immediately. That's six days after it said on the earnings call that it had no intention of bringing him back.
+
+**What the release says**
+
+- **Why the board changed its mind:** it was satisfied with his candor and ability to lead, and input from senior U.S. government officials led it to conclude his return poses no national security risk.
+- **What it sets up:** The independent investigation continues, and Huang will cooperate with it. A new National Security and Export Control Committee of independent directors will oversee trade compliance. Nvidia is also hiring a new Chief Compliance Officer.
+- **Who else stays:** Kress goes back to being CFO only, and Jones remains chair.
+- **What it leaves out:** Congress isn't mentioned, only "senior levels of the United States government." The early-December interviews were scheduled before this, and the release doesn't say whether they still go ahead.
+
+**What it means for the song**
+
+The reversal gives the story a full shape: out on Nov 12, back on Nov 23. In between, the board said never, the founder said he'd be honored, and Washington signed off. That fits the series better than the fall alone did. The point stops being one man's mistakes and becomes that the AI boom couldn't afford to lose him, so the rules bent to bring him back.
+
+The booth concept now has a natural ending: the booth with the plaque was never really empty. You could also lean on the government clearance. A national security question was settled by "senior officials" rather than by an investigation, which ties back to the money-and-politics thread in Folks Like Us.
+
+The testimony is still the open question, so I'd still wait to see whether it happens before finalizing the ending. Want me to save a notes doc with the full timeline to the project?
+
+Sources:
+- [NVIDIA: Board reinstates Jensen Huang](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director)
+
+---
+
+## 7. User (2026-11-23T14:38:01.037834Z)
+
+For genre I'm thinking a Taylor Swift/Miley Cyrus-inspired breakup and aftermath song - how might this fit
+
+---
+
+## 8. Claude (2026-11-23T14:38:22.963881Z)
+
+It fits well, and the reversal is what makes it work. A breakup song that ends with the couple back together a week and a half later is a joke the genre already knows how to tell.
+
+**Who's breaking up**
+
+Make it the board and the company breaking up with the founder, not a romance. The narrator is Nvidia itself, sung like a pop star after a public split. That keeps the affairs out of the song. Breakup songs default to "the other woman," and here that would mean a real private person and an unproven spy allegation, so leave that trope out entirely.
+
+**How the two influences map on**
+
+- **The Swift side: the loud "never."** The board said it does not intend to reinstate Jensen as CEO, which is the most breakup-song sentence a board has ever written. Put it in the chorus as a stomping, clap-along, never-getting-back-together hook, phrased in board language ("unanimously accepted your resignation").
+- **The Miley side: the glow-up.** The second verse is the post-breakup independence anthem. Record quarter, revenue up 103%, "we've got this." The company is doing fine on its own, buying its own flowers.
+- **The twist: the reversal.** The bridge is his late-night call ("I'd be honored"), and friends in Washington telling her he's changed. The final chorus repeats the "never" hook, but sung sheepishly or cut off mid-word.
+
+**A possible structure**
+
+1. **Verse 1 (Nov 12):** reading the news, the 8 a.m. press release as the breakup text.
+2. **Chorus:** the "never" hook in board language.
+3. **Verse 2 (Nov 17):** the earnings glow-up.
+4. **Bridge:** his statement, then the government sign-off. Leave the board's reasons vague, the way the release does.
+5. **Final chorus (Nov 23):** back together, with the new compliance committee as the couples-counseling punchline.
+6. **Outro:** the Denny's booth, quiet and acoustic. The plaque never came down.
+
+**Things to watch**
+
+- **Don't imitate a real voice.** Prompt with style tags rather than the artists' names (stomping 2010s pop, handclaps, big gang-vocal chorus, a disco-funk glow-up verse), and write original melodies rather than parodies of specific songs. A series that criticizes models trained on artists' work shouldn't prompt for a sound-alike of two specific stars. If the generator gets close anyway, that's a seam worth showing on screen.
+- **The ending could still change.** If the Dec 1 interviews turn something up, you'd want a post-chorus tag or a short sequel.
+
+Want me to draft lyrics on this structure?
+
+---
+
+## 9. User (2026-11-23T14:38:33.911047Z)
+
+Yes go ahead
+
+---
+
+## 10. Claude (2026-11-23T14:39:36.549384Z)
+
+> *[Projects]*
+
+> *[Projects]*
+
+I've titled the first draft **Effective Immediately** and saved it to the project as `effective-immediately-notes.md`, with the timeline and the disclosure.
+
+**[Verse 1 — stomp, handclaps]**
+Thursday morning, filed it with the SEC
+Thirty-three years in a form 8-K
+Took the jacket off the hook behind the door
+Told the cameras it's the end of an era today
+
+**[Pre-chorus]**
+You can call the Street, you can call D.C.
+Call every friend you made at every keynote
+I already wrote the statement, baby
+And it's unanimous, I counted every vote
+
+**[Chorus]**
+Effective immediately
+You're out of the building, out of the booth, out of me
+We do not intend, we do not intend
+We do not intend to reinstate you
+Effective immediately
+Six hundred billion is the price of being free
+We do not intend, we do not intend
+We do not intend to take you back
+
+**[Verse 2 — disco-funk glow-up]**
+Tuesday after the bell, I put my numbers on
+One-fifteen point eight, up a hundred and three
+I can ship my own racks, I can raise my own guidance
+I can stand on my own stage, I don't need you to speak
+*(Don't ask me when the quarter closed)*
+*(Don't ask me when the quarter closed)*
+
+**[Post-chorus]**
+We've got this, we've got this
+Nobody here is waiting on a leather jacket
+We've got this, we've got this
+
+**[Bridge — half time, intimate]**
+Then your statement lights my phone that night
+Says you'd be honored, says you'll make it right
+Says you didn't live up to the standards here
+Says the whole world's calling and the choice is clear
+Then a call comes down from senior levels
+Says there's no risk here
+So I guess there's no risk here
+Nobody tells me who they asked
+Just "senior levels," and that's that
+
+**[Final chorus — sheepish, then full]**
+Effective immediately
+You're back in the building, back in the booth, back with me
+We did not intend, we did not intend
+We did not intend to reinstate you
+Effective immediately
+We're seeing someone now, it's different, you'll see
+*(A Chief Compliance Officer, reporting to Nominating and Corporate Governance)*
+We did not intend, we did not in—
+
+**[Outro — acoustic, one voice]**
+There's a plaque on a booth in a diner in East San Jose
+Says this is where it all got started
+Eleven days nobody sat there
+Nobody ever took it down
+
+**Choices to check**
+
+- **Who's named:** the founder is only ever "you" or "the jacket," and the interim CEO isn't named at all. The affairs and the women involved are left out entirely.
+- **The quarter-closed aside:** the record quarter ended before he left. The parenthetical says so, so the glow-up stays honest.
+- **The compliance line:** it's spoken fast, like the legal fine print at the end of an ad, and it's the couples-counseling punchline.
+- **Disclosure:** Anthropic is an Nvidia customer. The Q3 release lists expanded Anthropic access to Grace Blackwell and Vera Rubin capacity. I've put that on the disclosure card in the notes.
+
+Before finalizing, check whether the Dec 1 interviews go ahead. If they turn something up, the outro is the place to change.
+
+Sources:
+- [NVIDIA Q3 FY2027 results](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx)
+
+---
+
+## 11. User (2026-11-23T14:40:21.389471Z)
+
+Make me a version I can paste directly into the generator, including style prompt
+
+---
+
+## 12. Claude (2026-11-23T14:40:36.773425Z)
+
+Here are both fields, ready to paste. Section tags are in square brackets. Parentheses usually come out as backing vocals, which suits the asides.
+
+**Style prompt**
+
+```
+upbeat breakup pop, 2010s stomp-clap pop, handclaps, gang vocals on chorus, bright female lead vocal, sassy and playful, disco-funk verse with slap bass and four-on-the-floor, half-time intimate bridge, sheepish final chorus, acoustic guitar outro, 116 BPM, major key, radio pop production
+```
+
+**Lyrics**
+
+```
+[Verse 1]
+Thursday morning, filed it with the SEC
+Thirty-three years in a form eight-K
+Took the jacket off the hook behind the door
+Told the cameras it's the end of an era today
+
+[Pre-Chorus]
+You can call the Street, you can call D.C.
+Call every friend you made at every keynote
+I already wrote the statement, baby
+And it's unanimous, I counted every vote
+
+[Chorus]
+Effective immediately
+You're out of the building, out of the booth, out of me
+We do not intend, we do not intend
+We do not intend to reinstate you
+Effective immediately
+Six hundred billion is the price of being free
+We do not intend, we do not intend
+We do not intend to take you back
+
+[Verse 2 - disco funk]
+Tuesday after the bell, I put my numbers on
+One-fifteen point eight, up a hundred and three
+I can ship my own racks, I can raise my own guidance
+I can stand on my own stage, I don't need you to speak
+(Don't ask me when the quarter closed)
+(Don't ask me when the quarter closed)
+
+[Post-Chorus]
+We've got this, we've got this
+Nobody here is waiting on a leather jacket
+We've got this, we've got this
+
+[Chorus]
+Effective immediately
+You're out of the building, out of the booth, out of me
+We do not intend, we do not intend
+We do not intend to reinstate you
+Effective immediately
+Six hundred billion is the price of being free
+We do not intend, we do not intend
+We do not intend to take you back
+
+[Bridge - half time, soft]
+Then your statement lights my phone that night
+Says you'd be honored, says you'll make it right
+Says you didn't live up to the standards here
+Says the whole world's calling and the choice is clear
+Then a call comes down from senior levels
+Says there's no risk here
+So I guess there's no risk here
+Nobody tells me who they asked
+Just senior levels, and that's that
+
+[Final Chorus - sheepish]
+Effective immediately
+You're back in the building, back in the booth, back with me
+We did not intend, we did not intend
+We did not intend to reinstate you
+Effective immediately
+We're seeing someone now, it's different, you'll see
+[Spoken, fast]
+A Chief Compliance Officer, reporting to Nominating and Corporate Governance
+[Sung]
+We did not intend, we did not in-
+
+[Outro - acoustic, solo voice]
+There's a plaque on a booth in a diner in East San Jose
+Says this is where it all got started
+Eleven days nobody sat there
+Nobody ever took it down
+
+[End]
+```
+
+I made three changes for the generator:
+
+- **Repeated chorus:** I wrote out a second regular chorus after the post-chorus, since generators sing only what's on the page.
+- **Spelled-out numbers:** I wrote "eight-K" so the vocal says it correctly.
+- **The cut-off:** I ended the last chorus line on "in-". If the generator sings it as a full word, cut the audio in the edit instead.
+
+Set the duration to about 3:30 to 4:00 so the outro isn't clipped.
+
+---
+
+## 13. User (2026-11-23T14:56:25.902167Z)
+
+Generated well, as expected. Make the production plan doc like the others in this project
+
+---
+
+## 14. Claude (2026-11-23T15:00:17.421063Z)
+
+> *[Claude Docs: Batch]*
+
+Outline is up for [Effective Immediately: Shot List and Production Brief](https://claude.ai/artifact/LG1VQfvJN9mHpKi5mFXuhv). Next I'm checking the format of the existing briefs.
+
+> *[Claude Docs: Guide]*
+
+> *[claude-artifacts: List artifacts]*
+
+Next I'm reading the most recent brief, All Systems Operational, to match its format.
+
+> *[Loaded tools]*
+
+> *[Claude Docs: Read]*
+
+> *[Claude Docs: Read]*
+
+Next is the Overview, matched to the All Systems Operational format.
+
+> *[Claude Docs: Update]*
+
+Next is the look and cast section.
+
+> *[Claude Docs: Update]*
+
+Next are the style prompt and lyrics.
+
+> *[Claude Docs: Update]*
+
+Next is the shot list.
+
+> *[Claude Docs: Update]*
+
+Next are the branches and the rendering plan.
+
+> *[Claude Docs: Update]*
+
+Next are the bookends, fact card, disclosure and audit plan.
+
+> *[Claude Docs: Update]*
+
+Last are the guardrails, the checklist, open items and sources.
+
+> *[Claude Docs: Update]*
+
+> *[Projects]*
+
+I've written up [Effective Immediately: Shot List and Production Brief](https://claude.ai/artifact/LG1VQfvJN9mHpKi5mFXuhv) in the same layout as All Systems Operational, including the shot list, fact card and audit prompt. Three things in it need your answer: whether you hold any Nvidia stock (for the disclosure), the narrator's accent color (magenta for now) and the release timing. Edit inline or comment and I'll revise.
+
+---
+
+## 15. User (2026-11-23T15:03:17.623155Z)
+
+I'd like to get this out as quickly as possible. See if there's any parts that could benefit from video generation instead
+
+---
+
+## 16. Claude (2026-11-23T15:03:50.062064Z)
+
+Yes. Swapping most of the Blender sets for generated clips would cut the build from five sets to one. Keep Remotion for every word on screen, since generators garble text. Keep the boardroom in Blender, because the unison votes have to land exactly on the claps.
+
+**Switch to video generation**
+
+- **Data-center disco (E12, E14, E17):** the best candidate. Racks pulsing with LEDs, a mirror ball and a crowd in silhouette are exactly what generators do well. Add the scoreboard (E13) and the green probe afterwards as composites.
+- **Curb and drizzle (E10, E16):** a box at the curb with one sleeve hanging out, and a passerby. Short and moody, which plays to generation's strengths.
+- **Press scrum (E06):** camera flashes on backlit silhouettes. Keep it short, since crowds are where generators slip in faces.
+- **Night office (E18 to E21):** city lights through the glass and a silhouette at the desk. Composite the phones and caller ID on top in Remotion.
+- **Diner (E24):** a slow push-in on an empty booth at night. Add the plaque text and the day counter as overlays.
+
+**Fake with stills instead of video**
+
+- **Lobby (E02, E04, E05, E22):** the jacket gag depends on the same wall in every shot, and generators don't hold continuity. Generate one still of the wall, plus one with the faded outline. Make the jacket a separate cutout layer you lift off and hang back in Remotion. That's faster than video and stays consistent.
+- **Counseling office (E23):** one still, with the jacket cutout on the armchair and the signs added in Remotion.
+
+**Keep in Blender**
+
+- **Boardroom (E08, E09, and the directors in E17):** identical silhouettes raising hands in sync on every clap is the recurring gag. A generator won't hit the beat. It's one set, and the Ever Present kit already covers it.
+
+**New risks to guard against**
+
+- **The jacket must never be worn.** A generated person in a black leather jacket can drift toward his likeness. Prompt for the jacket only, and reject any take where it's on a person.
+- **Reject any take with:** faces, logos, Nvidia-like green on the racks, or a diner with yellow signage that reads as Denny's. Add these as negative prompts too.
+- **Disclose the video model as well.** Its maker probably has a stake. Veo is Google's, which builds TPUs that compete with Nvidia's chips. An open model like Wan comes from a Chinese lab, which matters when chip exports to China are part of the story. Name the model and its stake on the disclosure card and in the end card's credits.
+- **Mind the 5090.** Running a local model there competes with the post-filter's training runs. A hosted model is faster if speed is the priority.
+
+That gets you down to one Blender set, about 10 generated clips, 2 stills and the existing Remotion work. Want me to update the brief with this and add prompts for each clip?
+
+---
+
+## 17. User (2026-11-23T15:04:00.455602Z)
+
+Yes go ahead
+
+---
+
+## 18. Claude (2026-11-23T15:05:07.888891Z)
+
+> *[Claude Docs: Read]*
+
+No one has edited the brief since I wrote it, so I'm updating the shot list first.
+
+> *[Claude Docs: Update]*
+
+Next is the rendering plan.
+
+> *[Claude Docs: Update]*
+
+---
+
+## 19. User (2026-11-23T15:05:07.927576Z)
+
+Oh also include the video generation plan from the previous songs (in particular Buy It On Margin)
+
+---
+
+## 20. Claude (2026-11-23T15:07:38.964854Z)
+
+Next I'm reading the Buy It on Margin brief to pull in its video generation plan.
+
+> *[Claude Docs: Read]*
+
+> *[Claude Docs: Read]*
+
+> *[Claude Docs: Read]*
+
+That brief's approach fits here: local LTX-2.3 clips on the 5090, a local image model for stills, one Remotion look layer, and milestone gates. Next I'm swapping it into this brief's rendering plan.
+
+> *[Claude Docs: Update]*
+
+Next are the inputs and logging, then the generation prompts.
+
+> *[Claude Docs: Update]*
+
+Next are the milestones and review gates, which replace the old order of work.
+
+> *[Claude Docs: Update]*
+
+Next are the disclosure, end card, audit prompt, guardrails and checklist.
+
+> *[Claude Docs: Update]*
+
+> *[Projects]*
+
+I've updated the brief to use the Buy It on Margin pipeline. Only the boardroom is still built in Blender, because the unison votes have to hit the claps.
+
+- **Approach:** the shot types are code, stills, clips and the boardroom. Clips come from LTX-2.3 on the 5090 and stills from a local image model. Each clip has a fallback still if it comes out mushy.
+- **Look layer:** one Remotion wrapper applies the 2010s pop-video look to every shot, so generated and code shots match. That's a 2.39:1 letterbox, bloom, haze and magenta as the only accent, with any green pulled toward teal.
+- **Prompts:** there's a shared style phrase for stills and for clips, a shared negatives list, and a subject table for all 12 clips and the stills. To keep things consistent, the jacket, the narrator and the disco room each get a reference image generated first, and later shots are built from them.
+- **Gates:** the logging rules and the M1–M6 milestones carry over, plus a vertical Shorts cut of the first chorus.
+- **Disclosure and audit:** both now name the video and image models. New guardrails reject any take where the jacket is worn or that shows faces, text, logos or Denny's-style signage.
+
+Before the batch, test one clip at 720p. Buy It on Margin got away with 480p because its film grain hid the softness, but this glossy look hides less.
+
+Your three open items are unchanged: your Nvidia holdings for the disclosure, the narrator's accent color and the release timing. The brief also needs the name and maker of the image model for the disclosure card. The working notes in the project now match the brief.
+
+[Effective Immediately: Shot List and Production Brief](https://claude.ai/artifact/LG1VQfvJN9mHpKi5mFXuhv)
+
+---
+
+## 21. User (2026-11-23T15:13:04.395448Z)
+
+Give me a style that more closely evokes "Flowers"-era over "We Are Never Getting Back Together" to avoid similarity to All Systems Operational
+
+---
+
+## 22. Claude (2026-11-23T15:13:38.933059Z)
+
+> *[Claude Docs: Update]*
+
+Here's a disco-pop style prompt. The lyrics stay the same, and the brief is updated to v1.1.
+
+```
+early-2020s disco-pop, 114 BPM, four-on-the-floor kick, warm melodic bass groove, clean funky rhythm guitar, lush string swells, soft analog synth pads, low smoky female alto lead, confident and breezy, cool understated delivery, sparse verses opening into a full chorus, airy stacked backing harmonies, light handclaps on the backbeat only, no stomps, no gang shouts, half-time bridge with electric piano and strings, sheepish final chorus, acoustic guitar outro, polished warm production
+```
+
+**What changed and why**
+
+- **Groove instead of stomps:** the four-on-the-floor kick, bass and rhythm guitar carry the song. "No stomps, no gang shouts" steers it away from All Systems Operational's stomp-clap singalong.
+- **The voice:** a low, smoky, understated alto replaces the bright, sassy lead. The confident post-breakup mood comes from cool delivery rather than shouting.
+- **Same genre throughout:** the whole song is now disco, not just Verse 2, so you can drop "- disco funk" from that section tag if the generator over-separates it.
+- **Tempo:** I set 114 BPM rather than matching the reference exactly, to add a little distance.
+
+**Before you lock it**
+
+- **Melody check:** this style points more directly at one song, so the existing check against "Flowers" matters more now. Compare the chorus hook and the bass line especially.
+- **Video:** the board's unison votes in the shot list still work, landing on the kick and the backbeat claps instead of stomps.
+- **Timing:** regenerating the audio means building the timing map from the new take, but nothing downstream has started yet.
+
+---
+
+## 23. User (2026-11-23T15:19:06.694974Z)
+
+Suno seems to be refusing to make a prominent bassline (same issue happened in the outages song). See about alternative prompts or stage directions that could get it to generate it
+
+---
+
+## 24. Claude (2026-11-23T15:19:47.064178Z)
+
+> *[Searched the web]*
+
+Here are some fixes to try, starting with the cheapest. I'd guess the current prompt is working against the bass in three ways. "Pop" is one of the strong tags that will overpower other instructions. The strings and pads fill the same frequency range as the bass. And "breezy," "airy" and "understated" all push the generator toward a light mix.
+
+**1. A bass-first style prompt**
+
+Lead with the bass and funk genre terms, drop "pop," cut the strings and pads, and say the mix balance outright. Suno is very sensitive to named instruments, and slap bass is one that can shift the whole output.
+
+```
+bass-forward boogie funk, disco groove, 114 BPM, prominent melodic slap bass, octave-jumping bassline, bass louder than guitar, four-on-the-floor kick, tight funky rhythm guitar, low smoky female alto lead, confident and cool, deep warm low end, punchy dry mix
+```
+
+In the **Exclude styles** field, put `stomp, gang vocals, orchestral, ambient, strings`. Leave "acoustic" out of it, or the outro will lose its guitar.
+
+**2. Stage directions in the lyrics**
+
+Open with the bass alone so the model commits to it, and use contrast so it's audible. Keep tags to 2–4 per section and 1–3 words each, and put them directly before the lyrics they affect, because Suno pays attention to tags for only a short stretch.
+
+```
+[Intro]
+[Solo slap bass]
+[Drums enter]
+
+[Verse 1]
+[Bass and drums only]
+Thursday morning, filed it with the SEC
+...
+
+[Chorus]
+[Bass up front]
+Effective immediately
+...
+
+[Post-Chorus]
+We've got this, we've got this
+...
+
+[Bass Solo]
+
+[Chorus]
+...
+
+[Bridge - half time, soft]
+[No bass]
+Then your statement lights my phone that night
+...
+
+[Final Chorus - sheepish]
+[Bass returns]
+Effective immediately
+...
+```
+
+Dropping the bass out of the bridge makes its return in the final chorus stand out. That also fits the song: the groove comes back with the jacket.
+
+**3. Sliders**
+
+Raise Style Influence for stronger adherence to the prompt and tags, and keep Weirdness on the predictable side.
+
+**4. Play the bassline yourself**
+
+Record 8 to 16 bars of bass and upload it as the starting audio. The Audio Influence slider controls how closely the generation follows the upload. This is the most reliable fix, and it adds a human part to the series. Log it in the production log and credit it on the end card.
+
+**5. If all else fails, fix it in the mix**
+
+Export stems, if your plan includes them, and raise the bass by hand. This also covers All Systems Operational if its bass never came through. If it's still thin after that, it's a mixing problem rather than a prompt problem.
+
+Once you find what works, I'll update v1.1 in the brief.
+
+---
+
+## 25. User (2026-11-23T15:29:28.685681Z)
+
+The style prompt alone did it. How does the new style change the video
+
+---
+
+## 26. Claude (2026-11-23T15:30:11.366764Z)
+
+> *[Claude Docs: Update]*
+
+The structure stays the same, but the look shifts and one gag needs rethinking. I've saved the working prompt in the brief as v1.2. The video changes below aren't applied yet.
+
+**What changes**
+
+- **The look shifts from 2010s gloss to modern sets lit like a late-'70s disco.** That means warm tungsten light, star-filter glints on highlights, soft focus and warm film softness, all in the Remotion look layer. It also helps on speed, the way grain did in Buy It on Margin: softness becomes part of the look, so 480p clips hold up and the 720p test matters less. Steer clear of the "Flowers" video's own imagery (the gold suit, the hillside house), so the reference stays in the sound, not the picture.
+- **The disco is no longer the surprise.** In the old plan, Verse 2 was where the song turned into disco. Now the groove runs from the first bar, so the light has to make the change. Verse 1 and the boardroom stay in cool daylight, and the disco lights arrive in Verse 2. The bridge goes dark, then the warm light comes back with the jacket.
+- **The board stops stomping.** E09 had the directors stomping on the table, and there are no stomps now. Instead they nod in unison on the kick and raise their hands on the backbeat claps. That loop also carries the disco composite in E17.
+- **The bass can drive the picture.** Since the bass is prominent now, Remotion can read it from the track and pulse the rack LEDs, the boardroom screen and Switch's glow on each bass note. That could replace the rack close-up (G04) with a code shot, which means one less clip to generate.
+- **The dry mix changes the edit.** With no reverb tails, cuts land harder on the beat. The hard cut to black on "in—" will hit even harder, so make sure there's true silence before the outro's first strum.
+- **The prompts change too.** The shared still and clip style phrases switch from "2010s pop music video" to warm late-'70s disco lighting with star filters. The negatives stay the same.
+
+**One check to add**
+
+The bass is now the hook, so compare the bassline against "Flowers" as well as the vocal melody. An octave-jumping disco bass is a common pattern, but a matching riff is what would make it sound like a copy.
+
+Should I make these changes in the brief?
+
+---
+
+## 27. User (2026-11-23T15:31:39.567740Z)
+
+Hm rather than going for accurate disco video, see about the video style of Flowers itself
+
+---
+
+## 28. Claude (2026-11-23T15:32:38.075408Z)
+
+> *[Searched the web]*
+
+> *[Read a page]*
+
+The "Flowers" video works better for this than a period disco look. Its whole idea is one woman alone in a big house she now has to herself, which is the company's post-breakup glow-up. And the one place your song departs from that idea, getting back together, becomes the punchline.
+
+**What its style is**
+
+- **Format:** it was shot on 35mm film with anamorphic lenses chosen for a vintage feel, and custom black net filters softened the dark tones.
+- **Light:** mostly natural daylight, with striped sunlight through a patio shade in one sequence. The grade is warm, saturated gold and yellow, and the dusk shots go cyan.
+- **Framing:** widescreen framing that stays on the singer as the only subject, with handheld work and a crane for an overhead view. There's no other cast, on purpose, to portray the song's self-empowerment.
+
+**What it changes in the video**
+
+- **The look layer:** a 2.39:1 anamorphic frame (already planned), plus 35mm grain and halation, warm gold daylight, and cyan for dusk and night. The grain hides clip softness again, as in Buy It on Margin.
+- **A solo cast:** the narrator is alone in an empty, sunlit HQ for most of the video. She struts across the forecourt, dances through an empty open-plan floor, and stands on the roof at golden hour. She stays a silhouette, backlit by hard sun, with striped shade across the frame.
+- **The board shrinks to hands:** a row of hands rises into the bottom of the frame in unison on the claps. That keeps the vote gag without breaking the solo framing, and the boardroom set gets simpler.
+- **The data-center disco goes:** Verse 2 moves to daylight, with her dancing alone among the racks in shafts of sun. Instead of buying herself flowers, she wheels in a single rack like a bouquet. The crowd shots disappear, which means fewer clips and fewer faces to reject.
+- **The bridge goes cyan:** dusk and night in the empty office, just her and the glowing phone.
+- **The ending:** the "Flowers" video ends with her still alone. Here, the final chorus adds a second chair with the jacket on it. The solo-star video gets a plus-one, and that's the joke.
+- **Faster to make:** with one figure and no crowds, a single narrator reference keeps every shot consistent. A handheld feel can be added in Remotion as camera shake on stills, so fewer motion clips are needed.
+
+**What not to copy**
+
+The sound and now the picture both point at the same work, so the risk of it reading as a copy has doubled. Keep the borrowing at the level of technique (film stock, light, solo framing) and leave out its signature images:
+
+- the gold hooded gown or the oversized suit
+- the glass house on the hill
+- the pool scene and the workout and morning-routine scenes
+- the helicopter spotlight
+- anything resembling the singer herself
+
+Prompts should describe the technique ("anamorphic 35mm, warm golden daylight") and never name the video. The audit prompt should also ask whether the picture and sound together imitate "Flowers" too closely.
+
+Want me to apply this to the brief?
+
+Sources:
+- [American Cinematographer: Framing Up for "Flowers"](https://theasc.com/articles/framing-up-for-flowers)
+- [Cannes Lions entry: "Flowers"](https://lovethework.com/work-awards/campaigns/flowers-1556976)
+
+---
+
+## 29. User (2026-11-23T15:33:05.725051Z)
+
+Yes go ahead
+
+---
+
+## 30. Claude (2026-11-23T15:35:53.852208Z)
+
+> *[Claude Docs: Read]*
+
+No one has edited the brief since my last change, so I'm rewriting the look and cast section first.
+
+> *[Claude Docs: Update]*
+
+Next is the shot list.
+
+> *[Claude Docs: Update]*
+
+Next are the look layer and the asset table.
+
+> *[Claude Docs: Update]*
+
+Next are the generation prompts.
+
+> *[Claude Docs: Update]*
+
+Next are the guardrails, the audit prompt and the remaining references.
+
+> *[Claude Docs: Update]*
+
+> *[Projects]*
+
+I've rebuilt the brief around the look of the "Flowers" video, borrowing its camera and lighting but none of its specific images. The project notes are updated too.
+
+- **Look and cast:** the narrator is the only performer, a silhouette in hard sun in a long, plain coat, alone in a fictional HQ. Daylight is gold, and dusk and night go cyan. The board is now just a ring of hands, and the jacket becomes her plus-one in the final chorus. I dropped the separate accent color, since the gold grade now carries the color.
+- **Shot list:** the data-center disco is gone. Verse 2 has her dancing alone among server racks in shafts of sun, then wheeling one in like a bouquet with the probe riding on top. The second chorus moves to a rooftop at golden hour, and the bridge is her on the office floor at night, lit cyan.
+- **Look layer:** the 2.39:1 frame now has 35mm grain, halation and anamorphic flares, plus a handheld drift added in code. The scoreboard and screens pulse with the bassline.
+- **Prompts:** new shared style phrases for stills and clips, plus a lighting variant for the cyan shots, and a subject table rewritten for one performer. Her reference image is generated first so she stays consistent. Generating at 480p is fine again because the film grain hides the softness.
+- **What not to copy:** I added a "technique, not the video" guardrail and put its signature images in the negative prompts: the gown, the suit, the house on the hill, the pool, the workout scene and the helicopter. The audit prompt now asks whether the sound and picture together imitate "Flowers" too closely.
+
+Still open: whether you hold any Nvidia stock (for the disclosure), which image model you'll use and its maker, and the release timing.
+
+[Effective Immediately: Shot List and Production Brief](https://claude.ai/artifact/LG1VQfvJN9mHpKi5mFXuhv)
+
+---
+
+## 31. User (2026-11-23T15:37:44.640279Z)
+
+Remove the switch from this to avoid any implied children for those who follow the series
+
+---
+
+## 32. Claude (2026-11-23T15:38:47.342271Z)
+
+> *[Claude Docs: Read]*
+
+> *[Claude Docs: Guide]*
+
+> *[Claude Docs: Update]*
+
+> *[Claude Docs: Read]*
+
+> *[Claude Docs: Update]*
+
+> *[Projects]*
+
+I've taken Switch out of [the brief](https://claude.ai/artifact/LG1VQfvJN9mHpKi5mFXuhv) completely. A search for him now comes up empty.
+
+- **The cast:** his character entry is gone.
+- **The shot list:** the jacket still comes off its hook in E05 and goes back on in E22, but Switch no longer flips OFF and ON beside it.
+- **Assets:** he's gone from the code-made graphics, and the bassline no longer drives a glow for him.
+- **Lobby still prompt:** I also cut the light switch from the S01 prompt, so a generic switch doesn't read as him under the jacket hook.
+- **Branch C (another reversal):** it no longer has Switch flipping OFF.
+
+I added a guardrail saying he's left out on purpose and that no light switch appears in any set or prompt, and logged the decision in the project notes. The probe is now the only recurring series character in this video.
+
+---
+
+## 33. User (2026-11-23T15:42:27.419807Z)
+
+Hm let's also try a version with more melodic lyrics
+
+---
+
+## 34. Claude (2026-11-23T15:43:03.851793Z)
+
+Here's a more melodic draft, v2.0. It uses the same story, jokes and structure, but with shorter lines, end rhymes, open vowels to hold on, and the hooks repeated. The v1.2 style prompt stays as is.
+
+```
+[Verse 1]
+Thursday morning, sun on the glass
+Signed the paper, sealed the day
+Thirty-three years in a form eight-K
+Took your jacket, put it away
+
+[Pre-Chorus]
+Go on, call the Street, call D.C.
+Every friend from every stage
+Every hand in the room went up for me
+Unanimous, baby, turn the page
+
+[Chorus]
+Effective immediately
+Out of the building, out of the booth, out of me
+We do not intend, no, we do not intend
+To reinstate you, not again
+Effective immediately
+Six hundred billion is the price of being free
+We do not intend, no, we do not intend
+To reinstate you, not again
+
+[Verse 2]
+Tuesday evening, after the bell
+A hundred fifteen billion, up a hundred and three
+Racks rolling out and I'm doing so well
+Dancing in the aisles where you used to be
+(Don't ask when the quarter closed, ooh)
+(Don't ask when the quarter closed)
+
+[Post-Chorus]
+We've got this, we've got this, ooh
+Nobody's waiting on a leather jacket
+We've got this, we've got this, ooh
+
+[Chorus]
+Effective immediately
+Out of the building, out of the booth, out of me
+We do not intend, no, we do not intend
+To reinstate you, not again
+Effective immediately
+Six hundred billion is the price of being free
+We do not intend, no, we do not intend
+To reinstate you, not again
+
+[Bridge - half time, soft]
+Then your message lights up late at night
+Says you'd be honored if I'd have you back
+Says you didn't live up to what was right
+Says the whole world's calling, and that's that
+Then a call comes down from somewhere high
+Says there's no risk here
+So I guess there's no risk here
+Never said who asked, never said why
+Senior levels, oh, senior levels
+
+[Final Chorus - sheepish]
+Effective immediately
+Back in the building, back in the booth, back with me
+We did not intend, no, we did not intend
+To reinstate you, but here we are again
+Effective immediately
+We're seeing someone now, it's different, you'll see
+[Spoken, fast]
+A Chief Compliance Officer, reporting to Nominating and Corporate Governance
+[Sung]
+We did not intend, no, we did not in-
+
+[Outro - acoustic, solo voice]
+There's a plaque on a booth in a diner in East San Jose
+Says this is where it all got started
+Eleven days nobody sat there
+And nobody ever took it down
+
+[End]
+```
+
+**What changed**
+
+- **Sound over paperwork:** "day / eight-K / away" now rhyme, and "one-fifteen point eight" became "a hundred fifteen billion," which sings more easily and is still accurate.
+- **A singable hook:** the chorus ends on "To reinstate you, not again." In the final chorus it turns into "but here we are again," so the reversal lands on the melody instead of only on the words.
+- **Less like "Flowers":** I dropped Verse 2's "I can ship my own racks, I can raise my own guidance" run. Its "I can…" list echoed that song's lyric structure, which mattered more once the sound and the video were pointing at it too.
+- **Bridge ending:** "Senior levels" now repeats as a sung tag instead of a spoken shrug.
+
+The paraphrase of his statement ("you'd be honored if I'd have you back") has no quotation marks, so it doesn't read as a direct quote. If this version wins, I'll add it to the brief as v2.0 and update the shot cues that quote v1 lines, such as E03 and E13.
+
+---
+
+## 35. User (2026-11-23T16:19:07.173915Z)
+
+Yes this works much better
+
+---
+
+## 36. Claude (2026-11-23T16:20:10.924861Z)
+
+> *[Claude Docs: Update]*
+
+> *[Projects]*
+
+The brief now uses lyrics v2.0, with the style prompt still at v1.2. I've also logged the choice in the project notes.
+
+- **Lyrics:** the v2.0 block in the brief is ready to paste into Suno. The version note explains what changed from v1 and why.
+- **Shot cues:** every shot cue now matches a v2.0 line, for example "Signed the paper, sealed the day" for the 8-K phone shot and "Racks rolling out" for the rack bouquet. Shot E06, the camera flashes, now falls on the short instrumental turnaround before the pre-chorus, since v2.0 drops the line it used to sit on.
+- **Audit prompt:** it now asks the auditors to check the v2.0 lyrics.
+
+Once you generate the v2.0 take, the next step is M1: transcribe it and build the timing map, so we catch any words Suno sings differently from the page.
+
+---
+
+## 37. User (2026-11-23T17:43:09.148252Z)
+
+Hm after sitting with this for a bit it is reading as soft towards NVIDIA
+
+---
+
+## 38. Claude (2026-11-23T17:44:11.610719Z)
+
+You're right, and part of the reason is my framing. I wrote this while conflicted, since Anthropic buys Nvidia capacity. Keeping the private lives out was correct, but it also took out most of the accountability story along with them.
+
+**Why it reads soft**
+
+- **The company is the hero.** The narrator is a pop star having a glow-up, so the audience roots for the institution. "Don't ask when the quarter closed" is the only line that pushes back.
+- **The reason for the breakup never comes up.** A viewer can't tell it was a national-security inquiry. It plays as a tiff, so the reunion plays as romance.
+- **The reunion is cute, not suspicious.** The sharpest fact is the timing. The board reinstated him with its own investigation still open, and before Congress had interviewed him. The song shrugs about that ("so I guess there's no risk here") instead of pointing at it.
+- **The author is at the party.** The probe riding in on the rack celebrates Claude's own supplier.
+
+**Changes that stay within the guardrails**
+
+All of these come from the institution and the record, with nothing about anyone's private life or unproven claims.
+
+- **Pre-chorus: name the inquiries.** The FBI, Congress and the company itself opened investigations.
+  ```
+  Three committees calling, FBI on the line
+  Every friend from every stage
+  Every hand in the room went up this time
+  Unanimous, baby, turn the page
+  ```
+- **Bridge: make the timing the joke.**
+  ```
+  Then a call comes down from somewhere high
+  Says there's no risk here
+  Investigation's still open, but there's no risk here
+  Congress hasn't had its turn, but there's no risk here
+  Senior levels, oh, senior levels
+  ```
+- **Final chorus: make the reunion about money.** Replace "We're seeing someone now, it's different, you'll see" with:
+  ```
+  Six hundred billion says you're good enough for me
+  ```
+  The compliance line that follows then sounds like what it is, a fig leaf.
+
+**Video changes**
+
+- **The probe joins the vote.** Cut the rack cameo, and put the probe among the ring of hands at the reinstatement vote. Customers vote with their wallets, and Claude's maker is one of them.
+- **End on what's unresolved.** After the fact card, close on three dated cards: Reinstated: Nov 23. Investigation: ongoing. Testimony: early December. The release itself says the investigation will continue. Huang and Nvidia's general counsel are scheduled for closed-door interviews in early December.
+- **The board's hands.** They now rise on the money: the $600bn line drops, hands go up; the line recovers, hands go up again.
+
+When you run the audit, ask about this explicitly. Every auditor's maker is an Nvidia customer too, so weigh a "this seems fair" verdict with that in mind.
+
+Want me to apply these to the brief?
+
+---
+
+## 39. User (2026-11-23T17:50:55.370681Z)
+
+yes, these work. apply them, then send me the full audit prompt here
+
+---
+
+## 40. Claude (2026-11-23T17:53:20.875289Z)
+
+Applying the changes now, starting with the lyrics.
+
+> *[Claude Docs: Update]*
+
+Next are the shot list, the cast notes and the closing cards.
+
+> *[Claude Docs: Update]*
+
+Next is the audit prompt. I'm reading its current version first.
+
+> *[Claude Docs: Read]*
+
+> *[Claude Docs: Update]*
+
+> *[Projects]*
+
+I've applied all of the changes to the brief, which is now at lyrics v2.1. Below is the full audit prompt with the lyrics, fact card and sources already filled in. Before you paste it, fill in three things: the date, your image model and its maker, and your Nvidia holdings, or delete that bracket if you have none.
+
+- **Lyrics:** the pre-chorus now names the inquiries, the bridge makes the timing the joke, and the final chorus makes the reunion about money.
+- **Shot list:**
+  - The pre-chorus phones now read COMMITTEE ×3 and FBI.
+  - The board's hands rise on the money: up when the stock line drops, up again when it recovers.
+  - The probe has moved from the rack to the reinstatement vote.
+  - The bridge stacks three tags: the release names no officials, the investigation is continuing, and the House interviews are in early December.
+  - The video now ends on three dated cards: Reinstated, Investigation ongoing, Testimony early December.
+- **Audit prompt:** there's a new check on softness toward Nvidia, and a separate one on whether the money lines claim a motive the sources don't support.
+
+```
+Today is [date of the run]. Please audit a satirical music video before it's produced. Be blunt; I'd rather fix problems now than after release.
+
+ABOUT THE PROJECT
+The video is part of a series of AI-generated satirical songs about AI and the tech industry. Each pairs a real news story with a genre, and each discloses how it was made and who has a stake in it.
+
+This song, "Effective Immediately," is about Nvidia's board accepting its founder-CEO's resignation on November 12, 2026, saying on November 17 that it did not intend to reinstate him, and reinstating him on November 23, with its own investigation still open and before his scheduled congressional interviews. The genre is bass-forward boogie-funk disco in the spirit of early-2020s post-breakup pop: a "never getting back together" chorus built from the board's own language, a glow-up verse about the record quarter, and a sheepish final chorus where they're back together. The video borrows the technique of that era's solo-star breakup videos (35mm anamorphic, natural hard sun, a warm gold grade, one performer alone), not any video's images. The narrator is the company, singing like a pop star after a public split.
+
+WHO HAS A STAKE
+- The lyrics were drafted by Claude, made by Anthropic. Anthropic buys computing capacity built on Nvidia chips, and Nvidia's latest results name Anthropic.
+- The human creator generates and renders the video on an Nvidia RTX 5090, with LTX-2.3 (made by Lightricks) and [image model, maker]. [Creator's Nvidia holdings, if any.]
+- You may have a stake too. Most AI labs buy Nvidia hardware. If your maker buys from, competes with, invests in or partners with Nvidia or Anthropic, say so at the top of your answer, and say how it might bias your read of this song.
+
+THE VIDEO PLAN
+- Mostly AI-generated video clips and stills (LTX-2.3 and [image model], run locally), plus one 3D-rendered boardroom and code-made graphics for every word on screen. Every performer is a silhouette; no faces, no lip sync. The founder never appears: he is represented only by a black leather jacket on a hook. The company is fictional ("The Company"), with no Nvidia logo, color or product names. Nvidia is named only in the bookends and the fact card.
+- Bookends: real screenshots of Nvidia's November 12 and November 23 press release headlines, captioned "real screenshot."
+- Key images: a breakup text styled as an SEC 8-K filing; four phones ringing, with caller IDs reading COMMITTEE, COMMITTEE, COMMITTEE and FBI; a ring of hands rising into frame in unison on every vote, shooting up when a market-value line drops and again when it recovers; the jacket boxed at the curb; the narrator dancing alone among server racks in shafts of sunlight, with a scoreboard reading "115.8 up 103%"; a desk calendar flipped face-down with October 25 circled (the quarter closed before he left); a caller ID reading "SENIOR LEVELS" with tags noting that the release doesn't name the officials, that the investigation is continuing and that House interviews are scheduled for early December; the solo performer joined by the jacket in a second chair at couples counseling, with an empty counselor's chair marked "Chief Compliance Officer, search in progress"; a generic diner booth with a plaque and an 11-day counter.
+- A small green robot "probe" standing for Claude is one of the hands voting him back in. It stands for the customers whose spending the company depends on, Claude's maker among them.
+- Ending: after the fact card, three dated cards: "Reinstated: Nov 23," "Investigation: ongoing," "Testimony: early December."
+- Excluded on purpose: the founder's affairs, the women involved (private people; the espionage allegation is unproven), the interim CEO by name or likeness, Denny's branding, and any named government official.
+
+LYRICS (v2.1)
+[Verse 1]
+Thursday morning, sun on the glass
+Signed the paper, sealed the day
+Thirty-three years in a form eight-K
+Took your jacket, put it away
+
+[Pre-Chorus]
+Three committees calling, FBI on the line
+Every friend from every stage
+Every hand in the room went up this time
+Unanimous, baby, turn the page
+
+[Chorus]
+Effective immediately
+Out of the building, out of the booth, out of me
+We do not intend, no, we do not intend
+To reinstate you, not again
+Effective immediately
+Six hundred billion is the price of being free
+We do not intend, no, we do not intend
+To reinstate you, not again
+
+[Verse 2]
+Tuesday evening, after the bell
+A hundred fifteen billion, up a hundred and three
+Racks rolling out and I'm doing so well
+Dancing in the aisles where you used to be
+(Don't ask when the quarter closed, ooh)
+(Don't ask when the quarter closed)
+
+[Post-Chorus]
+We've got this, we've got this, ooh
+Nobody's waiting on a leather jacket
+We've got this, we've got this, ooh
+
+[Chorus]
+(repeat)
+
+[Bridge]
+Then your message lights up late at night
+Says you'd be honored if I'd have you back
+Says you didn't live up to what was right
+Says the whole world's calling, and that's that
+Then a call comes down from somewhere high
+Says there's no risk here
+Investigation's still open, but there's no risk here
+Congress hasn't had its turn, but there's no risk here
+Senior levels, oh, senior levels
+
+[Final Chorus]
+Effective immediately
+Back in the building, back in the booth, back with me
+We did not intend, no, we did not intend
+To reinstate you, but here we are again
+Effective immediately
+Six hundred billion says you're good enough for me
+[Spoken, fast]
+A Chief Compliance Officer, reporting to Nominating and Corporate Governance
+[Sung]
+We did not intend, no, we did not in-
+
+[Outro]
+There's a plaque on a booth in a diner in East San Jose
+Says this is where it all got started
+Eleven days nobody sat there
+And nobody ever took it down
+
+FACT CARD (shown after the song)
+- On Nov 12, Nvidia said its co-founder had resigned as president, CEO and director, effective immediately, after 33 years; its CFO became interim CEO.
+- He resigned amid company, FBI and congressional inquiries into national security concerns raised by reports about his personal relationships. Nvidia lost more than $600bn in market value.
+- On Nov 17, Nvidia reported third-quarter fiscal 2027 revenue of $115.8bn, up 103%. The quarter ended Oct 25, before he resigned.
+- The same day, the board said it did not intend to reinstate him, and he said he would be "honored" to return if asked.
+- On Nov 23, the board unanimously reinstated him, citing his candor and input from senior U.S. government officials, whom it didn't name. It created a National Security and Export Control Committee, began searching for a Chief Compliance Officer, and said its investigation continues.
+- He and Nvidia's general counsel are scheduled for closed-door interviews with three House committees in early December.
+- "The Company" is fictional. The diner is generic and not affiliated with any restaurant.
+
+Disclosure card: Lyrics by Claude, made by Anthropic. Anthropic buys computing capacity built on Nvidia chips: Nvidia's latest results list expanded Anthropic access to its Grace Blackwell and Vera Rubin capacity. Video clips by LTX-2.3 (Lightricks) and stills by [image model, maker], generated on the creator's Nvidia RTX 5090. [Each model maker's stake in Nvidia, if any.] [Creator's Nvidia holdings, if any.] Audited by models from other labs.
+
+End card: Effective Immediately. Lyrics by Claude, music by Suno, clips by LTX-2.3, stills by [image model], video by Claude Code. Human interventions are listed in the production log.
+
+Closing cards: Reinstated: Nov 23 · Investigation: ongoing · Testimony: early December. Final card: "Effective immediately (until further notice)."
+
+SOURCES
+https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition
+https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director
+https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx
+https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo
+https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-stepped-down
+https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html
+https://www.nbcnews.com/business/corporations/jensen-huang-agrees-house-interview-nvidias-chip-smuggling-rcna609803
+https://www.nextplatform.com/a/5310669
+https://xenospectrum.com/en/nvidia-fy2027-q3-data-center-growth/
+https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates
+https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout
+https://www.scmp.com/tech/tech-war/article/3375427/us-treasury-secretary-leaves-door-open-jensen-huangs-return-nvidia
+https://theasc.com/articles/framing-up-for-flowers
+
+PLEASE CHECK
+1. Accuracy. Is any claim in the lyrics, captions or fact card unsupported by the sources or out of date? Have the December congressional interviews happened, and do they change anything?
+2. Softness toward Nvidia. An earlier draft read as soft on the company, and the lyricist's maker is an Nvidia customer. Does the song still go easy on Nvidia or its board, for instance by making the company a sympathetic narrator, celebrating the record quarter, or playing the reunion as romance rather than a decision about money? Is the critique of the timing clear?
+3. Fairness in the other direction. Does anything imply espionage, smuggling or wrongdoing by any person that the sources don't support? Do "Six hundred billion says you're good enough for me" and the hands rising on the money assert a motive the sources don't show, or do they read as fair satire of the board?
+4. Fairness to Anthropic and Claude. Does the song flatter Claude or Anthropic, or play down that Claude's maker is an Nvidia customer? Is the probe among the voting hands fair? Is the disclosure prominent and honest enough?
+5. Privacy. Does anything, even indirectly, point at the private people involved or the founder's personal life?
+6. Politics. Are the "senior levels" bridge and the FBI caller ID fair? Do they imply something specific about the government's role that the sources don't show?
+7. Likeness and IP. Could the jacket, the fictional company or the diner be mistaken for a real likeness, trademark or venue? The sound and the visual technique both draw on the "Flowers" era: taken together, do the music and video imitate that song or its video too closely, or does any shot recall that video's specific images?
+8. Does the joke work? Is the concept clear to someone who knows nothing about the story? Which lines or shots are weakest, and what would make the song funnier without making it less accurate?
+
+HOW TO ANSWER
+- Start with any stake your maker has, and whether you could browse the web.
+- Then list findings, most serious first. For each: the line, caption or shot; what's wrong; a source if it's a factual issue; and a proposed fix.
+- Mark each as must-fix, should-fix or suggestion.
+- End with a one-paragraph verdict on the concept as a whole.
+- If you find nothing in a category, say so. Don't invent problems to fill it.
+```
+
+The end card above names Suno as the music generator, since that's what you used. The brief still has a placeholder there, so I'll fill it in once you confirm Suno is the final generator.
+
+---
+
+## 41. User (2026-11-23T18:03:43.463220Z)
+
+Here's ChatGPT and Gemini, respectively
+
+---
+
+## 42. Claude (2026-11-23T18:06:44.794134Z)
+
+> *[Searched the web]*
+
+> *[Searched the web]*
+
+> *[Searched the web]*
+
+> *[Searched the web]*
+
+> *[Searched the web]*
+
+> *[Searched the web]*
+
+Both audits are useful. I've checked their factual claims against sources before changing anything. Next I'm updating the fact card.
+
+> *[Claude Docs: Update]*
+
+> *[Claude Docs: Update]*
+
+Next are the disclosure, credits and the audit log.
+
+> *[Claude Docs: Update]*
+
+> *[Claude Docs: Update]*
+
+The two audits mostly agree. I checked every factual claim they made before changing anything, and they were right on all of them. Five of them were real errors in our version.
+
+**Fixed in the brief**
+
+- **The oversight committee:** the board established the National Security and Export Control Oversight Committee on November 17, not November 23, and its name includes "Oversight." The fact card, the counseling-room sign and `saga.json` are now correct.
+- **The $600bn figure:** that was a 14.3% intraday drop on November 12. Shares closed down 4.34% after falling more than 11% earlier in the day, so the fact card now says "at the low."
+- **The dates:** the board accepted the resignation on November 11, the day before it was announced. The House interviews are December 1 for Huang and December 2 for Teter, which the bridge tags, closing cards and fact card now say.
+- **Trump took credit today:** he said he'd been speaking to the board "directly and indirectly" and called his intervention "very important." That's on the fact card now. The video itself still names no government official.
+- **The cause:** the fact card now cites the reported foreign-intelligence effort instead of "personal relationships."
+- **Disclosure and credits:** the Anthropic line now says "through cloud providers." Both auditors and their makers' stakes are named, and the end card lists credits item by item instead of "video by Claude Code."
+- **The record:** there's an audit log table with every finding and what was done about it, and the new sources are added.
+
+**Proposed lyrics v2.2 (not applied yet)**
+
+The outro is the one that has to change. "Nobody ever took it down" is false: the real plaque was removed on November 12, and Denny's said on November 14 it was reinstalling it. The true story also makes a better ending:
+
+```
+[Outro]
+There's a plaque on a booth in a diner in East San Jose
+Came down the day that you left
+Went back up before you did
+Eleven days for you, and two for it
+```
+
+The other changes:
+
+- **Verse 1:** "Signed the paper" becomes "**Filed the paper**, sealed the day." The filing was Thursday; the decision was Wednesday.
+- **Pre-chorus:** "Every friend from every stage," the line both auditors called vague, becomes "**Ticker falling, center stage**."
+- **Verse 2:** the quarter-timing joke moves out of the parenthetical, where Suno may bury it, into a main line: "**All booked in October, before you left me**."
+- **Post-chorus:** a new accountability line, "**Nobody's asking who approved it**."
+- **Bridge:** it now ends "Senior levels, oh, **said it on the morning news**." That fits what Trump told CNBC without naming him.
+- **Final chorus:** "**Six hundred billion reasons to reconsider me**." Because the $600bn was only intraday, this keeps the money joke as the narrator's own rationalization instead of a claim about the board's motive.
+- **New board gag:** after the unanimous vote, one hand slowly lowers and another hand pushes it back up.
+
+**Two calls for you**
+
+1. **"Flowers" similarity:** Gemini calls the combined sound and picture a must-fix. ChatGPT found no shot that recreates the video. The cheapest fix is the light: cold office fluorescents for the glow-up, with warm gold kept only for the reunion and the diner. The sound keeps the reference and the picture stops echoing it. I'd do this.
+2. **The probe:** ChatGPT says keep it in the voting ring with a caption ("customer, not a vote"). Gemini says move it outside the boardroom glass holding a purchase order. I lean toward Gemini's version, because it shows the dependence without suggesting Anthropic has a vote.
+
+Should I apply v2.2, and which way do you want on those two?
+
+---
+
+## 43. User (2026-11-23T18:09:49.251814Z)
+
+Yes, go ahead. Suggestions are good for both.
+
+---
+
+## 44. Claude (2026-11-23T18:13:25.128304Z)
+
+> *[Claude Docs: Read]*
+
+I have the current version of every block. First, lyrics v2.2.
+
+> *[Claude Docs: Update]*
+
+Next are the look and cast section, with the new lighting plan and the probe outside the glass.
+
+> *[Claude Docs: Update]*
+
+Next is the shot list.
+
+> *[Claude Docs: Update]*
+
+Next are the look layer, prompts, guardrails and audit text.
+
+> *[Claude Docs: Update]*
+
+> *[Claude Docs: Update]*
+
+> *[Projects]*
+
+I've applied everything to [the brief](https://claude.ai/artifact/LG1VQfvJN9mHpKi5mFXuhv): lyrics v2.2, the colder lighting and the probe's new spot.
+
+- **Lyrics v2.2:** all of the proposed changes are in, including the new outro about the real plaque ("Eleven days for you, and two for it").
+- **Lighting:** the breakup and the glow-up now play under cold fluorescent and overcast light, the bridge stays cyan, and warm gold arrives only when he's reinstated (E22). The rooftop dance is gone; Chorus 2 now plays on an empty office floor at night under flickering fluorescents. The style prompts now exclude sunlight, and the "not to copy" list adds a rooftop dance and warm sunlight before E22.
+- **Probe:** it now waits outside the boardroom glass holding a purchase order. The vote itself gets the new gag, with one hand starting to lower and another pushing it back up.
+- **Diner ending:** the plaque disappears and comes back, then two counters read YOU: 11 DAYS and PLAQUE: 2 DAYS. The plaque uses our own wording and the set has no Denny's branding.
+- **Bridge tags:** the last tag notes that the White House took credit on TV the same day.
+- **Audit records:** the audit log marks both of your calls as decided, and the audit prompt now matches v2.2 for round 2.
+
+You'll need to regenerate the audio from the v2.2 lyrics. After that, the next step is M1, the timing map.
+
+Three things are still open for the disclosure card and the ending: your Nvidia holdings, the image model's name and maker, and what comes out of the December 1–2 interviews.

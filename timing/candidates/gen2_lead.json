@@ -1,0 +1,2500 @@
+{
+ "model": "large-v3",
+ "stem": "audio/candidates/gen2/stems/0 Lead Vocals.wav",
+ "whisperx": null,
+ "segments": [
+  {
+   "start": 18.073,
+   "end": 21.015,
+   "text": "Thursday morning, sun on the glass.",
+   "words": [
+    {
+     "w": "Thursday",
+     "start": 18.073,
+     "end": 18.573,
+     "score": 0.767
+    },
+    {
+     "w": "morning,",
+     "start": 18.653,
+     "end": 19.094,
+     "score": 0.916
+    },
+    {
+     "w": "sun",
+     "start": 19.594,
+     "end": 19.954,
+     "score": 0.885
+    },
+    {
+     "w": "on",
+     "start": 20.054,
+     "end": 20.174,
+     "score": 0.907
+    },
+    {
+     "w": "the",
+     "start": 20.215,
+     "end": 20.335,
+     "score": 0.769
+    },
+    {
+     "w": "glass.",
+     "start": 20.415,
+     "end": 21.015,
+     "score": 0.942
+    }
+   ]
+  },
+  {
+   "start": 21.996,
+   "end": 26.599,
+   "text": "Filed the paper, sealed the day.",
+   "words": [
+    {
+     "w": "Filed",
+     "start": 21.996,
+     "end": 22.516,
+     "score": 0.501
+    },
+    {
+     "w": "the",
+     "start": 22.576,
+     "end": 22.676,
+     "score": 0.776
+    },
+    {
+     "w": "paper,",
+     "start": 22.776,
+     "end": 23.357,
+     "score": 0.943
+    },
+    {
+     "w": "sealed",
+     "start": 23.537,
+     "end": 24.317,
+     "score": 0.498
+    },
+    {
+     "w": "the",
+     "start": 24.377,
+     "end": 24.498,
+     "score": 0.875
+    },
+    {
+     "w": "day.",
+     "start": 24.618,
+     "end": 26.599,
+     "score": 0.894
+    }
+   ]
+  },
+  {
+   "start": 26.659,
+   "end": 29.341,
+   "text": "33 years in a form, AK.",
+   "words": [
+    {
+     "w": "33",
+     "start": 26.659,
+     "end": 26.999,
+     "score": 0.653
+    },
+    {
+     "w": "years",
+     "start": 27.179,
+     "end": 27.48,
+     "score": 0.849
+    },
+    {
+     "w": "in",
+     "start": 27.56,
+     "end": 27.64,
+     "score": 0.816
+    },
+    {
+     "w": "a",
+     "start": 27.7,
+     "end": 27.72,
+     "score": 0.926
+    },
+    {
+     "w": "form,",
+     "start": 27.84,
+     "end": 28.26,
+     "score": 0.907
+    },
+    {
+     "w": "AK.",
+     "start": 28.42,
+     "end": 29.341,
+     "score": 0.887
+    }
+   ]
+  },
+  {
+   "start": 30.342,
+   "end": 33.324,
+   "text": "Took her jacket, put it away.",
+   "words": [
+    {
+     "w": "Took",
+     "start": 30.342,
+     "end": 30.582,
+     "score": 0.958
+    },
+    {
+     "w": "her",
+     "start": 30.642,
+     "end": 30.782,
+     "score": 0.433
+    },
+    {
+     "w": "jacket,",
+     "start": 30.862,
+     "end": 31.362,
+     "score": 0.94
+    },
+    {
+     "w": "put",
+     "start": 31.903,
+     "end": 32.463,
+     "score": 0.826
+    },
+    {
+     "w": "it",
+     "start": 32.643,
+     "end": 32.943,
+     "score": 0.738
+    },
+    {
+     "w": "away.",
+     "start": 32.963,
+     "end": 33.324,
+     "score": 0.852
+    }
+   ]
+  },
+  {
+   "start": 33.364,
+   "end": 36.566,
+   "text": "Three committees calling, FBI on the line.",
+   "words": [
+    {
+     "w": "Three",
+     "start": 33.364,
+     "end": 33.584,
+     "score": 0.938
+    },
+    {
+     "w": "committees",
+     "start": 33.644,
+     "end": 34.064,
+     "score": 0.942
+    },
+    {
+     "w": "calling,",
+     "start": 34.124,
+     "end": 34.705,
+     "score": 0.806
+    },
+    {
+     "w": "FBI",
+     "start": 34.905,
+     "end": 35.285,
+     "score": 0.869
+    },
+    {
+     "w": "on",
+     "start": 35.625,
+     "end": 35.825,
+     "score": 0.812
+    },
+    {
+     "w": "the",
+     "start": 35.865,
+     "end": 36.006,
+     "score": 0.882
+    },
+    {
+     "w": "line.",
+     "start": 36.106,
+     "end": 36.566,
+     "score": 0.787
+    }
+   ]
+  },
+  {
+   "start": 37.647,
+   "end": 41.409,
+   "text": "Ticker falling, center stage.",
+   "words": [
+    {
+     "w": "Ticker",
+     "start": 37.647,
+     "end": 37.967,
+     "score": 0.658
+    },
+    {
+     "w": "falling,",
+     "start": 38.167,
+     "end": 38.808,
+     "score": 0.847
+    },
+    {
+     "w": "center",
+     "start": 39.228,
+     "end": 40.108,
+     "score": 0.572
+    },
+    {
+     "w": "stage.",
+     "start": 40.209,
+     "end": 41.409,
+     "score": 0.686
+    }
+   ]
+  },
+  {
+   "start": 41.569,
+   "end": 44.852,
+   "text": "Every hand in the room went, this is time.",
+   "words": [
+    {
+     "w": "Every",
+     "start": 41.569,
+     "end": 42.03,
+     "score": 0.852
+    },
+    {
+     "w": "hand",
+     "start": 42.11,
+     "end": 42.41,
+     "score": 0.818
+    },
+    {
+     "w": "in",
+     "start": 42.45,
+     "end": 42.51,
+     "score": 0.73
+    },
+    {
+     "w": "the",
+     "start": 42.53,
+     "end": 42.61,
+     "score": 0.831
+    },
+    {
+     "w": "room",
+     "start": 42.65,
+     "end": 43.01,
+     "score": 0.774
+    },
+    {
+     "w": "went,",
+     "start": 43.411,
+     "end": 43.751,
+     "score": 0.687
+    },
+    {
+     "w": "this",
+     "start": 43.931,
+     "end": 44.191,
+     "score": 0.924
+    },
+    {
+     "w": "is",
+     "start": 44.271,
+     "end": 44.351,
+     "score": 0.822
+    },
+    {
+     "w": "time.",
+     "start": 44.451,
+     "end": 44.852,
+     "score": 0.615
+    }
+   ]
+  },
+  {
+   "start": 46.597,
+   "end": 47.717,
+   "text": "Unanimous, baby.",
+   "words": [
+    {
+     "w": "Unanimous,",
+     "start": 46.597,
+     "end": 47.217,
+     "score": 0.869
+    },
+    {
+     "w": "baby.",
+     "start": 47.297,
+     "end": 47.717,
+     "score": 0.743
+    }
+   ]
+  },
+  {
+   "start": 48.037,
+   "end": 49.678,
+   "text": "Turn the page.",
+   "words": [
+    {
+     "w": "Turn",
+     "start": 48.037,
+     "end": 48.358,
+     "score": 0.958
+    },
+    {
+     "w": "the",
+     "start": 48.398,
+     "end": 48.518,
+     "score": 0.578
+    },
+    {
+     "w": "page.",
+     "start": 48.578,
+     "end": 49.678,
+     "score": 0.683
+    }
+   ]
+  },
+  {
+   "start": 49.758,
+   "end": 51.959,
+   "text": "Effective immediately.",
+   "words": [
+    {
+     "w": "Effective",
+     "start": 49.758,
+     "end": 50.378,
+     "score": 0.765
+    },
+    {
+     "w": "immediately.",
+     "start": 50.518,
+     "end": 51.959,
+     "score": 0.815
+    }
+   ]
+  },
+  {
+   "start": 53.059,
+   "end": 56.12,
+   "text": "Out of the building, out of the booth, out of me.",
+   "words": [
+    {
+     "w": "Out",
+     "start": 53.059,
+     "end": 53.199,
+     "score": 0.959
+    },
+    {
+     "w": "of",
+     "start": 53.239,
+     "end": 53.299,
+     "score": 0.69
+    },
+    {
+     "w": "the",
+     "start": 53.339,
+     "end": 53.419,
+     "score": 0.828
+    },
+    {
+     "w": "building,",
+     "start": 53.559,
+     "end": 54.039,
+     "score": 0.857
+    },
+    {
+     "w": "out",
+     "start": 54.179,
+     "end": 54.259,
+     "score": 0.913
+    },
+    {
+     "w": "of",
+     "start": 54.279,
+     "end": 54.339,
+     "score": 0.612
+    },
+    {
+     "w": "the",
+     "start": 54.379,
+     "end": 54.439,
+     "score": 0.992
+    },
+    {
+     "w": "booth,",
+     "start": 54.599,
+     "end": 55.02,
+     "score": 0.767
+    },
+    {
+     "w": "out",
+     "start": 55.32,
+     "end": 55.48,
+     "score": 0.899
+    },
+    {
+     "w": "of",
+     "start": 55.64,
+     "end": 55.74,
+     "score": 0.703
+    },
+    {
+     "w": "me.",
+     "start": 55.9,
+     "end": 56.12,
+     "score": 0.99
+    }
+   ]
+  },
+  {
+   "start": 56.96,
+   "end": 62.642,
+   "text": "We do not intend, oh, we do not intend to reinstate you.",
+   "words": [
+    {
+     "w": "We",
+     "start": 56.96,
+     "end": 57.3,
+     "score": 0.886
+    },
+    {
+     "w": "do",
+     "start": 57.36,
+     "end": 57.46,
+     "score": 0.861
+    },
+    {
+     "w": "not",
+     "start": 57.52,
+     "end": 57.7,
+     "score": 0.981
+    },
+    {
+     "w": "intend,",
+     "start": 57.82,
+     "end": 58.481,
+     "score": 0.802
+    },
+    {
+     "w": "oh,",
+     "start": 58.821,
+     "end": 59.001,
+     "score": 0.645
+    },
+    {
+     "w": "we",
+     "start": 59.081,
+     "end": 59.381,
+     "score": 0.995
+    },
+    {
+     "w": "do",
+     "start": 59.441,
+     "end": 59.541,
+     "score": 0.998
+    },
+    {
+     "w": "not",
+     "start": 59.601,
+     "end": 59.841,
+     "score": 0.959
+    },
+    {
+     "w": "intend",
+     "start": 59.941,
+     "end": 60.441,
+     "score": 0.898
+    },
+    {
+     "w": "to",
+     "start": 61.081,
+     "end": 61.301,
+     "score": 0.857
+    },
+    {
+     "w": "reinstate",
+     "start": 61.382,
+     "end": 62.282,
+     "score": 0.823
+    },
+    {
+     "w": "you.",
+     "start": 62.362,
+     "end": 62.642,
+     "score": 0.822
+    }
+   ]
+  },
+  {
+   "start": 64.143,
+   "end": 82.957,
+   "text": "not again effective immediately 600 billion is the price of being free we do not intend oh we do not intend to reinstate you not again",
+   "words": [
+    {
+     "w": "not",
+     "start": 64.143,
+     "end": 64.203,
+     "score": 0.0
+    },
+    {
+     "w": "again",
+     "start": 64.963,
+     "end": 66.364,
+     "score": 0.731
+    },
+    {
+     "w": "effective",
+     "start": 66.425,
+     "end": 67.085,
+     "score": 0.838
+    },
+    {
+     "w": "immediately",
+     "start": 67.205,
+     "end": 69.747,
+     "score": 0.798
+    },
+    {
+     "w": "600",
+     "start": 69.927,
+     "end": 70.167,
+     "score": 0.877
+    },
+    {
+     "w": "billion",
+     "start": 70.247,
+     "end": 70.788,
+     "score": 0.746
+    },
+    {
+     "w": "is",
+     "start": 70.868,
+     "end": 70.968,
+     "score": 0.698
+    },
+    {
+     "w": "the",
+     "start": 71.048,
+     "end": 71.168,
+     "score": 0.886
+    },
+    {
+     "w": "price",
+     "start": 71.228,
+     "end": 71.568,
+     "score": 0.619
+    },
+    {
+     "w": "of",
+     "start": 71.648,
+     "end": 71.748,
+     "score": 0.851
+    },
+    {
+     "w": "being",
+     "start": 71.809,
+     "end": 72.429,
+     "score": 0.62
+    },
+    {
+     "w": "free",
+     "start": 72.549,
+     "end": 73.59,
+     "score": 0.706
+    },
+    {
+     "w": "we",
+     "start": 73.67,
+     "end": 73.97,
+     "score": 0.924
+    },
+    {
+     "w": "do",
+     "start": 74.05,
+     "end": 74.17,
+     "score": 0.954
+    },
+    {
+     "w": "not",
+     "start": 74.21,
+     "end": 74.471,
+     "score": 0.82
+    },
+    {
+     "w": "intend",
+     "start": 74.551,
+     "end": 75.091,
+     "score": 0.866
+    },
+    {
+     "w": "oh",
+     "start": 75.111,
+     "end": 75.731,
+     "score": 0.806
+    },
+    {
+     "w": "we",
+     "start": 75.792,
+     "end": 76.092,
+     "score": 0.955
+    },
+    {
+     "w": "do",
+     "start": 76.132,
+     "end": 76.252,
+     "score": 0.936
+    },
+    {
+     "w": "not",
+     "start": 76.292,
+     "end": 76.572,
+     "score": 0.609
+    },
+    {
+     "w": "intend",
+     "start": 76.632,
+     "end": 77.273,
+     "score": 0.612
+    },
+    {
+     "w": "to",
+     "start": 77.793,
+     "end": 78.013,
+     "score": 0.89
+    },
+    {
+     "w": "reinstate",
+     "start": 78.073,
+     "end": 79.054,
+     "score": 0.762
+    },
+    {
+     "w": "you",
+     "start": 79.114,
+     "end": 80.975,
+     "score": 0.325
+    },
+    {
+     "w": "not",
+     "start": 81.476,
+     "end": 81.816,
+     "score": 0.783
+    },
+    {
+     "w": "again",
+     "start": 81.896,
+     "end": 82.957,
+     "score": 0.572
+    }
+   ]
+  },
+  {
+   "start": 84.584,
+   "end": 91.129,
+   "text": "Tuesday evening after the bell, $115 billion up $103.",
+   "words": [
+    {
+     "w": "Tuesday",
+     "start": 84.584,
+     "end": 85.345,
+     "score": 0.705
+    },
+    {
+     "w": "evening",
+     "start": 85.485,
+     "end": 85.945,
+     "score": 0.764
+    },
+    {
+     "w": "after",
+     "start": 86.465,
+     "end": 86.906,
+     "score": 0.7
+    },
+    {
+     "w": "the",
+     "start": 86.966,
+     "end": 87.046,
+     "score": 0.977
+    },
+    {
+     "w": "bell,",
+     "start": 87.186,
+     "end": 87.606,
+     "score": 0.842
+    },
+    {
+     "w": "$115",
+     "start": 87.626,
+     "end": 88.967,
+     "score": 0.734
+    },
+    {
+     "w": "billion",
+     "start": 89.007,
+     "end": 89.448,
+     "score": 0.9
+    },
+    {
+     "w": "up",
+     "start": 90.228,
+     "end": 90.368,
+     "score": 0.993
+    },
+    {
+     "w": "$103.",
+     "start": 90.628,
+     "end": 91.129,
+     "score": 0.913
+    }
+   ]
+  },
+  {
+   "start": 92.43,
+   "end": 96.192,
+   "text": "Racks rolling out and I'm doing so well.",
+   "words": [
+    {
+     "w": "Racks",
+     "start": 92.43,
+     "end": 92.77,
+     "score": 0.901
+    },
+    {
+     "w": "rolling",
+     "start": 92.93,
+     "end": 93.39,
+     "score": 0.847
+    },
+    {
+     "w": "out",
+     "start": 93.811,
+     "end": 93.971,
+     "score": 0.792
+    },
+    {
+     "w": "and",
+     "start": 94.131,
+     "end": 94.251,
+     "score": 0.665
+    },
+    {
+     "w": "I'm",
+     "start": 94.331,
+     "end": 94.451,
+     "score": 0.624
+    },
+    {
+     "w": "doing",
+     "start": 94.491,
+     "end": 95.112,
+     "score": 0.859
+    },
+    {
+     "w": "so",
+     "start": 95.232,
+     "end": 95.672,
+     "score": 0.988
+    },
+    {
+     "w": "well.",
+     "start": 95.792,
+     "end": 96.192,
+     "score": 0.808
+    }
+   ]
+  },
+  {
+   "start": 96.392,
+   "end": 100.616,
+   "text": "All booked in October before you left me.",
+   "words": [
+    {
+     "w": "All",
+     "start": 96.392,
+     "end": 96.573,
+     "score": 0.613
+    },
+    {
+     "w": "booked",
+     "start": 96.613,
+     "end": 96.953,
+     "score": 0.618
+    },
+    {
+     "w": "in",
+     "start": 97.233,
+     "end": 97.393,
+     "score": 0.723
+    },
+    {
+     "w": "October",
+     "start": 97.473,
+     "end": 98.054,
+     "score": 0.943
+    },
+    {
+     "w": "before",
+     "start": 98.414,
+     "end": 99.134,
+     "score": 0.825
+    },
+    {
+     "w": "you",
+     "start": 99.215,
+     "end": 99.395,
+     "score": 0.941
+    },
+    {
+     "w": "left",
+     "start": 99.435,
+     "end": 99.675,
+     "score": 0.856
+    },
+    {
+     "w": "me.",
+     "start": 99.735,
+     "end": 100.616,
+     "score": 0.953
+    }
+   ]
+  },
+  {
+   "start": 101.016,
+   "end": 102.297,
+   "text": "Don't ask when the quarter close.",
+   "words": [
+    {
+     "w": "Don't",
+     "start": 101.016,
+     "end": 101.136,
+     "score": 0.104
+    },
+    {
+     "w": "ask",
+     "start": 101.176,
+     "end": 101.256,
+     "score": 0.341
+    },
+    {
+     "w": "when",
+     "start": 101.276,
+     "end": 101.396,
+     "score": 0.22
+    },
+    {
+     "w": "the",
+     "start": 101.416,
+     "end": 101.516,
+     "score": 0.257
+    },
+    {
+     "w": "quarter",
+     "start": 101.536,
+     "end": 101.876,
+     "score": 0.554
+    },
+    {
+     "w": "close.",
+     "start": 101.896,
+     "end": 102.297,
+     "score": 0.791
+    }
+   ]
+  },
+  {
+   "start": 104.939,
+   "end": 106.66,
+   "text": "Don't ask when the quarter close.",
+   "words": [
+    {
+     "w": "Don't",
+     "start": 104.939,
+     "end": 105.219,
+     "score": 0.426
+    },
+    {
+     "w": "ask",
+     "start": 105.299,
+     "end": 105.419,
+     "score": 0.615
+    },
+    {
+     "w": "when",
+     "start": 105.439,
+     "end": 105.559,
+     "score": 0.331
+    },
+    {
+     "w": "the",
+     "start": 105.599,
+     "end": 105.659,
+     "score": 0.25
+    },
+    {
+     "w": "quarter",
+     "start": 105.719,
+     "end": 106.059,
+     "score": 0.397
+    },
+    {
+     "w": "close.",
+     "start": 106.099,
+     "end": 106.66,
+     "score": 0.801
+    }
+   ]
+  },
+  {
+   "start": 107.54,
+   "end": 108.521,
+   "text": "We got this.",
+   "words": [
+    {
+     "w": "We",
+     "start": 107.54,
+     "end": 107.761,
+     "score": 0.968
+    },
+    {
+     "w": "got",
+     "start": 107.801,
+     "end": 108.021,
+     "score": 0.911
+    },
+    {
+     "w": "this.",
+     "start": 108.041,
+     "end": 108.521,
+     "score": 0.647
+    }
+   ]
+  },
+  {
+   "start": 108.581,
+   "end": 109.322,
+   "text": "We got this.",
+   "words": [
+    {
+     "w": "We",
+     "start": 108.581,
+     "end": 108.801,
+     "score": 0.972
+    },
+    {
+     "w": "got",
+     "start": 108.841,
+     "end": 109.062,
+     "score": 0.91
+    },
+    {
+     "w": "this.",
+     "start": 109.082,
+     "end": 109.322,
+     "score": 0.676
+    }
+   ]
+  },
+  {
+   "start": 111.658,
+   "end": 114.421,
+   "text": "Nobody's waiting on a leather jacket.",
+   "words": [
+    {
+     "w": "Nobody's",
+     "start": 111.658,
+     "end": 112.439,
+     "score": 0.759
+    },
+    {
+     "w": "waiting",
+     "start": 112.479,
+     "end": 112.919,
+     "score": 0.932
+    },
+    {
+     "w": "on",
+     "start": 113.139,
+     "end": 113.239,
+     "score": 0.83
+    },
+    {
+     "w": "a",
+     "start": 113.36,
+     "end": 113.46,
+     "score": 0.836
+    },
+    {
+     "w": "leather",
+     "start": 113.72,
+     "end": 113.96,
+     "score": 0.762
+    },
+    {
+     "w": "jacket.",
+     "start": 114.0,
+     "end": 114.421,
+     "score": 0.925
+    }
+   ]
+  },
+  {
+   "start": 114.761,
+   "end": 117.603,
+   "text": "Nobody's asking who approved it.",
+   "words": [
+    {
+     "w": "Nobody's",
+     "start": 114.761,
+     "end": 115.321,
+     "score": 0.835
+    },
+    {
+     "w": "asking",
+     "start": 115.481,
+     "end": 115.942,
+     "score": 0.738
+    },
+    {
+     "w": "who",
+     "start": 116.062,
+     "end": 116.362,
+     "score": 0.59
+    },
+    {
+     "w": "approved",
+     "start": 116.382,
+     "end": 117.523,
+     "score": 0.599
+    },
+    {
+     "w": "it.",
+     "start": 117.543,
+     "end": 117.603,
+     "score": 0.338
+    }
+   ]
+  },
+  {
+   "start": 119.225,
+   "end": 122.808,
+   "text": "Effective immediately.",
+   "words": [
+    {
+     "w": "Effective",
+     "start": 119.225,
+     "end": 121.247,
+     "score": 0.705
+    },
+    {
+     "w": "immediately.",
+     "start": 121.367,
+     "end": 122.808,
+     "score": 0.667
+    }
+   ]
+  },
+  {
+   "start": 123.949,
+   "end": 127.132,
+   "text": "Out of the building, out of the booth, out of me.",
+   "words": [
+    {
+     "w": "Out",
+     "start": 123.949,
+     "end": 124.029,
+     "score": 0.411
+    },
+    {
+     "w": "of",
+     "start": 124.049,
+     "end": 124.109,
+     "score": 0.232
+    },
+    {
+     "w": "the",
+     "start": 124.149,
+     "end": 124.269,
+     "score": 0.935
+    },
+    {
+     "w": "building,",
+     "start": 124.389,
+     "end": 124.85,
+     "score": 0.669
+    },
+    {
+     "w": "out",
+     "start": 125.01,
+     "end": 125.09,
+     "score": 0.362
+    },
+    {
+     "w": "of",
+     "start": 125.11,
+     "end": 125.15,
+     "score": 0.031
+    },
+    {
+     "w": "the",
+     "start": 125.19,
+     "end": 125.31,
+     "score": 0.933
+    },
+    {
+     "w": "booth,",
+     "start": 125.41,
+     "end": 126.071,
+     "score": 0.712
+    },
+    {
+     "w": "out",
+     "start": 126.411,
+     "end": 126.531,
+     "score": 0.581
+    },
+    {
+     "w": "of",
+     "start": 126.611,
+     "end": 126.691,
+     "score": 0.37
+    },
+    {
+     "w": "me.",
+     "start": 126.732,
+     "end": 127.132,
+     "score": 0.952
+    }
+   ]
+  },
+  {
+   "start": 127.772,
+   "end": 133.598,
+   "text": "We do not intend, no, we do not intend to reinstate you.",
+   "words": [
+    {
+     "w": "We",
+     "start": 127.772,
+     "end": 128.113,
+     "score": 0.986
+    },
+    {
+     "w": "do",
+     "start": 128.153,
+     "end": 128.293,
+     "score": 0.869
+    },
+    {
+     "w": "not",
+     "start": 128.313,
+     "end": 128.553,
+     "score": 0.865
+    },
+    {
+     "w": "intend,",
+     "start": 128.653,
+     "end": 129.234,
+     "score": 0.769
+    },
+    {
+     "w": "no,",
+     "start": 129.334,
+     "end": 129.834,
+     "score": 0.568
+    },
+    {
+     "w": "we",
+     "start": 129.874,
+     "end": 130.215,
+     "score": 0.856
+    },
+    {
+     "w": "do",
+     "start": 130.235,
+     "end": 130.395,
+     "score": 0.836
+    },
+    {
+     "w": "not",
+     "start": 130.415,
+     "end": 130.655,
+     "score": 0.804
+    },
+    {
+     "w": "intend",
+     "start": 130.735,
+     "end": 131.516,
+     "score": 0.461
+    },
+    {
+     "w": "to",
+     "start": 131.896,
+     "end": 132.136,
+     "score": 0.938
+    },
+    {
+     "w": "reinstate",
+     "start": 132.176,
+     "end": 133.117,
+     "score": 0.82
+    },
+    {
+     "w": "you.",
+     "start": 133.237,
+     "end": 133.598,
+     "score": 0.409
+    }
+   ]
+  },
+  {
+   "start": 134.999,
+   "end": 161.513,
+   "text": "Not again Effective immediately 600 billion is the price of being free We do not intend, no We do not intend To reinstate you Not again Then your message lights up late at night Says you'd be honored if I'd have you back",
+   "words": [
+    {
+     "w": "Not",
+     "start": 134.999,
+     "end": 135.059,
+     "score": 0.001
+    },
+    {
+     "w": "again",
+     "start": 135.959,
+     "end": 137.14,
+     "score": 0.767
+    },
+    {
+     "w": "Effective",
+     "start": 137.2,
+     "end": 137.84,
+     "score": 0.826
+    },
+    {
+     "w": "immediately",
+     "start": 137.96,
+     "end": 139.381,
+     "score": 0.675
+    },
+    {
+     "w": "600",
+     "start": 139.401,
+     "end": 140.962,
+     "score": 0.918
+    },
+    {
+     "w": "billion",
+     "start": 141.002,
+     "end": 141.542,
+     "score": 0.613
+    },
+    {
+     "w": "is",
+     "start": 141.622,
+     "end": 141.722,
+     "score": 0.727
+    },
+    {
+     "w": "the",
+     "start": 141.782,
+     "end": 141.922,
+     "score": 0.878
+    },
+    {
+     "w": "price",
+     "start": 142.042,
+     "end": 142.543,
+     "score": 0.722
+    },
+    {
+     "w": "of",
+     "start": 142.583,
+     "end": 142.683,
+     "score": 0.378
+    },
+    {
+     "w": "being",
+     "start": 142.823,
+     "end": 143.123,
+     "score": 0.393
+    },
+    {
+     "w": "free",
+     "start": 143.523,
+     "end": 143.983,
+     "score": 0.621
+    },
+    {
+     "w": "We",
+     "start": 144.363,
+     "end": 144.704,
+     "score": 0.95
+    },
+    {
+     "w": "do",
+     "start": 144.764,
+     "end": 144.884,
+     "score": 0.998
+    },
+    {
+     "w": "not",
+     "start": 144.924,
+     "end": 145.184,
+     "score": 0.906
+    },
+    {
+     "w": "intend,",
+     "start": 145.264,
+     "end": 145.824,
+     "score": 0.911
+    },
+    {
+     "w": "no",
+     "start": 145.844,
+     "end": 146.405,
+     "score": 0.81
+    },
+    {
+     "w": "We",
+     "start": 146.485,
+     "end": 146.785,
+     "score": 0.989
+    },
+    {
+     "w": "do",
+     "start": 146.845,
+     "end": 146.965,
+     "score": 0.995
+    },
+    {
+     "w": "not",
+     "start": 147.005,
+     "end": 147.245,
+     "score": 0.901
+    },
+    {
+     "w": "intend",
+     "start": 147.345,
+     "end": 147.865,
+     "score": 0.66
+    },
+    {
+     "w": "To",
+     "start": 148.486,
+     "end": 148.726,
+     "score": 0.922
+    },
+    {
+     "w": "reinstate",
+     "start": 148.786,
+     "end": 149.706,
+     "score": 0.787
+    },
+    {
+     "w": "you",
+     "start": 149.806,
+     "end": 151.687,
+     "score": 0.322
+    },
+    {
+     "w": "Not",
+     "start": 152.168,
+     "end": 152.508,
+     "score": 0.869
+    },
+    {
+     "w": "again",
+     "start": 152.568,
+     "end": 154.589,
+     "score": 0.667
+    },
+    {
+     "w": "Then",
+     "start": 154.649,
+     "end": 154.829,
+     "score": 0.948
+    },
+    {
+     "w": "your",
+     "start": 154.849,
+     "end": 155.009,
+     "score": 0.822
+    },
+    {
+     "w": "message",
+     "start": 155.049,
+     "end": 155.469,
+     "score": 0.955
+    },
+    {
+     "w": "lights",
+     "start": 155.549,
+     "end": 155.81,
+     "score": 0.43
+    },
+    {
+     "w": "up",
+     "start": 155.93,
+     "end": 156.05,
+     "score": 0.744
+    },
+    {
+     "w": "late",
+     "start": 156.07,
+     "end": 156.31,
+     "score": 0.886
+    },
+    {
+     "w": "at",
+     "start": 156.35,
+     "end": 156.41,
+     "score": 0.862
+    },
+    {
+     "w": "night",
+     "start": 156.45,
+     "end": 156.85,
+     "score": 0.765
+    },
+    {
+     "w": "Says",
+     "start": 158.371,
+     "end": 158.631,
+     "score": 0.906
+    },
+    {
+     "w": "you'd",
+     "start": 158.651,
+     "end": 158.851,
+     "score": 0.743
+    },
+    {
+     "w": "be",
+     "start": 158.891,
+     "end": 159.031,
+     "score": 0.868
+    },
+    {
+     "w": "honored",
+     "start": 159.111,
+     "end": 159.592,
+     "score": 0.825
+    },
+    {
+     "w": "if",
+     "start": 159.652,
+     "end": 159.732,
+     "score": 0.788
+    },
+    {
+     "w": "I'd",
+     "start": 160.012,
+     "end": 160.192,
+     "score": 0.546
+    },
+    {
+     "w": "have",
+     "start": 160.232,
+     "end": 160.592,
+     "score": 0.914
+    },
+    {
+     "w": "you",
+     "start": 160.652,
+     "end": 160.892,
+     "score": 0.927
+    },
+    {
+     "w": "back",
+     "start": 161.012,
+     "end": 161.513,
+     "score": 0.612
+    }
+   ]
+  },
+  {
+   "start": 162.522,
+   "end": 166.023,
+   "text": "Says you didn't live up to what was right.",
+   "words": [
+    {
+     "w": "Says",
+     "start": 162.522,
+     "end": 162.702,
+     "score": 0.979
+    },
+    {
+     "w": "you",
+     "start": 162.742,
+     "end": 162.882,
+     "score": 0.944
+    },
+    {
+     "w": "didn't",
+     "start": 162.922,
+     "end": 163.262,
+     "score": 0.622
+    },
+    {
+     "w": "live",
+     "start": 163.322,
+     "end": 163.582,
+     "score": 0.967
+    },
+    {
+     "w": "up",
+     "start": 163.763,
+     "end": 163.923,
+     "score": 0.894
+    },
+    {
+     "w": "to",
+     "start": 164.103,
+     "end": 164.303,
+     "score": 0.845
+    },
+    {
+     "w": "what",
+     "start": 164.363,
+     "end": 164.583,
+     "score": 0.898
+    },
+    {
+     "w": "was",
+     "start": 164.643,
+     "end": 165.103,
+     "score": 0.953
+    },
+    {
+     "w": "right.",
+     "start": 165.163,
+     "end": 166.023,
+     "score": 0.537
+    }
+   ]
+  },
+  {
+   "start": 166.704,
+   "end": 168.845,
+   "text": "Says the whole world's calling.",
+   "words": [
+    {
+     "w": "Says",
+     "start": 166.704,
+     "end": 166.944,
+     "score": 0.81
+    },
+    {
+     "w": "the",
+     "start": 167.004,
+     "end": 167.144,
+     "score": 0.986
+    },
+    {
+     "w": "whole",
+     "start": 167.244,
+     "end": 167.644,
+     "score": 0.81
+    },
+    {
+     "w": "world's",
+     "start": 167.744,
+     "end": 168.184,
+     "score": 0.831
+    },
+    {
+     "w": "calling.",
+     "start": 168.284,
+     "end": 168.845,
+     "score": 0.871
+    }
+   ]
+  },
+  {
+   "start": 169.705,
+   "end": 170.345,
+   "text": "And that's that.",
+   "words": [
+    {
+     "w": "And",
+     "start": 169.705,
+     "end": 169.785,
+     "score": 0.921
+    },
+    {
+     "w": "that's",
+     "start": 169.825,
+     "end": 170.045,
+     "score": 0.783
+    },
+    {
+     "w": "that.",
+     "start": 170.085,
+     "end": 170.345,
+     "score": 0.961
+    }
+   ]
+  },
+  {
+   "start": 170.845,
+   "end": 173.987,
+   "text": "Then a car comes down from somewhere high.",
+   "words": [
+    {
+     "w": "Then",
+     "start": 170.845,
+     "end": 170.965,
+     "score": 0.942
+    },
+    {
+     "w": "a",
+     "start": 171.045,
+     "end": 171.085,
+     "score": 0.794
+    },
+    {
+     "w": "car",
+     "start": 171.125,
+     "end": 171.366,
+     "score": 0.719
+    },
+    {
+     "w": "comes",
+     "start": 171.406,
+     "end": 171.606,
+     "score": 0.882
+    },
+    {
+     "w": "down",
+     "start": 171.666,
+     "end": 172.066,
+     "score": 0.915
+    },
+    {
+     "w": "from",
+     "start": 172.166,
+     "end": 172.646,
+     "score": 0.725
+    },
+    {
+     "w": "somewhere",
+     "start": 172.686,
+     "end": 173.386,
+     "score": 0.778
+    },
+    {
+     "w": "high.",
+     "start": 173.466,
+     "end": 173.987,
+     "score": 0.906
+    }
+   ]
+  },
+  {
+   "start": 174.027,
+   "end": 175.427,
+   "text": "Says there's no risk here.",
+   "words": [
+    {
+     "w": "Says",
+     "start": 174.027,
+     "end": 174.187,
+     "score": 0.458
+    },
+    {
+     "w": "there's",
+     "start": 174.227,
+     "end": 174.487,
+     "score": 0.836
+    },
+    {
+     "w": "no",
+     "start": 174.527,
+     "end": 174.727,
+     "score": 0.896
+    },
+    {
+     "w": "risk",
+     "start": 174.807,
+     "end": 175.107,
+     "score": 0.91
+    },
+    {
+     "w": "here.",
+     "start": 175.147,
+     "end": 175.427,
+     "score": 0.43
+    }
+   ]
+  },
+  {
+   "start": 175.467,
+   "end": 177.068,
+   "text": "Investigation's still open.",
+   "words": [
+    {
+     "w": "Investigation's",
+     "start": 175.467,
+     "end": 176.248,
+     "score": 0.841
+    },
+    {
+     "w": "still",
+     "start": 176.288,
+     "end": 176.548,
+     "score": 0.856
+    },
+    {
+     "w": "open.",
+     "start": 176.568,
+     "end": 177.068,
+     "score": 0.244
+    }
+   ]
+  },
+  {
+   "start": 177.108,
+   "end": 179.669,
+   "text": "But there's no risk here.",
+   "words": [
+    {
+     "w": "But",
+     "start": 177.108,
+     "end": 177.868,
+     "score": 0.288
+    },
+    {
+     "w": "there's",
+     "start": 178.408,
+     "end": 178.648,
+     "score": 0.765
+    },
+    {
+     "w": "no",
+     "start": 178.688,
+     "end": 178.869,
+     "score": 0.996
+    },
+    {
+     "w": "risk",
+     "start": 178.969,
+     "end": 179.549,
+     "score": 0.849
+    },
+    {
+     "w": "here.",
+     "start": 179.569,
+     "end": 179.669,
+     "score": 0.196
+    }
+   ]
+  },
+  {
+   "start": 179.709,
+   "end": 182.05,
+   "text": "Congress hasn't had its turn.",
+   "words": [
+    {
+     "w": "Congress",
+     "start": 179.709,
+     "end": 180.369,
+     "score": 0.745
+    },
+    {
+     "w": "hasn't",
+     "start": 180.429,
+     "end": 180.809,
+     "score": 0.547
+    },
+    {
+     "w": "had",
+     "start": 180.849,
+     "end": 181.069,
+     "score": 0.852
+    },
+    {
+     "w": "its",
+     "start": 181.129,
+     "end": 181.23,
+     "score": 0.809
+    },
+    {
+     "w": "turn.",
+     "start": 181.29,
+     "end": 182.05,
+     "score": 0.739
+    }
+   ]
+  },
+  {
+   "start": 182.55,
+   "end": 210.987,
+   "text": "There's no risk here Senior levels Oh, said it on the morning news Effective immediately Back in the building Back in the booth Back with me We did not intend No, we did not intend To reinstate you But here we are again Effective immediately Six hundred billion reasons To reconsider me",
+   "words": [
+    {
+     "w": "There's",
+     "start": 182.55,
+     "end": 182.79,
+     "score": 0.567
+    },
+    {
+     "w": "no",
+     "start": 182.83,
+     "end": 183.05,
+     "score": 0.95
+    },
+    {
+     "w": "risk",
+     "start": 183.07,
+     "end": 183.451,
+     "score": 0.65
+    },
+    {
+     "w": "here",
+     "start": 183.471,
+     "end": 183.891,
+     "score": 0.865
+    },
+    {
+     "w": "Senior",
+     "start": 184.071,
+     "end": 184.451,
+     "score": 0.586
+    },
+    {
+     "w": "levels",
+     "start": 184.491,
+     "end": 184.951,
+     "score": 0.91
+    },
+    {
+     "w": "Oh,",
+     "start": 185.812,
+     "end": 186.032,
+     "score": 0.726
+    },
+    {
+     "w": "said",
+     "start": 186.152,
+     "end": 186.432,
+     "score": 0.672
+    },
+    {
+     "w": "it",
+     "start": 186.512,
+     "end": 186.592,
+     "score": 0.812
+    },
+    {
+     "w": "on",
+     "start": 186.712,
+     "end": 186.813,
+     "score": 0.984
+    },
+    {
+     "w": "the",
+     "start": 186.833,
+     "end": 186.913,
+     "score": 0.203
+    },
+    {
+     "w": "morning",
+     "start": 186.973,
+     "end": 187.433,
+     "score": 0.658
+    },
+    {
+     "w": "news",
+     "start": 187.473,
+     "end": 187.973,
+     "score": 0.64
+    },
+    {
+     "w": "Effective",
+     "start": 188.073,
+     "end": 188.754,
+     "score": 0.512
+    },
+    {
+     "w": "immediately",
+     "start": 188.874,
+     "end": 189.774,
+     "score": 0.503
+    },
+    {
+     "w": "Back",
+     "start": 190.094,
+     "end": 190.475,
+     "score": 0.834
+    },
+    {
+     "w": "in",
+     "start": 190.535,
+     "end": 190.615,
+     "score": 0.896
+    },
+    {
+     "w": "the",
+     "start": 190.655,
+     "end": 190.775,
+     "score": 0.884
+    },
+    {
+     "w": "building",
+     "start": 190.875,
+     "end": 191.315,
+     "score": 0.628
+    },
+    {
+     "w": "Back",
+     "start": 191.395,
+     "end": 191.535,
+     "score": 0.957
+    },
+    {
+     "w": "in",
+     "start": 191.575,
+     "end": 191.655,
+     "score": 0.894
+    },
+    {
+     "w": "the",
+     "start": 191.695,
+     "end": 191.795,
+     "score": 0.906
+    },
+    {
+     "w": "booth",
+     "start": 191.896,
+     "end": 192.496,
+     "score": 0.756
+    },
+    {
+     "w": "Back",
+     "start": 192.676,
+     "end": 192.916,
+     "score": 0.932
+    },
+    {
+     "w": "with",
+     "start": 192.956,
+     "end": 193.156,
+     "score": 0.906
+    },
+    {
+     "w": "me",
+     "start": 193.216,
+     "end": 193.717,
+     "score": 0.864
+    },
+    {
+     "w": "We",
+     "start": 194.217,
+     "end": 194.597,
+     "score": 0.964
+    },
+    {
+     "w": "did",
+     "start": 194.617,
+     "end": 194.757,
+     "score": 0.669
+    },
+    {
+     "w": "not",
+     "start": 194.797,
+     "end": 195.037,
+     "score": 0.894
+    },
+    {
+     "w": "intend",
+     "start": 195.117,
+     "end": 195.758,
+     "score": 0.621
+    },
+    {
+     "w": "No,",
+     "start": 195.818,
+     "end": 196.298,
+     "score": 0.764
+    },
+    {
+     "w": "we",
+     "start": 196.338,
+     "end": 196.678,
+     "score": 0.983
+    },
+    {
+     "w": "did",
+     "start": 196.698,
+     "end": 196.838,
+     "score": 0.572
+    },
+    {
+     "w": "not",
+     "start": 196.878,
+     "end": 197.119,
+     "score": 0.961
+    },
+    {
+     "w": "intend",
+     "start": 197.219,
+     "end": 198.039,
+     "score": 0.717
+    },
+    {
+     "w": "To",
+     "start": 198.359,
+     "end": 198.559,
+     "score": 0.96
+    },
+    {
+     "w": "reinstate",
+     "start": 198.639,
+     "end": 199.5,
+     "score": 0.675
+    },
+    {
+     "w": "you",
+     "start": 199.64,
+     "end": 200.4,
+     "score": 0.731
+    },
+    {
+     "w": "But",
+     "start": 200.501,
+     "end": 200.661,
+     "score": 0.789
+    },
+    {
+     "w": "here",
+     "start": 200.721,
+     "end": 201.161,
+     "score": 0.549
+    },
+    {
+     "w": "we",
+     "start": 201.261,
+     "end": 201.481,
+     "score": 0.919
+    },
+    {
+     "w": "are",
+     "start": 201.981,
+     "end": 202.181,
+     "score": 0.745
+    },
+    {
+     "w": "again",
+     "start": 202.442,
+     "end": 203.602,
+     "score": 0.897
+    },
+    {
+     "w": "Effective",
+     "start": 203.662,
+     "end": 204.323,
+     "score": 0.567
+    },
+    {
+     "w": "immediately",
+     "start": 204.443,
+     "end": 205.904,
+     "score": 0.705
+    },
+    {
+     "w": "Six",
+     "start": 206.664,
+     "end": 206.964,
+     "score": 0.939
+    },
+    {
+     "w": "hundred",
+     "start": 207.204,
+     "end": 207.645,
+     "score": 0.847
+    },
+    {
+     "w": "billion",
+     "start": 207.725,
+     "end": 208.185,
+     "score": 0.902
+    },
+    {
+     "w": "reasons",
+     "start": 208.265,
+     "end": 208.865,
+     "score": 0.892
+    },
+    {
+     "w": "To",
+     "start": 209.246,
+     "end": 209.466,
+     "score": 0.934
+    },
+    {
+     "w": "reconsider",
+     "start": 209.566,
+     "end": 210.726,
+     "score": 0.882
+    },
+    {
+     "w": "me",
+     "start": 210.807,
+     "end": 210.987,
+     "score": 0.676
+    }
+   ]
+  },
+  {
+   "start": 214.049,
+   "end": 220.811,
+   "text": "a chief compliance officer reporting to nominating and corporate governance.",
+   "words": [
+    {
+     "w": "a",
+     "start": 214.049,
+     "end": 214.089,
+     "score": 0.692
+    },
+    {
+     "w": "chief",
+     "start": 214.129,
+     "end": 214.349,
+     "score": 0.846
+    },
+    {
+     "w": "compliance",
+     "start": 214.409,
+     "end": 214.989,
+     "score": 0.933
+    },
+    {
+     "w": "officer",
+     "start": 215.069,
+     "end": 215.529,
+     "score": 0.813
+    },
+    {
+     "w": "reporting",
+     "start": 216.87,
+     "end": 217.33,
+     "score": 0.895
+    },
+    {
+     "w": "to",
+     "start": 217.37,
+     "end": 217.47,
+     "score": 0.994
+    },
+    {
+     "w": "nominating",
+     "start": 217.55,
+     "end": 218.13,
+     "score": 0.934
+    },
+    {
+     "w": "and",
+     "start": 219.67,
+     "end": 219.77,
+     "score": 0.928
+    },
+    {
+     "w": "corporate",
+     "start": 219.85,
+     "end": 220.251,
+     "score": 0.925
+    },
+    {
+     "w": "governance.",
+     "start": 220.291,
+     "end": 220.811,
+     "score": 0.733
+    }
+   ]
+  },
+  {
+   "start": 224.872,
+   "end": 226.232,
+   "text": "Oh, we did not intend.",
+   "words": [
+    {
+     "w": "Oh,",
+     "start": 224.872,
+     "end": 225.012,
+     "score": 0.281
+    },
+    {
+     "w": "we",
+     "start": 225.032,
+     "end": 225.132,
+     "score": 0.468
+    },
+    {
+     "w": "did",
+     "start": 225.192,
+     "end": 225.352,
+     "score": 0.42
+    },
+    {
+     "w": "not",
+     "start": 225.392,
+     "end": 225.652,
+     "score": 0.595
+    },
+    {
+     "w": "intend.",
+     "start": 225.712,
+     "end": 226.232,
+     "score": 0.704
+    }
+   ]
+  },
+  {
+   "start": 233.174,
+   "end": 238.475,
+   "text": "We did not intend.",
+   "words": [
+    {
+     "w": "We",
+     "start": 233.174,
+     "end": 235.714,
+     "score": 0.896
+    },
+    {
+     "w": "did",
+     "start": 235.754,
+     "end": 236.214,
+     "score": 0.848
+    },
+    {
+     "w": "not",
+     "start": 236.294,
+     "end": 236.855,
+     "score": 0.932
+    },
+    {
+     "w": "intend.",
+     "start": 237.055,
+     "end": 238.475,
+     "score": 0.766
+    }
+   ]
+  },
+  {
+   "start": 241.462,
+   "end": 257.757,
+   "text": "There's a plaque on a booth in a diner in East San Jose Came down the day that you left Went back up before you did Eleven days for you and two for it",
+   "words": [
+    {
+     "w": "There's",
+     "start": 241.462,
+     "end": 241.642,
+     "score": 0.899
+    },
+    {
+     "w": "a",
+     "start": 241.662,
+     "end": 241.702,
+     "score": 0.501
+    },
+    {
+     "w": "plaque",
+     "start": 241.742,
+     "end": 242.023,
+     "score": 0.645
+    },
+    {
+     "w": "on",
+     "start": 242.083,
+     "end": 242.183,
+     "score": 0.765
+    },
+    {
+     "w": "a",
+     "start": 242.203,
+     "end": 242.243,
+     "score": 0.511
+    },
+    {
+     "w": "booth",
+     "start": 242.283,
+     "end": 242.543,
+     "score": 0.979
+    },
+    {
+     "w": "in",
+     "start": 242.603,
+     "end": 242.663,
+     "score": 0.948
+    },
+    {
+     "w": "a",
+     "start": 242.723,
+     "end": 242.763,
+     "score": 0.694
+    },
+    {
+     "w": "diner",
+     "start": 242.803,
+     "end": 243.304,
+     "score": 0.907
+    },
+    {
+     "w": "in",
+     "start": 243.324,
+     "end": 243.364,
+     "score": 0.002
+    },
+    {
+     "w": "East",
+     "start": 243.384,
+     "end": 244.024,
+     "score": 0.698
+    },
+    {
+     "w": "San",
+     "start": 244.104,
+     "end": 244.425,
+     "score": 0.884
+    },
+    {
+     "w": "Jose",
+     "start": 244.445,
+     "end": 245.025,
+     "score": 0.796
+    },
+    {
+     "w": "Came",
+     "start": 246.186,
+     "end": 246.467,
+     "score": 0.825
+    },
+    {
+     "w": "down",
+     "start": 246.527,
+     "end": 246.747,
+     "score": 0.823
+    },
+    {
+     "w": "the",
+     "start": 246.787,
+     "end": 246.887,
+     "score": 0.798
+    },
+    {
+     "w": "day",
+     "start": 246.927,
+     "end": 247.247,
+     "score": 0.872
+    },
+    {
+     "w": "that",
+     "start": 247.307,
+     "end": 247.467,
+     "score": 0.952
+    },
+    {
+     "w": "you",
+     "start": 247.548,
+     "end": 248.228,
+     "score": 0.942
+    },
+    {
+     "w": "left",
+     "start": 248.368,
+     "end": 248.849,
+     "score": 0.69
+    },
+    {
+     "w": "Went",
+     "start": 250.47,
+     "end": 250.69,
+     "score": 0.826
+    },
+    {
+     "w": "back",
+     "start": 250.75,
+     "end": 251.011,
+     "score": 0.998
+    },
+    {
+     "w": "up",
+     "start": 251.191,
+     "end": 251.331,
+     "score": 0.987
+    },
+    {
+     "w": "before",
+     "start": 251.551,
+     "end": 252.032,
+     "score": 0.906
+    },
+    {
+     "w": "you",
+     "start": 252.092,
+     "end": 252.292,
+     "score": 0.955
+    },
+    {
+     "w": "did",
+     "start": 252.372,
+     "end": 252.652,
+     "score": 0.791
+    },
+    {
+     "w": "Eleven",
+     "start": 253.973,
+     "end": 254.334,
+     "score": 0.92
+    },
+    {
+     "w": "days",
+     "start": 254.394,
+     "end": 254.794,
+     "score": 0.759
+    },
+    {
+     "w": "for",
+     "start": 254.894,
+     "end": 255.034,
+     "score": 0.9
+    },
+    {
+     "w": "you",
+     "start": 255.074,
+     "end": 255.314,
+     "score": 0.912
+    },
+    {
+     "w": "and",
+     "start": 256.736,
+     "end": 256.876,
+     "score": 0.732
+    },
+    {
+     "w": "two",
+     "start": 256.976,
+     "end": 257.276,
+     "score": 0.809
+    },
+    {
+     "w": "for",
+     "start": 257.416,
+     "end": 257.637,
+     "score": 0.917
+    },
+    {
+     "w": "it",
+     "start": 257.717,
+     "end": 257.757,
+     "score": 0.927
+    }
+   ]
+  }
+ ]
+}

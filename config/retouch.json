@@ -1,0 +1,10 @@
+{
+  "_doc": "Guardrail retouches on picked keyframes (scripts/retouch.py). Boxes are in the take's pixels.",
+  "takes": {
+    "G02_s1123": {"desaturate": [720, 104, 788, 140]},
+    "G04_s1123": {"degreen": true},
+    "G05_v2_s1123": {"degreen": true},
+    "G10_v2_s1124": {"blur": [[805, 392, 1110, 530], [915, 350, 994, 392], [1078, 350, 1150, 392], [1105, 232, 1150, 250]]},
+    "S02_s1123": {"crush": [462, 266, 530, 356, 92]}
+  }
+}

@@ -1,0 +1,68 @@
+# Large files: excluded from git, listed in MANIFEST.sha256 (scripts/manifest.sh), published separately.
+audio/
+renders/
+assets/gen/
+*.blend
+edit/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aif
+*.aiff
+*.zip
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.blend1
+
+# Regenerable: never archived; versions and regen commands are logged instead.
+frames/
+**/frames/
+cache/
+**/__pycache__/
+.venv/
+node_modules/
+models/
+*.pt
+*.safetensors
+*.gguf
+
+# Capture dumps: regenerate with scripts/fetch_*.mjs. The clip record and lyrics (suno_clip.py) and the chat
+# snapshot JSON and Markdown are kept; the raw page dumps and API responses are not.
+docs/suno/resp_*.json
+docs/suno/page.html
+docs/planning_chat/planning_chat.html
+
+# Review stills (large): in the manifest; the contact sheets (review/*.jpg) stay in git
+review/**/*.png
+archive/**/*.png
+# Remotion build output
+out/
+remotion/public/gen/
+
+# Release staging: hard links and tar parts of files in the manifest
+release/
+
+# Timing intermediates: regenerable; in the manifest
+timing/check/
+
+# Working material from the agent's sessions (measurement scripts, trial outputs, private reference crops): local only,
+# never committed or published, and not in the manifest.
+scratch/
+
+# Regenerable with scripts/grain_plates.py
+remotion/public/grain/
+
+# The people kit library (130 MB), copied from All Systems Operational; listed in the manifest
+assets/figures/
+
+# Raw market data (Alpaca, Databento): fetched by scripts/fetch_market.py and scripts/fetch_databento.py, not redistributed in the repo
+assets/market/
+# Chart data derived from a vendor's feed stays out of the repo: Alpaca's terms forbid publishing it, Databento's require
+# a credit wherever it is published (decisions 28).
+archive/**/market*.json
+# The human's full-page release screenshots: they show the browser's profile, media contacts and the interim CEO's name
+# (brief: never named). Only the crops are used (remotion/public/gen/captures/), and both are listed in the manifest.
+assets/captures/releases/

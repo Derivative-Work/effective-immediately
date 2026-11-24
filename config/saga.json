@@ -1,0 +1,30 @@
+{
+  "asOf": "2026-11-23",
+  "resigned": "2026-11-12",
+  "reinstated": "2026-11-23",
+  "dayCount": 11,
+  "marketValueDrop": "more than $600bn",
+  "q3Revenue": "115.8",
+  "q3Growth": "103%",
+  "quarterEnded": "OCT 25",
+  "statementWord": "honored",
+  "officialsTag": "The Nov 23 release doesn't say which officials.",
+  "governanceSigns": [
+    "Chief Compliance Officer · search in progress",
+    "National Security and Export Control Oversight Committee"
+  ],
+  "interviews": {
+    "date": "early December (CNN: Dec 1)",
+    "status": "scheduled"
+  },
+  "branch": "A",
+  "factCardQuotes": [],
+  "sources": [],
+  "phone": {
+    "_doc": "Phone screen dressing. E03: the 8-K was accepted at 8:52 am on Thu Nov 12 (SEC index; news check, decisions 27). E18p/E19: he said he'd be honored on Tue Nov 17 (fact card); the late hour is set dressing for the bridge's night.",
+    "filingClock": "8:52",
+    "filingStamp": "Thursday, Nov 12 · 8:52 AM",
+    "nightDate": "Tuesday, November 17",
+    "nightClock": "11:48"
+  }
+}

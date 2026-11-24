@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# E01's script (human note, 2026-11-24). The opening bookend shows it run in a terminal, straight after nvidia-smi caught
+# the GPU in a heavy stage. It prints the video's three opening lines, then "generating", and the video cuts in. It makes
+# nothing itself: the pipeline that made the video is in docs/plan.md and log/production_log.md. The pauses are the ones
+# the terminal shows (scripts/e01_terminal.py, remotion/src/components/Terminal.tsx).
+set -euo pipefail
+printf 'Effective Immediately\n'; sleep 0.5
+printf 'AI-generated satire\n'; sleep 0.5
+printf 'Not investment advice\n'; sleep 0.5
+printf 'generating'
+for _ in 1 2 3; do sleep 0.33; printf '.'; done
+printf '\n'

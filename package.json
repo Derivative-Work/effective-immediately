@@ -1,0 +1,21 @@
+{
+  "name": "effective-immediately",
+  "private": true,
+  "type": "module",
+  "description": "Sugar Push: West Coast Swing music video; captures in Puppeteer, overlays and cards in Remotion.",
+  "dependencies": {
+    "puppeteer": "24.43.1",
+    "remotion": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "@types/react": "18.3.12"
+  },
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render"
+  }
+}

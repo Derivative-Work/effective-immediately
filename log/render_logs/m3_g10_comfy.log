@@ -1,0 +1,101 @@
+[32m[INFO][0m setup plugin alembic.autogenerate.schemas
+[32m[INFO][0m setup plugin alembic.autogenerate.tables
+[32m[INFO][0m setup plugin alembic.autogenerate.types
+[32m[INFO][0m setup plugin alembic.autogenerate.constraints
+[32m[INFO][0m setup plugin alembic.autogenerate.defaults
+[32m[INFO][0m setup plugin alembic.autogenerate.comments
+[32m[INFO][0m setup plugin alembic.ext.checkconstraint_byname
+[32m[INFO][0m Found comfy_kitchen backend ascend: {'available': False, 'disabled': False, 'unavailable_reason': "torch-npu is not installed: No module named 'torch_npu'", 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['adaln', 'apply_rope', 'apply_rope1', 'apply_rope1_', 'apply_rope_', 'apply_rope_split_half', 'apply_rope_split_half1', 'apply_rope_split_half1_', 'apply_rope_split_half_', 'convrot_w4a4_linear', 'dequantize_convrot_w4a4_weight', 'dequantize_int8_convrot_weight', 'dequantize_int8_convrot_weight_dtype', 'dequantize_int8_embedding', 'dequantize_int8_simple', 'dequantize_int8_simple_dtype', 'dequantize_mxfp8', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'dequantize_w4a8_int8_weight', 'fp16_conv3d', 'fp16_conv3d_out', 'fp16_linear', 'gemv_awq_w4a16', 'group_norm_silu_pad3d', 'group_norm_silu_pad3d_out', 'int8_linear', 'na3d', 'prepare_int4_weight_for_int8_linear', 'quantize_and_rotate_rowwise', 'quantize_convrot_w4a4_weight', 'quantize_int8_convrot_weight', 'quantize_int8_rowwise', 'quantize_int8_tensorwise', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'quantize_svdquant_w4a4', 'quantize_w4a8_int8_weight', 'rms_adaln', 'rms_rope', 'rms_rope1', 'rms_rope1_', 'rms_rope_', 'rms_rope_split_half', 'rms_rope_split_half1', 'rms_rope_split_half1_', 'rms_rope_split_half_', 'rotate_int8_convrot_weight', 'scaled_mm_mxfp8', 'scaled_mm_nvfp4', 'scaled_mm_svdquant_w4a4', 'sol_attn', 'stochastic_rounding_fp8', 'w4a8_int8_linear', 'w4a8_packed_linear']}
+[32m[INFO][0m Found comfy_kitchen backend triton: {'available': True, 'disabled': True, 'unavailable_reason': None, 'capabilities': ['adaln', 'apply_rope', 'apply_rope1', 'apply_rope1_', 'apply_rope_', 'apply_rope_split_half', 'apply_rope_split_half1', 'apply_rope_split_half1_', 'apply_rope_split_half_', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'int8_linear', 'na3d', 'quantize_and_rotate_rowwise', 'quantize_int8_rowwise', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'rms_adaln', 'rms_rope', 'rms_rope1', 'rms_rope1_', 'rms_rope_', 'rms_rope_split_half', 'rms_rope_split_half1', 'rms_rope_split_half1_', 'rms_rope_split_half_', 'w4a8_int8_linear']}
+[32m[INFO][0m Found comfy_kitchen backend cuda: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['adaln', 'apply_rope', 'apply_rope1', 'apply_rope1_', 'apply_rope_', 'apply_rope_split_half', 'apply_rope_split_half1', 'apply_rope_split_half1_', 'apply_rope_split_half_', 'closest_point_on_mesh', 'connected_components', 'convrot_w4a4_linear', 'delaunay3d', 'dequantize_convrot_w4a4_weight', 'dequantize_int8_convrot_weight', 'dequantize_int8_convrot_weight_dtype', 'dequantize_int8_simple', 'dequantize_int8_simple_dtype', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'dequantize_w4a8_int8_weight', 'edge_collapse_checks', 'fp16_conv3d', 'fp16_conv3d_out', 'fp16_linear', 'gemv_awq_w4a16', 'group_norm_silu_pad3d', 'group_norm_silu_pad3d_out', 'int8_linear', 'mesh_bvh', 'min_cut', 'na3d', 'prepare_int4_weight_for_int8_linear', 'quantize_and_rotate_rowwise', 'quantize_convrot_w4a4_weight', 'quantize_int8_convrot_weight', 'quantize_int8_rowwise', 'quantize_int8_tensorwise', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'quantize_svdquant_w4a4', 'quantize_w4a8_int8_weight', 'rms_adaln', 'rms_rope', 'rms_rope1', 'rms_rope1_', 'rms_rope_', 'rms_rope_split_half', 'rms_rope_split_half1', 'rms_rope_split_half1_', 'rms_rope_split_half_', 'rotate_int8_convrot_weight', 'scaled_mm_nvfp4', 'scaled_mm_svdquant_w4a4', 'sol_attn', 'stochastic_rounding_fp8', 'w4a8_int8_linear', 'w4a8_packed_linear']}
+[32m[INFO][0m Found comfy_kitchen backend hip: {'available': False, 'disabled': False, 'unavailable_reason': 'PyTorch ROCm/HIP runtime not available', 'capabilities': []}
+[32m[INFO][0m Checkpoint files will always be loaded safely.
+[32m[INFO][0m Total VRAM 32111 MB, total RAM 39077 MB
+[32m[INFO][0m pytorch version: 2.14.1+cu130
+[32m[INFO][0m Set vram state to: NORMAL_VRAM
+[32m[INFO][0m Device: cuda:0 NVIDIA GeForce RTX 5090 : cudaMallocAsync
+[32m[INFO][0m Using async weight offloading with 2 streams
+[32m[INFO][0m Enabled pinned memory 34981
+[32m[INFO][0m Using pytorch attention
+[32m[INFO][0m aimdo: /project/src/control.c:283:INFO:comfy-aimdo inited for GPU: NVIDIA GeForce RTX 5090 (VRAM: 32110 MB)
+[32m[INFO][0m DynamicVRAM support detected and enabled
+[32m[INFO][0m Python version: 3.13.16 (main, Oct  9 2026, 15:23:36) [Clang 22.1.3 ]
+[32m[INFO][0m ComfyUI version: 0.42.1
+[32m[INFO][0m comfy-aimdo version: 0.5.6
+[32m[INFO][0m comfy-kitchen version: 0.2.39
+[32m[INFO][0m comfyui-frontend-package version: 1.55.18
+[32m[INFO][0m comfyui-workflow-templates version: 0.11.89
+[32m[INFO][0m comfyui-embedded-docs version: 0.5.14
+[32m[INFO][0m comfy-kitchen version: 0.2.39
+[32m[INFO][0m comfy-aimdo version: 0.5.6
+[32m[INFO][0m [Prompt Server] web root: /home/antiai-aiclub/ComfyUI/.venv/lib/python3.13/site-packages/comfyui_frontend_package/static
+[32m[INFO][0m Asset seeder disabled
+/home/antiai-aiclub/ComfyUI/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[32m[INFO][0m No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[32m[INFO][0m 
+Import times for custom nodes:
+[32m[INFO][0m    0.0 seconds: /home/antiai-aiclub/ComfyUI/custom_nodes/websocket_image_save.py
+[32m[INFO][0m    0.0 seconds: /home/antiai-aiclub/ComfyUI/custom_nodes/ComfyUI-KJNodes
+[32m[INFO][0m    0.1 seconds: /home/antiai-aiclub/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[32m[INFO][0m    0.8 seconds: /home/antiai-aiclub/ComfyUI/custom_nodes/ComfyUI-LTXVideo
+[32m[INFO][0m 
+[32m[INFO][0m Using RAM pressure cache.
+[32m[INFO][0m Starting server
+
+[32m[INFO][0m To see the GUI go to: http://127.0.0.1:8188
+[32m[INFO][0m got prompt
+[32m[INFO][0m Model storage policy: fast_disk=False paths=['/home/antiai-aiclub/ComfyUI/models/_hf/Lightricks/LTX-2.3-fp8/ltx-2.3-22b-dev-fp8.safetensors']
+[32m[INFO][0m VAE load device: cuda:0, offload device: cpu, dtype: torch.float32
+[32m[INFO][0m Found quantization metadata version 1
+[32m[INFO][0m Detected mixed precision quantization
+[32m[INFO][0m Using mixed precision operations
+[32m[INFO][0m Native ops: int8_tensorwise, mxfp8, float8_e4m3fn, nvfp4, w6a8_int8, float8_e5m2, asym_w4a8_int8, convrot_w4a4 
+[32m[INFO][0m model weight dtype torch.bfloat16, manual cast: torch.bfloat16
+[32m[INFO][0m model_type FLUX
+[32m[INFO][0m Model storage policy: fast_disk=False paths=['/home/antiai-aiclub/ComfyUI/models/_hf/Lightricks/LTX-2.3-fp8/ltx-2.3-22b-dev-fp8.safetensors']
+[32m[INFO][0m Model storage policy: fast_disk=False paths=['/home/antiai-aiclub/ComfyUI/models/_hf/Lightricks/LTX-2.3-fp8/ltx-2.3-22b-dev-fp8.safetensors']
+[32m[INFO][0m VAE load device: cuda:0, offload device: cpu, dtype: torch.bfloat16
+[1m[33m[WARNING][0m no CLIP/text encoder weights in checkpoint, the text encoder model will not be loaded.
+[32m[INFO][0m Requested to load VideoVAE
+[32m[INFO][0m Model VideoVAE prepared for dynamic VRAM loading. 1384MB Staged. 0 patches attached.
+[32m[INFO][0m Found quantization metadata version 1
+[32m[INFO][0m Using MixedPrecisionOps for text encoder
+[32m[INFO][0m Model storage policy: fast_disk=False paths=['/home/antiai-aiclub/ComfyUI/models/_hf/Comfy-Org/ltx-2/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors', '/home/antiai-aiclub/ComfyUI/models/_hf/Lightricks/LTX-2.3-fp8/ltx-2.3-22b-dev-fp8.safetensors']
+[32m[INFO][0m CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cpu, dtype: torch.float16
+[32m[INFO][0m Requested to load LTXAVTEModel_
+[32m[INFO][0m Model LTXAVTEModel_ prepared for dynamic VRAM loading. 11200MB Staged. 0 patches attached. Force pre-loaded 400 weights: 1749 KB.
+[32m[INFO][0m Model LTXAVTEModel_ prepared for dynamic VRAM loading. 11200MB Staged. 0 patches attached. Force pre-loaded 400 weights: 1749 KB.
+[32m[INFO][0m Requested to load LTXAV
+[32m[INFO][0m Model LTXAV prepared for dynamic VRAM loading. 23835MB Staged. 1660 patches attached. Force pre-loaded 2104 weights: 3308 KB.
+  0%|          | 0/8 [00:00<?, ?it/s]  0%|          | 0/8 [00:00<?, ?it/s,   Model Initializing ...  ]  0%|          | 0/8 [00:17<?, ?it/s,  Model Initialization complete!  ] 12%|█▎        | 1/8 [00:17<02:02, 17.44s/it,  Model Initialization complete!  ] 12%|█▎        | 1/8 [00:01<02:02, 17.44s/it]                                    25%|██▌       | 2/8 [00:01<00:03,  1.50it/s] 38%|███▊      | 3/8 [00:01<00:01,  4.17it/s] 50%|█████     | 4/8 [00:01<00:00,  4.26it/s] 62%|██████▎   | 5/8 [00:02<00:00,  4.29it/s] 75%|███████▌  | 6/8 [00:02<00:00,  4.31it/s] 88%|████████▊ | 7/8 [00:02<00:00,  4.18it/s]100%|██████████| 8/8 [00:02<00:00,  4.25it/s]100%|██████████| 8/8 [00:02<00:00,  2.90it/s]
+[32m[INFO][0m Comfy model compiler graph breaks: 3, rogues: 0
+[32m[INFO][0m Model storage policy: fast_disk=False paths=['/home/antiai-aiclub/ComfyUI/models/_hf/Lightricks/LTX-2.3/ltx-2.3-spatial-upscaler-x2-1.1.safetensors']
+[32m[INFO][0m Requested to load LatentUpsampler
+[32m[INFO][0m Model LatentUpsampler prepared for dynamic VRAM loading. 949MB Staged. 0 patches attached. Force pre-loaded 34 weights: 68 KB.
+[32m[INFO][0m 0 models unloaded.
+[32m[INFO][0m Model VideoVAE prepared for dynamic VRAM loading. 1384MB Staged. 0 patches attached.
+[32m[INFO][0m 0 models unloaded.
+[32m[INFO][0m Model LTXAV prepared for dynamic VRAM loading. 23835MB Staged. 1660 patches attached. Force pre-loaded 2104 weights: 3308 KB.
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s,   Model Initializing ...  ]  0%|          | 0/3 [00:00<?, ?it/s,  Model Initialization complete!  ] 33%|███▎      | 1/3 [00:00<00:01,  1.25it/s,  Model Initialization complete!  ] 33%|███▎      | 1/3 [00:01<00:01,  1.25it/s]                                    67%|██████▋   | 2/3 [00:01<00:00,  1.44it/s]100%|██████████| 3/3 [00:02<00:00,  1.26it/s]100%|██████████| 3/3 [00:02<00:00,  1.38it/s]
+[32m[INFO][0m Comfy model compiler graph breaks: 1, rogues: 0
+[32m[INFO][0m Requested to load AudioVAE
+[32m[INFO][0m loaded completely;  693.46 MB loaded, full load: True
+[32m[INFO][0m 0 models unloaded.
+[32m[INFO][0m Model VideoVAE prepared for dynamic VRAM loading. 1384MB Staged. 0 patches attached.
+[32m[INFO][0m [32mPrompt executed in 43.52 seconds[0m
+[32m[INFO][0m got prompt
+[32m[INFO][0m Model LTXAV prepared for dynamic VRAM loading. 23835MB Staged. 1660 patches attached. Force pre-loaded 2104 weights: 3308 KB.
+  0%|          | 0/8 [00:00<?, ?it/s]  0%|          | 0/8 [00:00<?, ?it/s,   Model Initializing ...  ]  0%|          | 0/8 [00:00<?, ?it/s,  Model Initialization complete!  ] 12%|█▎        | 1/8 [00:00<00:01,  4.37it/s,  Model Initialization complete!  ] 12%|█▎        | 1/8 [00:00<00:01,  4.37it/s]                                    25%|██▌       | 2/8 [00:00<00:01,  4.33it/s] 38%|███▊      | 3/8 [00:00<00:01,  4.40it/s] 50%|█████     | 4/8 [00:00<00:00,  4.26it/s] 62%|██████▎   | 5/8 [00:01<00:00,  4.22it/s] 75%|███████▌  | 6/8 [00:01<00:00,  4.40it/s] 88%|████████▊ | 7/8 [00:01<00:00,  4.45it/s]100%|██████████| 8/8 [00:01<00:00,  4.45it/s]100%|██████████| 8/8 [00:01<00:00,  4.35it/s]
+[32m[INFO][0m Comfy model compiler graph breaks: 1, rogues: 0
+[32m[INFO][0m Model LatentUpsampler prepared for dynamic VRAM loading. 949MB Staged. 0 patches attached. Force pre-loaded 34 weights: 68 KB.
+[32m[INFO][0m Model VideoVAE prepared for dynamic VRAM loading. 1384MB Staged. 0 patches attached.
+[32m[INFO][0m Model LTXAV prepared for dynamic VRAM loading. 23835MB Staged. 1660 patches attached. Force pre-loaded 2104 weights: 3308 KB.
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s,   Model Initializing ...  ]  0%|          | 0/3 [00:00<?, ?it/s,  Model Initialization complete!  ] 33%|███▎      | 1/3 [00:00<00:01,  1.45it/s,  Model Initialization complete!  ] 33%|███▎      | 1/3 [00:01<00:01,  1.45it/s]                                    67%|██████▋   | 2/3 [00:01<00:00,  1.26it/s]100%|██████████| 3/3 [00:02<00:00,  1.26it/s]100%|██████████| 3/3 [00:02<00:00,  1.26it/s]
+[32m[INFO][0m Comfy model compiler graph breaks: 1, rogues: 0
+[32m[INFO][0m 0 models unloaded.
+[32m[INFO][0m Model VideoVAE prepared for dynamic VRAM loading. 1384MB Staged. 0 patches attached.
+[32m[INFO][0m [32mPrompt executed in 6.65 seconds[0m
+[32m[INFO][0m Using RAM pressure cache.
+[32m[INFO][0m Using RAM pressure cache.

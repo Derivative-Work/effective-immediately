@@ -1,0 +1,13 @@
+{
+ "_doc": "The audio every timing step reads. Times in timing/ are on the source take. Anything at or after cut_source plays offset_s earlier in the edit. When the human's locked master arrives, set master and measure offset_s; nothing else changes.",
+ "source": "audio/candidates/gen2/master.wav",
+ "stems": "audio/candidates/gen2/stems",
+ "suno_id": "043cee54-da40-4974-9006-af3afc9b0ee4",
+ "master": "audio/working/effective-immediately_working.wav",
+ "master_is_locked": false,
+ "cut_source": 237.15,
+ "resume_source": 241.4,
+ "offset_s": 3.9,
+ "end_source": 276.4,
+ "band_returns_source": 257.93
+}

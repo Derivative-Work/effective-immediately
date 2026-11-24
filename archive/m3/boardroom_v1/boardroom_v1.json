@@ -1,0 +1,23 @@
+{
+  "_doc": "The Blender boardroom (blender/boardroom.py). Beats are a placeholder grid at the brief's 114 BPM until the timing map exists: then the claps, kicks and shot lengths come from it. Camera handheld drift is added by the look layer, not here.",
+  "bpm_placeholder": 114,
+  "fps": 24,
+  "size": [1920, 804],
+  "samples": 32,
+  "colors": {
+    "wall": "#9aa1a6", "carpet": "#2f3438", "ceiling": "#c9ced1", "table": "#878d91", "chair": "#1b1e21", "mullion": "#22262a",
+    "sky": "#cfdbe3", "skin": "#040405", "sleeve": "#030304", "cuff": "#16181a", "narrator": "#030304", "panel": "#e6f0f6",
+    "probe": "#d4d7dd", "lens": "#0b0d12", "probe_led": "#5fe39a", "paper": "#f2f1ec"
+  },
+  "lights": {"panel_strength": 9.0, "sky_strength": 1.15, "area_power": 92.0, "bounce_power": 64.0, "area_color": "#dbe8f2", "world": 0.5},
+  "hands": {"rest_deg": 80, "raised_deg": 12, "overhead_raised_deg": 42, "attack_frames": 3, "release_frames": 5},
+  "probe": {"loc": [2.25, 3.92, 1.13], "radius": 0.15},
+  "shots": {
+    "E08": {"frames": 96, "loc": [0.0, -3.3, 1.05], "target": [0.0, 2.0, 1.16], "lens": 26, "track": 0.5},
+    "E09": {"frames": 96, "loc": [0.0, 0.0, 6.6], "target": [0.0, 0.0, 0.75], "lens": 28, "overhead": true},
+    "E11": {"frames": 72, "loc": [-3.25, 0.0, 1.32], "target": [5.9, 0.0, 1.52], "lens": 30},
+    "E17i": {"frames": 13, "loc": [0.0, 0.0, 6.6], "target": [0.0, 0.0, 0.75], "lens": 28, "overhead": true},
+    "E22": {"frames": 120, "loc": [0.6, -3.3, 1.75], "target": [2.2, 3.9, 1.04], "lens": 36},
+    "E22s": {"frames": 48, "loc": [-3.25, 0.0, 1.32], "target": [5.9, 0.0, 1.52], "lens": 30}
+  }
+}

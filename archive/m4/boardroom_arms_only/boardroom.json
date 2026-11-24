@@ -1,0 +1,29 @@
+{
+  "_doc": "The Blender boardroom (blender/boardroom.py). Beats are a placeholder grid at the brief's 114 BPM until the timing map exists: then the claps, kicks and shot lengths come from it. Camera handheld drift is added by the look layer, not here.",
+  "bpm_placeholder": 114,
+  "fps": 24,
+  "size": [1920, 804],
+  "samples": 32,
+  "colors": {
+    "wall": "#9aa1a6", "carpet": "#2f3438", "ceiling": "#c9ced1", "table": "#878d91", "chair": "#1b1e21", "mullion": "#22262a",
+    "sky": "#cfdbe3", "skin": "#17181b", "sleeve": "#08090b", "cuff": "#2b2e32", "narrator": "#030304", "panel": "#e6f0f6",
+    "probe": "#d4d7dd", "lens": "#0b0d12", "probe_led": "#5fe39a", "paper": "#f2f1ec"
+  },
+  "lights": {"panel_strength": 9.0, "sky_strength": 1.15, "area_power": 92.0, "bounce_power": 64.0, "area_color": "#dbe8f2", "world": 0.5},
+  "hands": {"attack_frames": 3, "release_frames": 5, "lowers": 3, "pushes": 4, "lower_m": 0.1},
+  "arms": {"people": [5, 12, 23]},
+  "probe": {"loc": [2.25, 3.92, 1.02], "radius": 0.15},
+  "shots": {
+    "E08": {"frames": 96, "loc": [0.0, -3.3, 1.4], "target": [0.0, 2.0, 1.62], "lens": 26, "track": 0.5, "chairs": "far",
+      "arms": {"from": [-3.2, -2.0, 0.72], "to": [3.2, -2.0, 0.72], "count": 13, "yaw_deg": 180, "drop": 0.36}},
+    "E09": {"frames": 96, "loc": [0.0, 0.0, 4.72], "target": [0.0, 0.0, 0.75], "lens": 28, "overhead": true, "table_x": 2.15, "chairs": "none", "arms": {"ring": true, "per_side": 5, "z": 1.02, "off_table": 0.2}},
+    "E11": {"frames": 72, "loc": [-3.25, 0.0, 1.32], "target": [5.9, 0.0, 1.52], "lens": 30, "chairs": "none",
+      "arms": {"from": [-2.0, 0.62, 0.58], "to": [-2.0, -0.62, 0.58], "count": 6, "yaw_deg": 90, "drop": 0.32}},
+    "E17i": {"frames": 13, "loc": [0.0, 0.0, 4.72], "target": [0.0, 0.0, 0.75], "lens": 28, "overhead": true, "table_x": 2.15, "chairs": "none", "arms": {"ring": true, "per_side": 5, "z": 1.02, "off_table": 0.2}},
+    "E22": {"frames": 120, "loc": [2.25, -0.9, 1.22], "target": [2.25, 3.9, 1.3], "lens": 50, "chairs": "none",
+      "arms": {"yaw_deg": 180, "drop": 0.46, "shoulders": [[1.45, 1.1, 0.88], [1.69, 1.1, 0.88], [1.93, 1.1, 0.88], [2.68, 1.1, 0.88], [2.92, 1.1, 0.88], [3.16, 1.1, 0.88]]}},
+    "E22r": {"frames": 120, "loc": [2.25, -0.9, 1.22], "target": [2.25, 3.9, 1.3], "lens": 50, "chairs": "none", "arms": {"yaw_deg": 180, "drop": 0.46, "shoulders": [[1.45, 1.1, 0.88], [1.69, 1.1, 0.88], [1.93, 1.1, 0.88], [2.68, 1.1, 0.88], [2.92, 1.1, 0.88], [3.16, 1.1, 0.88]]}},
+    "E22s": {"frames": 48, "loc": [-3.25, 0.0, 1.32], "target": [5.9, 0.0, 1.52], "lens": 30, "chairs": "none",
+      "arms": {"from": [-2.0, 0.62, 0.58], "to": [-2.0, -0.62, 0.58], "count": 6, "yaw_deg": 90, "drop": 0.32}}
+  }
+}

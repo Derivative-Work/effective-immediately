@@ -1,0 +1,71 @@
+/home/antiai-aiclub/Projects/effective-immediately/.venv/lib/python3.12/site-packages/pyannote/audio/core/io.py:48: UserWarning: 
+torchcodec is not installed correctly so built-in audio decoding will fail. Solutions are:
+* use audio preloaded in-memory as a {'waveform': (channel, time) torch.Tensor, 'sample_rate': int} dictionary;
+* fix torchcodec installation. Error message was:
+
+Could not load libtorchcodec. Likely causes:
+          1. FFmpeg is not properly installed in your environment. We support
+             versions 4, 5, 6 and 7.
+          2. The PyTorch version (2.8.0+cu128) is not compatible with
+             this version of TorchCodec. Refer to the version compatibility
+             table:
+             https://github.com/pytorch/torchcodec?tab=readme-ov-file#installing-torchcodec.
+          3. Another runtime dependency; see exceptions below.
+        The following exceptions were raised as we tried to load libtorchcodec:
+        
+[start of libtorchcodec loading traceback]
+FFmpeg version 7: libavutil.so.59: cannot open shared object file: No such file or directory
+FFmpeg version 6: libavutil.so.58: cannot open shared object file: No such file or directory
+FFmpeg version 5: libavutil.so.57: cannot open shared object file: No such file or directory
+FFmpeg version 4: libavutil.so.56: cannot open shared object file: No such file or directory
+[end of libtorchcodec loading traceback].
+  warnings.warn(
+2026-11-23 16:39:16 - whisperx.vads.pyannote - INFO - Performing voice activity detection using Pyannote...
+Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.6.6. To apply the upgrade to your files permanently, run `python -m lightning.pytorch.utilities.upgrade_checkpoint .venv/lib/python3.12/site-packages/whisperx/assets/pytorch_model.bin`
+/home/antiai-aiclub/Projects/effective-immediately/.venv/lib/python3.12/site-packages/pyannote/audio/utils/reproducibility.py:74: ReproducibilityWarning: TensorFloat-32 (TF32) has been disabled as it might lead to reproducibility issues and lower accuracy.
+It can be re-enabled by calling
+   >>> import torch
+   >>> torch.backends.cuda.matmul.allow_tf32 = True
+   >>> torch.backends.cudnn.allow_tf32 = True
+See https://github.com/pyannote/pyannote-audio/issues/1370 for more details.
+
+  warnings.warn(
+[  18.07 -   21.02] Thursday morning, sun on the glass.
+[  22.00 -   26.60] Filed the paper, sealed the day.
+[  26.66 -   29.34] 33 years in a form, AK.
+[  30.34 -   33.32] Took her jacket, put it away.
+[  33.36 -   36.57] Three committees calling, FBI on the line.
+[  37.65 -   41.41] Ticker falling, center stage.
+[  41.57 -   44.85] Every hand in the room went, this is time.
+[  46.60 -   47.72] Unanimous, baby.
+[  48.04 -   49.68] Turn the page.
+[  49.76 -   51.96] Effective immediately.
+[  53.06 -   56.12] Out of the building, out of the booth, out of me.
+[  56.96 -   62.64] We do not intend, oh, we do not intend to reinstate you.
+[  64.14 -   82.96] not again effective immediately 600 billion is the price of being free we do not intend oh we do not intend to reinstate you not again
+[  84.58 -   91.13] Tuesday evening after the bell, $115 billion up $103.
+[  92.43 -   96.19] Racks rolling out and I'm doing so well.
+[  96.39 -  100.62] All booked in October before you left me.
+[ 101.02 -  102.30] Don't ask when the quarter close.
+[ 104.94 -  106.66] Don't ask when the quarter close.
+[ 107.54 -  108.52] We got this.
+[ 108.58 -  109.32] We got this.
+[ 111.66 -  114.42] Nobody's waiting on a leather jacket.
+[ 114.76 -  117.60] Nobody's asking who approved it.
+[ 119.22 -  122.81] Effective immediately.
+[ 123.95 -  127.13] Out of the building, out of the booth, out of me.
+[ 127.77 -  133.60] We do not intend, no, we do not intend to reinstate you.
+[ 135.00 -  161.51] Not again Effective immediately 600 billion is the price of being free We do not intend, no We do not intend To reinstate you Not again Then your message lights up late at night Says you'd be honored if I'd have you back
+[ 162.52 -  166.02] Says you didn't live up to what was right.
+[ 166.70 -  168.84] Says the whole world's calling.
+[ 169.71 -  170.34] And that's that.
+[ 170.84 -  173.99] Then a car comes down from somewhere high.
+[ 174.03 -  175.43] Says there's no risk here.
+[ 175.47 -  177.07] Investigation's still open.
+[ 177.11 -  179.67] But there's no risk here.
+[ 179.71 -  182.05] Congress hasn't had its turn.
+[ 182.55 -  210.99] There's no risk here Senior levels Oh, said it on the morning news Effective immediately Back in the building Back in the booth Back with me We did not intend No, we did not intend To reinstate you But here we are again Effective immediately Six hundred billion reasons To reconsider me
+[ 214.05 -  220.81] a chief compliance officer reporting to nominating and corporate governance.
+[ 224.87 -  226.23] Oh, we did not intend.
+[ 233.17 -  238.47] We did not intend.
+[ 241.46 -  257.76] There's a plaque on a booth in a diner in East San Jose Came down the day that you left Went back up before you did Eleven days for you and two for it

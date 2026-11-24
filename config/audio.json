@@ -1,0 +1,26 @@
+{
+ "_doc": "The audio every timing step reads. Times in timing/ are on the source take (generation 2). The human's locked master is the take plus lead_in_samples up to the cut, and the take minus offset_s (one bar) after it, measured to the sample (scripts/master_audio.py checks both). The edit's timeline is the post-filtered master without its lead-in, so edit time = take time before the cut and take time - offset_s after it. throw_end_edit_s is on the edit's timeline: the master's reverb throw after the cut, which belongs to neither side of the take.",
+ "source": "audio/candidates/gen2/master.wav",
+ "stems": "audio/candidates/gen2/stems",
+ "suno_id": "043cee54-da40-4974-9006-af3afc9b0ee4",
+ "master": "audio/postfilter/effective-immediately_postfilter.wav",
+ "master_raw": "audio/master/effective-immediately_master.wav",
+ "master_stems": "audio/master/stems",
+ "master_is_locked": true,
+ "postfilter": "music-deslop 68441e2, m6f_10k, --source suno, strength 1.0",
+ "edit_audio": "audio/working/effective-immediately_edit.wav",
+ "lead_in_samples": 57442,
+ "cut_source": 237.15,
+ "throw_end_edit_s": 238.45,
+ "resume_source": 241.4,
+ "offset_s": 2.088771,
+ "end_source": 276.4,
+ "band_returns_source": 257.93,
+ "credits": {
+  "_doc": "The credits instrumental (human interventions 17): a Suno v6 instrumental cover (clip 70fd236d, share n2YP4Uh76eIDOVJy), post-filtered like the master. It plays under the fact card, disclosure and closing cards, starting after E25.",
+  "raw": "audio/credits/effective-immediately-credits.wav",
+  "postfiltered": "audio/postfilter/effective-immediately-credits_postfilter.wav",
+  "suno_id": "70fd236d-44b4-4ba5-a3b8-104403769489",
+  "postfilter": "music-deslop 68441e2, m6f_10k, --source suno, strength 1.0"
+ }
+}

@@ -1,0 +1,6 @@
+{
+ "_doc": "The opening before the music (human note, 2026-11-24): E01 is the real Nov 12 screenshot (no more than 3 s, brief), E01t the terminal (nvidia-smi, then scripts/effective-immediately). The song starts as the terminal ends. E25 is the real Nov 23 screenshot after the music.",
+ "screenshot_frames": 72,
+ "terminal_frames": 184,
+ "e25_frames": 72
+}

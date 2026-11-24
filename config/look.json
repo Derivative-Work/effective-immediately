@@ -1,0 +1,168 @@
+{
+  "_doc": "The look layer's parameters (brief, 'The look layer'), read by remotion/src/look/LookLayer.tsx. Seed from config/seeds.json. Each grade's matrix also moves some green into blue, so any green in a source leans teal.",
+  "frame": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "picture_height": 804
+  },
+  "grades": {
+    "cold": {
+      "saturation": 0.6,
+      "matrix": [
+        0.94,
+        0.02,
+        0.02,
+        0,
+        0.012,
+        0.01,
+        0.9,
+        0.08,
+        0,
+        0.018,
+        -0.02,
+        0.12,
+        1.0,
+        0,
+        0.032,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "curve": [
+        0.055,
+        0.17,
+        0.31,
+        0.45,
+        0.58,
+        0.7,
+        0.81,
+        0.9,
+        0.97
+      ]
+    },
+    "cyan": {
+      "saturation": 0.78,
+      "matrix": [
+        0.7,
+        0.04,
+        0.02,
+        0,
+        0.0,
+        0.02,
+        0.97,
+        0.05,
+        0,
+        0.014,
+        0.0,
+        0.08,
+        0.98,
+        0,
+        0.022,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "curve": [
+        0.03,
+        0.11,
+        0.23,
+        0.37,
+        0.51,
+        0.65,
+        0.78,
+        0.89,
+        0.98
+      ]
+    },
+    "warm": {
+      "saturation": 0.92,
+      "matrix": [
+        1.08,
+        0.04,
+        -0.02,
+        0,
+        0.022,
+        0.02,
+        0.92,
+        0.0,
+        0,
+        0.012,
+        -0.04,
+        0.08,
+        0.74,
+        0,
+        0.0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "curve": [
+        0.03,
+        0.13,
+        0.27,
+        0.42,
+        0.56,
+        0.69,
+        0.81,
+        0.91,
+        0.99
+      ]
+    }
+  },
+  "highlights": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.06,
+    0.26,
+    0.62,
+    1
+  ],
+  "bloom": {
+    "blur_px": 16,
+    "strength": 0.34
+  },
+  "halation": {
+    "blur_px": 5,
+    "red": 0.46,
+    "green": 0.1,
+    "blue": 0.04
+  },
+  "haze": {
+    "opacity": 0.07,
+    "drift_px": 60,
+    "period_frames": 192
+  },
+  "grain": {
+    "plates": 24,
+    "opacity": 0.17
+  },
+  "vignette": {
+    "inner": 0.58,
+    "strength": 0.34
+  },
+  "handheld": {
+    "x_px": 7,
+    "y_px": 5,
+    "rotate_deg": 0.16,
+    "period_frames": 34,
+    "overscan": 1.035
+  },
+  "move": {
+    "max_width_per_s": 0.05
+  },
+  "flare": {
+    "length_px": 760,
+    "height_px": 3,
+    "opacity": 0.55
+  }
+}

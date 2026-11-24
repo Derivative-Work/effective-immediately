@@ -1,0 +1,800 @@
+{
+ "model": "large-v3",
+ "stem": "audio/stems/Effective Immediately (Backing Vocals).wav",
+ "whisperx": null,
+ "segments": [
+  {
+   "start": 49.663,
+   "end": 51.983,
+   "text": "Just active immediately",
+   "words": [
+    {
+     "w": "Just",
+     "start": 49.663,
+     "end": 49.883,
+     "score": 0.842
+    },
+    {
+     "w": "active",
+     "start": 50.023,
+     "end": 50.403,
+     "score": 0.374
+    },
+    {
+     "w": "immediately",
+     "start": 50.543,
+     "end": 51.983,
+     "score": 0.524
+    }
+   ]
+  },
+  {
+   "start": 59.063,
+   "end": 80.617,
+   "text": "we do not intend to reinstate you not again effective immediately 600 billion is the price of being free we do not intend we do not intend to reinstate you not again",
+   "words": [
+    {
+     "w": "we",
+     "start": 59.063,
+     "end": 59.243,
+     "score": 0.977
+    },
+    {
+     "w": "do",
+     "start": 59.383,
+     "end": 59.423,
+     "score": 0.0
+    },
+    {
+     "w": "not",
+     "start": 59.443,
+     "end": 59.523,
+     "score": 0.174
+    },
+    {
+     "w": "intend",
+     "start": 59.543,
+     "end": 59.663,
+     "score": 0.084
+    },
+    {
+     "w": "to",
+     "start": 59.683,
+     "end": 59.783,
+     "score": 0.379
+    },
+    {
+     "w": "reinstate",
+     "start": 59.824,
+     "end": 60.184,
+     "score": 0.39
+    },
+    {
+     "w": "you",
+     "start": 60.204,
+     "end": 60.304,
+     "score": 0.316
+    },
+    {
+     "w": "not",
+     "start": 60.344,
+     "end": 60.424,
+     "score": 0.29
+    },
+    {
+     "w": "again",
+     "start": 60.444,
+     "end": 60.564,
+     "score": 0.013
+    },
+    {
+     "w": "effective",
+     "start": 66.448,
+     "end": 67.128,
+     "score": 0.637
+    },
+    {
+     "w": "immediately",
+     "start": 67.228,
+     "end": 68.209,
+     "score": 0.537
+    },
+    {
+     "w": "600",
+     "start": 68.289,
+     "end": 68.409,
+     "score": 0.48
+    },
+    {
+     "w": "billion",
+     "start": 68.429,
+     "end": 68.689,
+     "score": 0.238
+    },
+    {
+     "w": "is",
+     "start": 69.05,
+     "end": 69.13,
+     "score": 0.572
+    },
+    {
+     "w": "the",
+     "start": 69.17,
+     "end": 69.39,
+     "score": 0.408
+    },
+    {
+     "w": "price",
+     "start": 71.311,
+     "end": 71.611,
+     "score": 0.494
+    },
+    {
+     "w": "of",
+     "start": 71.691,
+     "end": 71.812,
+     "score": 0.725
+    },
+    {
+     "w": "being",
+     "start": 71.872,
+     "end": 72.472,
+     "score": 0.603
+    },
+    {
+     "w": "free",
+     "start": 72.632,
+     "end": 73.092,
+     "score": 0.878
+    },
+    {
+     "w": "we",
+     "start": 73.693,
+     "end": 74.033,
+     "score": 0.858
+    },
+    {
+     "w": "do",
+     "start": 74.073,
+     "end": 74.233,
+     "score": 0.857
+    },
+    {
+     "w": "not",
+     "start": 74.273,
+     "end": 74.533,
+     "score": 0.675
+    },
+    {
+     "w": "intend",
+     "start": 74.593,
+     "end": 75.074,
+     "score": 0.63
+    },
+    {
+     "w": "we",
+     "start": 75.774,
+     "end": 76.134,
+     "score": 0.952
+    },
+    {
+     "w": "do",
+     "start": 76.174,
+     "end": 76.315,
+     "score": 0.85
+    },
+    {
+     "w": "not",
+     "start": 76.355,
+     "end": 76.615,
+     "score": 0.698
+    },
+    {
+     "w": "intend",
+     "start": 76.675,
+     "end": 77.355,
+     "score": 0.515
+    },
+    {
+     "w": "to",
+     "start": 77.876,
+     "end": 78.036,
+     "score": 0.642
+    },
+    {
+     "w": "reinstate",
+     "start": 78.136,
+     "end": 78.976,
+     "score": 0.575
+    },
+    {
+     "w": "you",
+     "start": 78.996,
+     "end": 79.437,
+     "score": 0.774
+    },
+    {
+     "w": "not",
+     "start": 79.877,
+     "end": 79.977,
+     "score": 0.283
+    },
+    {
+     "w": "again",
+     "start": 80.077,
+     "end": 80.617,
+     "score": 0.453
+    }
+   ]
+  },
+  {
+   "start": 109.772,
+   "end": 135.368,
+   "text": "We got this, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh.",
+   "words": [
+    {
+     "w": "We",
+     "start": 109.772,
+     "end": 109.912,
+     "score": 0.466
+    },
+    {
+     "w": "got",
+     "start": 109.952,
+     "end": 110.152,
+     "score": 0.741
+    },
+    {
+     "w": "this,",
+     "start": 110.172,
+     "end": 110.472,
+     "score": 0.711
+    },
+    {
+     "w": "ooh,",
+     "start": 110.733,
+     "end": 110.853,
+     "score": 0.167
+    },
+    {
+     "w": "ooh,",
+     "start": 110.893,
+     "end": 111.073,
+     "score": 0.651
+    },
+    {
+     "w": "ooh,",
+     "start": 111.253,
+     "end": 111.513,
+     "score": 0.226
+    },
+    {
+     "w": "ooh,",
+     "start": 111.533,
+     "end": 111.613,
+     "score": 0.188
+    },
+    {
+     "w": "ooh,",
+     "start": 111.633,
+     "end": 111.713,
+     "score": 0.23
+    },
+    {
+     "w": "ooh,",
+     "start": 111.733,
+     "end": 111.913,
+     "score": 0.489
+    },
+    {
+     "w": "ooh,",
+     "start": 111.933,
+     "end": 113.694,
+     "score": 0.305
+    },
+    {
+     "w": "ooh,",
+     "start": 113.714,
+     "end": 113.875,
+     "score": 0.535
+    },
+    {
+     "w": "ooh,",
+     "start": 113.895,
+     "end": 114.015,
+     "score": 0.34
+    },
+    {
+     "w": "ooh,",
+     "start": 114.035,
+     "end": 114.115,
+     "score": 0.2
+    },
+    {
+     "w": "ooh,",
+     "start": 114.135,
+     "end": 114.415,
+     "score": 0.577
+    },
+    {
+     "w": "ooh,",
+     "start": 114.435,
+     "end": 114.575,
+     "score": 0.358
+    },
+    {
+     "w": "ooh,",
+     "start": 114.595,
+     "end": 116.596,
+     "score": 0.546
+    },
+    {
+     "w": "ooh,",
+     "start": 116.616,
+     "end": 116.756,
+     "score": 0.268
+    },
+    {
+     "w": "ooh,",
+     "start": 116.816,
+     "end": 116.977,
+     "score": 0.563
+    },
+    {
+     "w": "ooh,",
+     "start": 116.997,
+     "end": 117.077,
+     "score": 0.014
+    },
+    {
+     "w": "ooh,",
+     "start": 117.097,
+     "end": 117.217,
+     "score": 0.286
+    },
+    {
+     "w": "ooh,",
+     "start": 117.237,
+     "end": 117.317,
+     "score": 0.046
+    },
+    {
+     "w": "ooh,",
+     "start": 117.337,
+     "end": 117.437,
+     "score": 0.168
+    },
+    {
+     "w": "ooh,",
+     "start": 117.457,
+     "end": 117.537,
+     "score": 0.249
+    },
+    {
+     "w": "ooh,",
+     "start": 117.557,
+     "end": 117.817,
+     "score": 0.234
+    },
+    {
+     "w": "ooh,",
+     "start": 117.837,
+     "end": 117.917,
+     "score": 0.014
+    },
+    {
+     "w": "ooh,",
+     "start": 117.937,
+     "end": 118.037,
+     "score": 0.142
+    },
+    {
+     "w": "ooh,",
+     "start": 118.097,
+     "end": 118.177,
+     "score": 0.012
+    },
+    {
+     "w": "ooh,",
+     "start": 118.197,
+     "end": 118.277,
+     "score": 0.003
+    },
+    {
+     "w": "ooh,",
+     "start": 118.297,
+     "end": 118.377,
+     "score": 0.009
+    },
+    {
+     "w": "ooh,",
+     "start": 118.397,
+     "end": 118.517,
+     "score": 0.252
+    },
+    {
+     "w": "ooh,",
+     "start": 118.537,
+     "end": 118.718,
+     "score": 0.333
+    },
+    {
+     "w": "ooh,",
+     "start": 118.738,
+     "end": 118.858,
+     "score": 0.478
+    },
+    {
+     "w": "ooh,",
+     "start": 121.459,
+     "end": 121.659,
+     "score": 0.374
+    },
+    {
+     "w": "ooh,",
+     "start": 121.679,
+     "end": 121.76,
+     "score": 0.002
+    },
+    {
+     "w": "ooh,",
+     "start": 121.78,
+     "end": 122.04,
+     "score": 0.805
+    },
+    {
+     "w": "ooh,",
+     "start": 122.06,
+     "end": 122.32,
+     "score": 0.684
+    },
+    {
+     "w": "ooh,",
+     "start": 122.34,
+     "end": 122.54,
+     "score": 0.449
+    },
+    {
+     "w": "ooh,",
+     "start": 122.58,
+     "end": 122.68,
+     "score": 0.118
+    },
+    {
+     "w": "ooh,",
+     "start": 122.7,
+     "end": 122.9,
+     "score": 0.424
+    },
+    {
+     "w": "ooh,",
+     "start": 122.92,
+     "end": 123.1,
+     "score": 0.443
+    },
+    {
+     "w": "ooh,",
+     "start": 123.781,
+     "end": 123.921,
+     "score": 0.409
+    },
+    {
+     "w": "ooh,",
+     "start": 123.961,
+     "end": 124.081,
+     "score": 0.479
+    },
+    {
+     "w": "ooh,",
+     "start": 125.862,
+     "end": 126.062,
+     "score": 0.418
+    },
+    {
+     "w": "ooh,",
+     "start": 126.082,
+     "end": 126.162,
+     "score": 0.003
+    },
+    {
+     "w": "ooh,",
+     "start": 126.182,
+     "end": 126.262,
+     "score": 0.179
+    },
+    {
+     "w": "ooh,",
+     "start": 126.302,
+     "end": 126.382,
+     "score": 0.16
+    },
+    {
+     "w": "ooh,",
+     "start": 126.402,
+     "end": 126.482,
+     "score": 0.012
+    },
+    {
+     "w": "ooh,",
+     "start": 126.522,
+     "end": 126.663,
+     "score": 0.23
+    },
+    {
+     "w": "ooh,",
+     "start": 126.683,
+     "end": 126.763,
+     "score": 0.112
+    },
+    {
+     "w": "ooh,",
+     "start": 126.783,
+     "end": 126.883,
+     "score": 0.204
+    },
+    {
+     "w": "ooh,",
+     "start": 126.903,
+     "end": 126.983,
+     "score": 0.014
+    },
+    {
+     "w": "ooh,",
+     "start": 127.003,
+     "end": 127.143,
+     "score": 0.299
+    },
+    {
+     "w": "ooh,",
+     "start": 127.163,
+     "end": 127.243,
+     "score": 0.042
+    },
+    {
+     "w": "ooh,",
+     "start": 127.263,
+     "end": 127.343,
+     "score": 0.248
+    },
+    {
+     "w": "ooh,",
+     "start": 131.085,
+     "end": 133.307,
+     "score": 0.782
+    },
+    {
+     "w": "ooh,",
+     "start": 133.447,
+     "end": 133.687,
+     "score": 0.587
+    },
+    {
+     "w": "ooh,",
+     "start": 133.707,
+     "end": 133.787,
+     "score": 0.016
+    },
+    {
+     "w": "ooh,",
+     "start": 133.807,
+     "end": 133.947,
+     "score": 0.384
+    },
+    {
+     "w": "ooh,",
+     "start": 133.987,
+     "end": 134.167,
+     "score": 0.445
+    },
+    {
+     "w": "ooh,",
+     "start": 134.187,
+     "end": 134.427,
+     "score": 0.418
+    },
+    {
+     "w": "ooh,",
+     "start": 134.447,
+     "end": 134.527,
+     "score": 0.007
+    },
+    {
+     "w": "ooh,",
+     "start": 134.547,
+     "end": 134.628,
+     "score": 0.009
+    },
+    {
+     "w": "ooh,",
+     "start": 134.648,
+     "end": 134.728,
+     "score": 0.008
+    },
+    {
+     "w": "ooh,",
+     "start": 134.748,
+     "end": 134.888,
+     "score": 0.274
+    },
+    {
+     "w": "ooh,",
+     "start": 134.908,
+     "end": 134.988,
+     "score": 0.012
+    },
+    {
+     "w": "ooh,",
+     "start": 135.008,
+     "end": 135.088,
+     "score": 0.007
+    },
+    {
+     "w": "ooh,",
+     "start": 135.108,
+     "end": 135.248,
+     "score": 0.3
+    },
+    {
+     "w": "ooh.",
+     "start": 135.268,
+     "end": 135.368,
+     "score": 0.335
+    }
+   ]
+  },
+  {
+   "start": 170.17,
+   "end": 175.893,
+   "text": "Says there's no risk here But there's no risk here",
+   "words": [
+    {
+     "w": "Says",
+     "start": 170.17,
+     "end": 170.43,
+     "score": 0.59
+    },
+    {
+     "w": "there's",
+     "start": 170.45,
+     "end": 170.71,
+     "score": 0.784
+    },
+    {
+     "w": "no",
+     "start": 170.75,
+     "end": 170.95,
+     "score": 0.86
+    },
+    {
+     "w": "risk",
+     "start": 171.01,
+     "end": 171.291,
+     "score": 0.662
+    },
+    {
+     "w": "here",
+     "start": 171.371,
+     "end": 171.831,
+     "score": 0.751
+    },
+    {
+     "w": "But",
+     "start": 174.372,
+     "end": 174.572,
+     "score": 0.915
+    },
+    {
+     "w": "there's",
+     "start": 174.612,
+     "end": 174.892,
+     "score": 0.841
+    },
+    {
+     "w": "no",
+     "start": 174.932,
+     "end": 175.112,
+     "score": 0.88
+    },
+    {
+     "w": "risk",
+     "start": 175.172,
+     "end": 175.473,
+     "score": 0.704
+    },
+    {
+     "w": "here",
+     "start": 175.553,
+     "end": 175.893,
+     "score": 0.738
+    }
+   ]
+  },
+  {
+   "start": 178.535,
+   "end": 202.185,
+   "text": "But there's no risk here Fact if immediately",
+   "words": [
+    {
+     "w": "But",
+     "start": 178.535,
+     "end": 178.735,
+     "score": 0.929
+    },
+    {
+     "w": "there's",
+     "start": 178.795,
+     "end": 179.055,
+     "score": 0.804
+    },
+    {
+     "w": "no",
+     "start": 179.115,
+     "end": 179.295,
+     "score": 0.934
+    },
+    {
+     "w": "risk",
+     "start": 179.335,
+     "end": 179.635,
+     "score": 0.719
+    },
+    {
+     "w": "here",
+     "start": 179.695,
+     "end": 180.156,
+     "score": 0.57
+    },
+    {
+     "w": "Fact",
+     "start": 200.184,
+     "end": 200.444,
+     "score": 0.798
+    },
+    {
+     "w": "if",
+     "start": 200.564,
+     "end": 200.684,
+     "score": 0.562
+    },
+    {
+     "w": "immediately",
+     "start": 200.804,
+     "end": 202.185,
+     "score": 0.652
+    }
+   ]
+  },
+  {
+   "start": 221.697,
+   "end": 221.817,
+   "text": "oh",
+   "words": [
+    {
+     "w": "oh",
+     "start": 221.697,
+     "end": 221.817,
+     "score": 0.414
+    }
+   ]
+  },
+  {
+   "start": 248.86,
+   "end": 249.285,
+   "text": "Oh, yeah.",
+   "words": [
+    {
+     "w": "Oh,",
+     "start": 248.86,
+     "end": 248.981,
+     "score": 0.277
+    },
+    {
+     "w": "yeah.",
+     "start": 249.042,
+     "end": 249.285,
+     "score": 0.461
+    }
+   ]
+  }
+ ]
+}

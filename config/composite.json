@@ -1,0 +1,5 @@
+{
+  "_doc": "Placement of the jacket on the S01 wall (scripts/cutouts.py). Fractions of the plate. hook_x, hook_y: the hook; collar_drop: how far below the hook the jacket's top sits, as a fraction of its height; clean_patch: an unstained area of wall [x0, y0, x1, y1] that gives the original paint colour.",
+  "jacket": {"open_px": 3, "threshold": 0.36, "shadow_limit": 0.6, "wire_box": [0.42, 0.135, 0.62, 0.19], "wire_level": 92},
+  "jacket_on_wall": {"hook_x": 0.572, "hook_y": 0.5, "height": 0.455, "collar_drop": 0.075, "clean_patch": [0.62, 0.12, 0.8, 0.3], "clean_gain": 1.06}
+}

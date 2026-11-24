@@ -1,0 +1,138 @@
+{
+  "_doc": "M3: LTX-2.3 image-to-video from the picked keyframes (scripts/clips.py). Prompt = the brief's subject + its shared clip style. The template with cold light, a person and the handheld camera is the brief's phrase verbatim; the light, person and camera words change per clip (decisions 6). LTX's template rounds the height to a multiple of 64, so clips come out 1280x512 and are cropped slightly at the sides to fill the 2.39:1 picture (decisions 7).",
+  "style_template": "cinematic footage, anamorphic widescreen film look, {light}, {person}{camera}, smooth motion, widescreen, no text, no logos, no green light, no sunlight",
+  "person": "a single person in silhouette with no visible face, ",
+  "lights": {
+    "cold": "flat cold fluorescent office light, overcast daylight",
+    "cyan": "night, cool cyan ambient light, practical lights only",
+    "warm": "warm golden practical light, dusk"
+  },
+  "negative": "face, facial features, eyes, mouth, text, letters, numbers, logo, brand, signage, green light, yellow sign, person wearing a leather jacket, lip movement, gold dress, hooded gown, oversized suit, swimming pool, hillside glass house, helicopter, crowd",
+  "size": [
+    1280,
+    512
+  ],
+  "fps": 24,
+  "clips": {
+    "G36": {"keyframe": "G36", "seconds": 9, "light": "cold", "person": true, "camera": "camera tracking alongside her at her exact pace so she stays centered in frame, plain white background never changes", "motion": "Full-length side view of a woman in a long plain coat, in solid black silhouette, walking steadily to the right with a natural stride, coat moving, one arm held out forward and slightly down, her pointing finger ticking gently as she counts; she stays in the center of the frame against a completely plain pure white background"},
+    "G05b": {"keyframe": "G05", "seconds": 6, "light": "cold", "person": true, "camera": "handheld camera following", "motion": "She wheels a single tall server rack on a dolly down the aisle of a server room, between rows of racks under cold fluorescent tubes, one arm wrapped around it, holding it close"},
+    "G34": {"keyframe": "G34", "seconds": 5, "light": "cyan", "person": true, "camera": "low camera drifting backward", "motion": "Low wide shot from behind: her full silhouette dances with both arms overhead on the open carpet of a dark office at night, a far wall of windows glowing cool cyan behind her, empty desks either side"},
+    "G35": {"keyframe": "G35", "seconds": 5, "light": "cyan", "person": false, "camera": "low tracking camera at floor level", "motion": "Close at floor level: only the hem of a long plain dark coat and plain flat dark shoes stepping and turning in rhythm on office carpet at night, cool cyan light across the floor"},
+    "G13": {"keyframe": "G13", "seconds": 5, "light": "cold", "person": false, "camera": "low tracking camera following at ground level", "motion": "Close at ground level behind a woman walking: only the hem of a long plain dark coat and her plain flat dark shoes striding across wet grey paving, overcast light on the wet ground"},
+    "G14": {"keyframe": "G14", "seconds": 5, "light": "cold", "person": true, "camera": "slow locked pan following from far away", "motion": "Wide side view: a lone woman in a long plain coat, a small silhouette, walks across an empty paved forecourt in front of a long plain grey concrete wall under a flat overcast sky"},
+    "G15": {"keyframe": "G15", "seconds": 5, "light": "cold", "person": true, "camera": "slow sideways tracking camera", "motion": "Her dark silhouette in a long plain coat passes along a tall plain wall of glass panels, seen from the side, flat white overcast sky reflected in the glass"},
+    "G16": {"keyframe": "G16", "seconds": 5, "light": "cold", "person": true, "camera": "slow push toward the glass", "motion": "Flat white overcast glare across a row of tall plain glass doors, her small dark silhouette in a long plain coat approaching on the other side of the glass, back lit"},
+    "G17": {"keyframe": "G17", "seconds": 5, "light": "cold", "person": true, "camera": "handheld camera following from behind", "motion": "From behind: the woman in a long plain coat struts away down a long empty office corridor with glass walls, coat swinging, rows of cold fluorescent tubes overhead, her figure in full silhouette"},
+    "G18": {"keyframe": "G18", "seconds": 5, "light": "cold", "person": true, "camera": "tracking camera moving alongside her", "motion": "Side view in full silhouette: she struts past a row of empty desks against a bright overcast window wall, chin up, one arm swinging, long coat moving"},
+    "G19": {"keyframe": "G19", "seconds": 5, "light": "cold", "person": true, "camera": "handheld camera following from behind", "motion": "From behind in silhouette: she pushes through a plain revolving glass door and out toward a flat grey overcast street, long coat swinging"},
+    "G20": {"keyframe": "G20", "seconds": 5, "light": "cold", "person": true, "camera": "handheld camera circling slowly", "motion": "Her full silhouette spins between two tall server racks under cold fluorescent tubes, long coat flaring out, tiny white rack lights blurred behind her, seen from behind"},
+    "G21": {"keyframe": "G21", "seconds": 5, "light": "cold", "person": true, "camera": "camera dollying backward low to the floor", "motion": "Far down a server room aisle under cold fluorescent tubes, her small silhouette dances toward the bright window at the end with both arms flung wide, seen from behind, long polished floor reflecting the tubes"},
+    "G22": {"keyframe": "G22", "seconds": 5, "light": "cyan", "person": false, "camera": "locked-off close-up", "motion": "Extreme close-up of one black leather jacket sleeve hanging over the edge of a wet cardboard box at a city curb at dusk, rain dripping from the cuff into a rippling puddle, no people"},
+    "G23": {"keyframe": "G23", "seconds": 5, "light": "cyan", "person": true, "camera": "handheld camera moving with her", "motion": "Her full silhouette dances alone between rows of empty desks on a dark open-plan office floor at night, spinning with one arm up, long coat flaring, fluorescent strips overhead, seen from behind"},
+    "G24": {"keyframe": "G24", "seconds": 5, "light": "cyan", "person": true, "camera": "high camera looking straight down", "motion": "Looking straight down from the ceiling at a dark open-plan office at night: her small silhouette spins with arms out in the aisle between two rows of empty desks, pools of cool light on the carpet"},
+    "G25": {"keyframe": "G25", "seconds": 5, "light": "cyan", "person": true, "camera": "tracking camera alongside", "motion": "Side view in full silhouette: she kicks an empty wheeled office chair and it rolls away spinning down a dark aisle at night while she dances the other way, rows of cool ceiling lights behind"},
+    "G26": {"keyframe": "G26", "seconds": 5, "light": "cyan", "person": false, "camera": "slow low camera drifting forward", "motion": "An empty dark open-plan office floor at night, rows of bare fluorescent tube lights flickering on one after another into the distance, empty desks and chairs, no people"},
+    "G27": {"keyframe": "G27", "seconds": 5, "light": "cyan", "person": false, "camera": "locked-off close-up", "motion": "Close on a woman's hand in shadow in a dark coat sleeve, resting on her knee on an office floor at night, holding a plain black phone face-down, a thin line of cool light from under it on the carpet, city lights blurred behind"},
+    "G28": {"keyframe": "G28", "seconds": 5, "light": "cyan", "person": false, "camera": "locked-off close-up", "motion": "Extreme close-up of a black coiled telephone cord swaying gently in a dark office at night, cool cyan light from a window behind it, nothing else in frame, no people"},
+    "G29": {"keyframe": "G29", "seconds": 5, "light": "cyan", "person": true, "camera": "slow push toward her back", "motion": "Seen strictly from behind: the woman in a long plain coat stands at a floor-to-ceiling window at night holding a telephone receiver to the far side of her head, her figure in full black silhouette against blurred city lights"},
+    "G30": {"keyframe": "G30", "seconds": 5, "light": "cyan", "person": false, "camera": "locked-off wide", "motion": "A long empty office hallway at night, plain walls, one cold ceiling light at the far end flickering, deep shadows, no people, no signs"},
+    "G32": {"keyframe": "G32", "seconds": 5, "light": "warm", "person": false, "camera": "slow camera drift", "motion": "Close on a black leather jacket draped over the arm of an empty armchair in a modern office, warm golden lamp light, soft dusk through blinds, nobody wearing it, no people"},
+    "G31": {"keyframe": "S02", "seconds": 5, "light": "warm", "person": true, "camera": "very slow drift, almost locked off", "motion": "A modern office in warm golden light: the woman in silhouette sits on a sofa and shifts her weight slightly, looking away; the empty armchair and the empty chair behind the desk stay still"},
+    "G01": {
+      "keyframe": "G01",
+      "seconds": 4,
+      "light": "cold",
+      "person": true,
+      "camera": "handheld camera following",
+      "motion": "Following behind a woman in a long plain coat, in silhouette, as she strides across an overcast modern office forecourt toward tall glass doors; flat grey light"
+    },
+    "G02": {
+      "keyframe": "G02",
+      "seconds": 3,
+      "light": "cold",
+      "person": true,
+      "camera": "handheld camera following",
+      "motion": "The same woman in silhouette at the glass doors, back to camera, standing still against bright overcast glass"
+    },
+    "G03": {
+      "keyframe": "G03",
+      "seconds": 4,
+      "light": "cold",
+      "person": true,
+      "camera": "handheld camera following",
+      "motion": "Following behind her as she carries a cardboard box out through the glass doors onto an overcast street and sets it down on the curb"
+    },
+    "G04": {
+      "keyframe": "G04",
+      "seconds": 4,
+      "light": "cold",
+      "person": true,
+      "camera": "handheld camera following",
+      "motion": "An empty server room under rows of cold fluorescent tubes, rack LEDs pulsing; the woman in silhouette dances alone down the aisle"
+    },
+    "G05": {
+      "keyframe": "G05",
+      "seconds": 3,
+      "light": "cold",
+      "person": true,
+      "camera": "handheld camera following",
+      "motion": "She wheels a single tall server rack on a dolly down the aisle of a server room, between rows of racks under cold fluorescent tubes, one arm wrapped around it, holding it close"
+    },
+    "G06": {
+      "keyframe": "G06",
+      "seconds": 2,
+      "light": "cold",
+      "person": false,
+      "camera": "steady close-up",
+      "motion": "Close on a woman's hand in shadow, in the plain dark sleeve of a long coat, flipping a completely blank white desk calendar face-down on a bare desk, cold office light across the desk"
+    },
+    "G07": {
+      "keyframe": "G07",
+      "seconds": 4,
+      "light": "cyan",
+      "person": false,
+      "camera": "subtle handheld camera",
+      "motion": "A cardboard box alone at a city curb at dusk in light rain, a black leather jacket folded inside it, one black leather sleeve with a zippered cuff hanging over the box's edge"
+    },
+    "G08": {
+      "keyframe": "G08",
+      "seconds": 4,
+      "light": "cyan",
+      "person": true,
+      "camera": "camera rising overhead",
+      "motion": "An empty open-plan office floor at night, rows of fluorescent lights overhead; the woman in silhouette dances alone between the desks; camera rising overhead"
+    },
+    "G09": {
+      "keyframe": "G09",
+      "seconds": 4,
+      "light": "cyan",
+      "person": true,
+      "camera": "subtle handheld camera",
+      "motion": "A dark empty office at night; the woman in silhouette sits on the floor against floor-to-ceiling glass, city lights behind; a phone lights up beside her"
+    },
+    "G10": {
+      "keyframe": "G10",
+      "seconds": 3,
+      "light": "cyan",
+      "person": false,
+      "camera": "locked-off camera",
+      "motion": "Locked-off close-up of a desk phone in a dark office, its display blank and glowing, its keys unmarked, ring light blinking; only a woman's hand in shadow, in a dark coat sleeve, reaches in and lifts the receiver up and out of frame; the phone stays in place, the camera does not move, no head or body in frame"
+    },
+    "G11": {
+      "keyframe": "G11",
+      "seconds": 4,
+      "light": "warm",
+      "person": false,
+      "camera": "slow steady push in",
+      "motion": "Slow push in on an empty booth in a generic roadside diner at dusk, plain dark chocolate-brown vinyl seats, a plain wood-veneer table, warm light inside, chrome napkin holder, a bare cream wall above the booth, no people"
+    },
+    "G12": {
+      "keyframe": "G11_last",
+      "seconds": 3,
+      "light": "warm",
+      "person": false,
+      "camera": "locked-off camera",
+      "motion": "The same booth, locked off, warm light flickering on the tabletop"
+    }
+  }
+}
