@@ -190,3 +190,11 @@ Append-only. One entry per generation, render or analysis step.
   - Soundtrack from `scripts/soundtrack.py`, muxed without re-encoding the picture → `deliverables/effective_immediately_1080p.mp4` (7:43.0, AAC 320 kbps).
   - Song and credits music within 0.1 ms of their sources at nine points. A contact sheet of 16 frames shows no animatic labels.
 - **Shorts:** `npx remotion render remotion/src/index.ts Short-<id> …` for chorus, bridge, reinstated and plaque, then 0.15 s and 0.6 s audio fades (video copied) → `deliverables/effective_immediately_short_<id>.mp4`. Captions from `scripts/shorts_srt.py`.
+
+## 21. 2026-11-24 — Upload; thumbnail A re-set for phones (human interventions 23–24)
+
+- **Link:** the main video's YouTube link went into the README and the Shorts' footer (`8d92d50`).
+- **Thumbnail A:** `remotion/src/Thumbnail.tsx` (`Split`) re-laid out for phones (decisions 34).
+  - Command: `npx remotion still remotion/src/index.ts Thumb-A deliverables/thumbnails/effective_immediately_thumbnail_A.jpg --image-format=jpeg --jpeg-quality=92`.
+  - Checked at 1280, 360 and 168 px wide.
+  - The previous version is `archive/thumbnails/effective_immediately_thumbnail_A_v2_small_text.jpg`.

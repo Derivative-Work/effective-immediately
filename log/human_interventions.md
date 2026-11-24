@@ -134,3 +134,8 @@ Append-only. Every human action: when, what, and why.
 - **What:** the human uploaded the main video to YouTube and gave its link: "video URL https://youtu.be/i5uLYgoSIkk".
 - **Effect:** the link went into the README ("Watch it on YouTube") and the Shorts' shared footer in `METADATA.md`, ready
   for the Shorts' upload. The description's intervention count in `METADATA.md` went from 19 to 23.
+
+## 24. 2026-11-24 — Thumbnail text for phones
+
+- **What:** "thumbnail text needs to be bigger to be legible on mobile".
+- **Effect:** decisions 34 (thumbnail A's text, for phones). Thumbnail A re-rendered; the human replaces it on YouTube.

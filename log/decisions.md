@@ -302,6 +302,20 @@ Condition (i) rests on Databento's dataset documentation, which says US Equities
   - Subtitles, chapters, the end screen and the captions file are re-timed (`METADATA.md`, `deliverables/effective_immediately.en.srt`).
 - **Framing under the panel (human, same day):** the first version only covered the intro footage, so its subjects sat under the panel (G14's walker at about half the width, G01's walker at the doors). The footage now sits in the 814 px right of the panel, cropped at full scale, not shrunk, around each clip's subject (`OpeningReframe` in `remotion/src/Animatic.tsx`). G14 pans with its walker from 0.50 to 0.31 of the width, G13 holds on the feet at 0.58, and G01 follows the walker from 0.42 to 0.60. The box widens back to the full frame as the panel slides away. This is how Distillation (Allegedly) placed its D02 beside its panel.
 - **Thumbnail A (the human's pick; "the jacket is cropped"):** the booth half had started 12% into the plate, cutting the jacket in half, and the title covered its lower half. The booth half now starts at the plate's left edge, so the whole jacket shows (the plate itself ends at its far-left edge, beside the divider). The title runs across the top and the dates sit in the bottom corners, clear of the jacket and the hook.
+- **Thumbnail A's text, for phones (human, after upload: "thumbnail text needs to be bigger to be legible on mobile"):**
+  - **The problem:** in one line across the top, the title could be no wider than about 100 px a letter-height before it
+    ran into the jacket's collar. "(until further notice)" was 32 px and the dates 46 px, about 4–6 px tall in a phone's
+    smaller lists.
+  - **The halves are now unequal:**
+    - The booth half is 450 px wide, just enough for the whole jacket (440 px at the plate's scale).
+    - The hook half is 830 px, with bare wall only.
+  - **New text layout and sizes:**
+    - The title stacks in two lines on the hook's wall at 116 px, with "(until further notice)" under it at 56 px.
+    - Each date sits at the top of its half at 84 px in Inter, above the hook and the collar.
+  - **The hook's plate:** S01 is scaled to 0.8, a little past cover, and anchored at its foot. This lifts the hook clear of
+    the title and makes it bigger.
+  - **Check:** downscaled to 360 and 168 px wide, the title and dates read at both sizes, and the subtitle at 360. The
+    previous version is in `archive/thumbnails/`.
 
 ## 35. 2026-11-24 — Four vertical Shorts (human note; the brief asked for one)
 
